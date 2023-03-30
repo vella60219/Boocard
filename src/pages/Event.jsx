@@ -1,7 +1,6 @@
 function Event() {
     return (
         <></>
-        // test
     );
 }
 
