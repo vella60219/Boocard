@@ -1,6 +1,9 @@
-import Router from './Router'
 import 'antd/dist/reset.css'
+
+import Router from './Router'
 import './App.css'
+
+import Home from './pages/Home'
 
 function App() {
 
