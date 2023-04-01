@@ -1,5 +1,21 @@
 import { theme } from "antd";
 
+// main.jsx的index.css還沒有移除
+
+const lightTheme = {
+  algorithm: theme.defaultAlgorithm,
+  token: {
+    // colorBgFooter: "#3e3f97",
+    // colorTextFooter: '#ffffff',
+  },
+  components: {
+    Button: {
+    //   colorPrimary: "#6366f2;",
+    //   colorPrimaryHover: "#9192f5",
+    },
+  },
+};
+
 const darkTheme = {
   algorithm: theme.darkAlgorithm,
   token: {
@@ -14,20 +30,6 @@ const darkTheme = {
     //   colorPrimary: "#6366f2;",
     //   colorPrimaryHover: "#9192f5",
     }
-  },
-};
-
-const lightTheme = {
-  algorithm: theme.defaultAlgorithm,
-  token: {
-    // colorBgFooter: "#3e3f97",
-    // colorTextFooter: '#ffffff',
-  },
-  components: {
-    Button: {
-    //   colorPrimary: "#6366f2;",
-    //   colorPrimaryHover: "#9192f5",
-    },
   },
 };
 
