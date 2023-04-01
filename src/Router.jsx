@@ -11,8 +11,6 @@ import Event from "./pages/Event";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 
-import Test from "./pages/Test"; {/* 測試用 */ }
-
 function Router() {
 
     return (
@@ -32,8 +30,6 @@ function Router() {
                     <Route path="login" element={<Login />} />     {/* 登入頁面 */}
                     <Route path="signup" element={<Signup />} />   {/* 註冊頁面 */}
                 </Route>
-
-                <Route path="test" element={<Test />}></Route>
             </Routes>
         </BrowserRouter>
     );
