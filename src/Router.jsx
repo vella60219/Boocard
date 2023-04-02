@@ -3,6 +3,8 @@ import { HelmetProvider } from 'react-helmet-async'
 // ^ router 相關
 import { ConfigProvider } from 'antd';
 import { darkTheme, lightTheme } from './theme';
+import { useSelector } from "react-redux";
+import { selectLightMode } from "./redux/themeSlice";
 // ^ theme 相關
 import Home from "./pages/Home";
 import Help from "./pages/Help";
@@ -14,7 +16,8 @@ import Signup from "./pages/Signup";
 // ^ page 元件們
 
 function Router() {
-    const theme = darkTheme;
+    const lightMode = useSelector(selectLightMode);
+    const theme = lightMode ? lightTheme : darkTheme;
 
     return (
         <ConfigProvider theme={theme} >

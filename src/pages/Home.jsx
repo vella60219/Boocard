@@ -2,6 +2,7 @@
 // boocard.vercel.app/
 import { Helmet } from "react-helmet-async"
 import { Link } from "react-router-dom";
+import RightTopButton from "../components/RightTopButton";
 
 function Home() {
     const title = "布卡 Boocard";
@@ -15,6 +16,7 @@ function Home() {
             <Link to="event"><p>活動總覽</p></Link>
             <Link to="static/help"><p>說明</p></Link>
             <Link to="static/how"><p>使用教學</p></Link>
+            <RightTopButton/>
         </div>
     );
 }

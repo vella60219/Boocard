@@ -1,16 +1,17 @@
 import 'antd/dist/reset.css'
-
-import Router from './Router'
 import './App.css'
 
-import Home from './pages/Home'
+import { Provider } from 'react-redux'
+import store from './redux/store'
+
+import Router from './Router'
 
 function App() {
 
   return (
-    <div className="App">
+    <Provider store={store}>
       <Router />
-    </div>
+    </Provider>
   )
 }
 
