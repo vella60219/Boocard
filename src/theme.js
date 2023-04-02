@@ -1,7 +1,5 @@
 import { theme } from "antd";
 
-// main.jsx的index.css還沒有移除
-
 const lightTheme = {
   algorithm: theme.defaultAlgorithm,
   token: {
