@@ -12,11 +12,11 @@ function RightTopButton() {
     }
 
     return (
-        <div className='btn'>
+        // <div className={styles.btn}>
             <Button  onClick={toggleLogin}>
                 {buttonText}
             </Button>
-        </div>
+        // </div>
     );
 }
 
