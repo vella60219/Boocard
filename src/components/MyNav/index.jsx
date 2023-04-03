@@ -14,7 +14,7 @@ const navItems = [
         key: 'how',
     },
     {
-        label: (<NavLink to="/static/how">收費方案</NavLink>),
+        label: (<NavLink to="/static/fee">收費方案</NavLink>),
         key: 'fee',
     },
     {
