@@ -1,12 +1,8 @@
-.box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .logo {
-    float: left;
     height: 31px;
     width: 120px;
-    margin: 16px 24px 16px 0;
+}
+
+.logoLink {
+    margin-right: 4rem;
 }

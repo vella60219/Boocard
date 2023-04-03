@@ -12,11 +12,12 @@ function RightTopButton() {
     }
 
     return (
-        // <div className={styles.btn}>
-            <Button  onClick={toggleLogin}>
-                {buttonText}
+            <Button
+            type='link'
+            onClick={toggleLogin}
+            >
+                註冊 / 登入
             </Button>
-        // </div>
     );
 }
 

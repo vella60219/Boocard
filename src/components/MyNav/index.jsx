@@ -1,7 +1,7 @@
 import styles from './myNav.module.css';
 
-import { Menu } from 'antd';
-import { NavLink } from 'react-router-dom';
+import { Menu, Row, Col } from 'antd';
+import { NavLink, Link } from 'react-router-dom';
 import RightTopButton from '../RightTopButton';
 
 const navItems = [
@@ -25,24 +25,27 @@ const navItems = [
 
 function MyNav() {
     return (
-        <div className={styles.box}>
-            <div>
-                <img
-                    src="/images/ImagePlaceholder.png"
-                    alt="布卡 Boocard"
-                    className={styles.logo}
-                />
-
+        <Row>
+            <Col>
+                <Link to="/" className={styles.logoLink}>
+                    <img
+                        src="/images/ImagePlaceholder.png"
+                        alt="布卡 Boocard"
+                        className={styles.logo}
+                    />
+                </Link>
+            </Col>
+            <Col flex="auto">
                 <Menu
-                    theme="dark"
                     mode="horizontal"
-                    // defaultSelectedKeys={['1']}
                     items={navItems}
                 />
-            </div>
-            <RightTopButton style={{ float: 'right' }} />
-            {/* ^ 要再改一下 menu 的寬度 */}
-        </div>
+            </Col>
+            <Col>
+                <RightTopButton style={{ float: 'right' }} />
+
+            </Col>
+        </Row>
     );
 }
 
