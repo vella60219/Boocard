@@ -4,6 +4,7 @@ import { Outlet } from 'react-router-dom';
 
 import MyNav from '../components/MyNav';
 import MyFooter from '../components/MyFooter'
+import Hamburger from '../components/Hamburger';
 
 const { Header, Content, Footer } = Layout;
 
@@ -22,6 +23,7 @@ function PageLayout() {
                 }
             }}>
                 <Header className='layoutHeader'>
+                    <Hamburger/>
                     <MyNav />
                 </Header>
             </ConfigProvider>

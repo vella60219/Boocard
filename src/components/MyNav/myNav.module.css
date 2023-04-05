@@ -1,11 +1,17 @@
 .box {
-    display: flex;
-    align-items: center;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .box {
+        display: flex;
+        align-items: center;
+    }
 }
 
 .logo {
-    height: 1em;
-    width: 120px;
+    height: 22px;
+    width: auto;
     margin: 6px 0;
 }
 
@@ -24,4 +30,5 @@ li::after {
     border-bottom-width: 0px !important;
     background-color: transparent !important;
 }
+
 /* ^ 移除 menu 的底線 */

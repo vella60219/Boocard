@@ -8,7 +8,7 @@ const navItems = [
     {
         label: (<NavLink to="/" className={styles.logoLink}>
             <img
-                src="/images/ImagePlaceholder.png"
+                src="/images/logo.svg"
                 alt="布卡 Boocard"
                 className={styles.logo}
             />
