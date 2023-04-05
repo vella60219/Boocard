@@ -5,6 +5,7 @@
 import { Helmet } from "react-helmet-async"
 import { useParams, Link } from "react-router-dom";
 import RightTopButton from "../components/RightTopButton";
+import EventList from "../components/EventList";
 
 function AllEvent() {
     const { tagName, searchKeyword } = useParams();
@@ -25,6 +26,7 @@ function AllEvent() {
             </Helmet>
             <p>This is AllEvent page{searchText}</p>
             <Link to="222"><p>活動222</p></Link>
+            <EventList/>
             <RightTopButton/>
         </div>
     );

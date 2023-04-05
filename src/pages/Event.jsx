@@ -2,6 +2,7 @@
 // boocard.vercel.app/event/:eventId
 import { Helmet } from "react-helmet-async"
 import { useParams } from "react-router-dom";
+import ActInfoItem from "../components/ActInfoItem";
 
 function Event() {
     const { eventId } = useParams();
@@ -15,6 +16,7 @@ function Event() {
                 <title>{title}</title>
             </Helmet>
             <p>This is Event page{eventName}</p>
+            <ActInfoItem/>
         </div>
     );
 }
