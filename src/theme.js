@@ -33,6 +33,9 @@ export const lightTheme = {
       paddingXXS: 8,
       lineHeight:2,
     },
+    Drawer: {
+      colorText: '#000000',
+    },
   },
 };
 
