@@ -1,32 +1,71 @@
 import styles from './myNav.module.css';
 
-import {  Menu } from 'antd';
+import { Menu } from 'antd';
+import { NavLink } from 'react-router-dom';
 import RightTopButton from '../RightTopButton';
 
+const navItems = [
+    {
+        label: (<NavLink to="/" className={styles.logoLink}>
+            <img
+                src="/images/ImagePlaceholder.png"
+                alt="布卡 Boocard"
+                className={styles.logo}
+            />
+        </NavLink>),
+        key: 'home',
+    },
+    {
+        label: (<NavLink to="/event">活動總覽</NavLink>),
+        key: 'event',
+    },
+    {
+        label: (<NavLink to="/static/how">使用教學</NavLink>),
+        key: 'how',
+    },
+    {
+        label: (<NavLink to="/static/fee">收費方案</NavLink>),
+        key: 'fee',
+    },
+    {
+        label: (<NavLink to="/static/help">說明</NavLink>),
+        key: 'help',
+    },
+]
+let href;
+
+function getKey() {
+    href = window.location.href.split('/')
+    href[3] === '' ? href = 'home' :
+        href[3] === 'static' ? href = href[4] : href = href[3]
+}
+// 嘗試解決 menu selected key 不會跟上的問題但是我失敗ㄌ
+
+
 function MyNav() {
+    href = window.location.href.split('/')
+    href[3] === '' ? href = 'home' :
+        href[3] === 'static' ? href = href[4] : href = href[3]
+
     return (
-        <div>
-            <div
-                style={{
-                    float: 'left',
-                    width: 120,
-                    height: 31,
-                    margin: '16px 24px 16px 0',
-                    background: 'rgba(255, 255, 255, 0.2)',
-                }}
-                // 之後要改成不寫在行內，然後是logo
-            />
+        // console.log(href)
+        <div className={styles.box}>
+            {/* <NavLink to="/" className={styles.logoLink}>
+                <img
+                    src="/images/ImagePlaceholder.png"
+                    alt="布卡 Boocard"
+                    className={styles.logo}
+                />
+            </NavLink> */}
             <Menu
-                theme="dark"
                 mode="horizontal"
-                // defaultSelectedKeys={['1']}
-                items={new Array(3).fill(null).map((_, index) => ({
-                    key: String(index + 1),
-                    label: `nav ${index + 1}`,
-                }))}
+                items={navItems}
+                // selectedKeys={href}
+                // onClick={getKey()}
+                className={styles.menu}
             />
-            {/* <RightTopButton style={{float: 'right'}}/> */}
-            {/* ^要再改一下menu的寬度 */}
+            <div style={{ flexBasis: '1px' }} />    {/* 讓 menu 在 RWD 可以收起來 */}
+            <RightTopButton />
         </div>
     );
 }

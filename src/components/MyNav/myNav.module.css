@@ -1,0 +1,27 @@
+.box {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 1em;
+    width: 120px;
+    margin: 6px 0;
+}
+
+.logoLink {
+    margin-right: 4rem;
+}
+
+.menu {
+    min-width: 0;
+    flex: auto;
+    /* ^ 讓 menu 在 RWD 可以收起來 */
+    background-color: transparent;
+}
+
+li::after {
+    border-bottom-width: 0px !important;
+    background-color: transparent !important;
+}
+/* ^ 移除 menu 的底線 */

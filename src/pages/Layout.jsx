@@ -1,5 +1,5 @@
 // 版面配置
-import { Layout, Menu } from 'antd';
+import { Layout, ConfigProvider } from 'antd';
 import { Outlet } from 'react-router-dom';
 
 import MyNav from '../components/MyNav';
@@ -11,24 +11,27 @@ function PageLayout() {
 
     return (
         <Layout className='mainLayout'>
-            <Header
-                style={{
-                    position: 'sticky',
-                    top: 0,
-                    zIndex: 1,
-                    width: '100%',
-                }}
-                className='layoutHeader'
-            >
-                <MyNav/>
-            </Header>
+            <ConfigProvider theme={{
+                token: {
+                    colorText: '#ffffff',
+                },
+                components: {
+                    Button: {
+                        colorBgContainer: 'transparent'
+                    },
+                }
+            }}>
+                <Header className='layoutHeader'>
+                    <MyNav />
+                </Header>
+            </ConfigProvider>
             <Content className='layoutContent'>
                 {/* <div style={{height: '1000px',}}></div> */}
                 {/* ^測試用 */}
-                <Outlet/>
+                <Outlet />
             </Content>
             <Footer className='layoutFooter'>
-                <MyFooter/>
+                <MyFooter />
             </Footer>
         </Layout>
     );
