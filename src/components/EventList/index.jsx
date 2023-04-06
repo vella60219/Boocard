@@ -1,9 +1,9 @@
-import events from "../../json/event.json"
+// import events from "../../json/event.json"
 import EventItem from "../EventItem";
 import styles from "./EventList.module.css"
 import { Row , Col} from "antd";
 
-function EventList(){  /* 活動總覽的那個框框 */
+function EventList({events}){  /* 活動總覽的那個框框 */
     return(
         <div className={`${styles.section} ${styles.box}`}>
             <Row gutter={[24, 24]} >

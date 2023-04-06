@@ -7,6 +7,8 @@ import { useParams, Link } from "react-router-dom";
 import RightTopButton from "../components/RightTopButton";
 import EventList from "../components/EventList";
 
+import events from "../json/event.json"
+
 function AllEvent() {
     const { tagName, searchKeyword } = useParams();
     // const _keyword = !searchKeyword
@@ -26,7 +28,7 @@ function AllEvent() {
             </Helmet>
             <p>This is AllEvent page{searchText}</p>
             <Link to="222"><p>活動222</p></Link>
-            <EventList/>
+            <EventList events={events}/>
             <RightTopButton/>
         </div>
     );
