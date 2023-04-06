@@ -10,7 +10,7 @@ function Publicity(){
                     sm = {{ span: 20}}
                     lg = {{ span: 20}}
                 >
-                    <p className={styles.title}>利用Boocard，<br/>隨時隨地瀏覽場次攤宣，並提早規劃好吃土單！</p>
+                    <h1 className={styles.title}>利用Boocard，<br/>隨時隨地瀏覽場次攤宣，並提早規劃好吃土單！</h1>
                 </Col>
                 <Col
                     xs = {{ span: 15}}
@@ -24,7 +24,7 @@ function Publicity(){
                             alt="img_publicity_1" 
                             src='./images/img_publicity_1.png'
                         />
-                        <p className={styles.txv}>隨時，隨地皆可使用</p>
+                        <h3 className={styles.txv}>隨時，隨地皆可使用</h3>
                     </div>
                         
                 </Col>    
@@ -39,7 +39,7 @@ function Publicity(){
                             alt="img_publicity_2" 
                             src='./images/img_publicity_2.png'
                         />
-                        <p className={styles.txv}>創作者輕鬆獲得攤位<br/>宣傳單</p>
+                        <h3 className={styles.txv}>創作者輕鬆獲得攤位<br/>宣傳單</h3>
                     </div>
 
                 </Col>   
@@ -54,7 +54,7 @@ function Publicity(){
                             alt="img_publicity_3" 
                             src='./images/img_publicity_3.png'
                         />
-                        <p className={styles.txv}>利用吃土單，<br/>事先統整要購買的<br/>商品</p>
+                        <h3 className={styles.txv}>利用吃土單，<br/>事先統整要購買的<br/>商品</h3>
                     </div>
 
                 </Col>
@@ -69,7 +69,7 @@ function Publicity(){
                             alt="img_publicity_4" 
                             src='./images/img_publicity_4.png'
                         />
-                        <p className={styles.txv}>任何人皆可舉辦活動</p>
+                        <h3 className={styles.txv}>任何人皆可舉辦活動</h3>
                     </div>
 
                 </Col>
@@ -79,7 +79,7 @@ function Publicity(){
                     sm = {{ span: 20}}
                     lg = {{ span: 16}}
                 >
-                    <p className={styles.title}>喜愛逛場次的你，<br/>可以利用Boocard ── </p>
+                    <h1 className={styles.title}>喜愛逛場次的你，<br/>可以利用Boocard ── </h1>
                 </Col>
                 <Col
                     xs = {{ span: 20}}
@@ -92,7 +92,7 @@ function Publicity(){
                             alt="img_publicity_star1" 
                             src='./images/img_publicity_star1.png'
                         />
-                        <p className={styles.startxv}>隨時，隨地皆可使用</p>
+                        <h3 className={styles.startxv}>隨時，隨地皆可使用</h3>
                     </div>
                     <div className={styles.starSection}>
                         <img
@@ -100,7 +100,7 @@ function Publicity(){
                             alt="img_publicity_star1" 
                             src='./images/img_publicity_star1.png'
                         />
-                        <p className={styles.startxv}>利用吃土單，<br/>事先統整要購買的商品</p>
+                        <h3 className={styles.startxv}>利用吃土單，<br/>事先統整要購買的商品</h3>
                     </div>
                     <div className={styles.starSection}>
                         <img
@@ -108,7 +108,7 @@ function Publicity(){
                             alt="img_publicity_star1" 
                             src='./images/img_publicity_star1.png'
                         />
-                        <p className={styles.startxv}>標籤搜尋功能，<br/>讓你一個攤位都不錯過</p>
+                        <h3 className={styles.startxv}>標籤搜尋功能，<br/>讓你一個攤位都不錯過</h3>
                     </div>
                 </Col>
                 <Col
@@ -130,7 +130,7 @@ function Publicity(){
                     sm = {{ span: 20}}
                     lg = {{ span: 16}}
                 >
-                    <p className={styles.title}>身為創作者的你，<br/>可以利用Boocard ──</p>
+                    <h1 className={styles.title}>身為創作者的你，<br/>可以利用Boocard ──</h1>
                 </Col>
                 <Col
                     xs = {{ span: 20}}
@@ -150,55 +150,32 @@ function Publicity(){
                     sm = {{ span: 20}}
                     lg = {{ span: 10}}
                 >
-                    <div className={styles.starSection}>
+                    <div className={styles.starSection2}>
                         <img
                             className={styles.img_star}
                             alt="img_publicity_star2" 
                             src='./images/img_publicity_star2.png'
                         />
-                        <p className={styles.startxv}>以簡單的步驟，<br/>快速製作好看的攤宣</p>
+                        <h3 className={styles.startxv} >以簡單的步驟，<br/>快速製作好看的攤宣</h3>
                     </div>
-                    <div className={styles.starSection}>
+                    <div className={styles.starSection2}>
                         <img
                             className={styles.img_star}
                             alt="img_publicity_star2" 
                             src='./images/img_publicity_star2.png'
                         />
-                        <p className={styles.startxv}>支援多人編輯，<br/>和合攤者一同製作攤位頁面</p>
+                        <h3 className={styles.startxv}>支援多人編輯，<br/>和合攤者一同製作攤位頁面</h3>
                     </div>
-                    <div className={styles.starSection}>
+                    <div className={styles.starSection2}>
                         <img
                             className={styles.img_star}
                             alt="img_publicity_star2" 
                             src='./images/img_publicity_star2.png'
                         />
-                        <p className={styles.startxv}>針對商品設定作品、ＣＰ標籤<br/>快速擴及到追隨者以外的同好圈</p>
+                        <h3 className={styles.startxv}>針對商品設定作品、ＣＰ標籤<br/>快速擴及到追隨者以外的同好圈</h3>
                     </div>
                 </Col>
 
-                <Col
-                    xs = {{ span: 20 }}
-                    sm = {{ span: 20}}
-                    lg = {{ span: 16}}
-                >
-                    <div>
-                        <p className={styles.title}>官方社群</p>
-                        <p className={styles.txvS}>請追蹤我們，我們會在社群上公布最新資訊！</p>
-                    </div>
-                    
-                </Col>
-                <Col
-                    xs = {{ span: 20 }}
-                    sm = {{ span: 20}}
-                    lg = {{ span: 16}}
-                >
-                    <div className={styles.twitterSection}>
-                        <a class="twitter-timeline" data-width="500" data-height="300" 
-                        data-theme="light" href="https://twitter.com/Boocard_?ref_src=twsrc%5Etfw">
-                            Tweets by Boocard_</a> 
-                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    </div>
-                </Col>
             </Row>
         </div>
     )
