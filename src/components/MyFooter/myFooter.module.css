@@ -1,0 +1,31 @@
+.Htxv{
+    color: #1F2933;
+    margin-bottom: 15px;
+}
+
+.Stxv{
+    color: #5E6B78;
+    margin-bottom: 10px;
+}
+
+.btn{
+    height: 62px;
+    width: 62px;
+    margin-right: 20px;
+}
+
+.btnSection{
+    height: 80px;
+    margin-top: 20px;
+}
+
+.Copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -22px;
+}
+
+.Copytxv{
+    margin-top: 40px;
+}
