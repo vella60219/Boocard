@@ -7,7 +7,7 @@ import { useParams, Link } from "react-router-dom";
 import RightTopButton from "../components/RightTopButton";
 import EventList from "../components/EventList";
 
-import events from "../json/event.json"
+import events from "../json/event.json";
 
 function AllEvent() {
     const { tagName, searchKeyword } = useParams();
