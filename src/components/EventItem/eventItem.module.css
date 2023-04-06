@@ -1,0 +1,27 @@
+.box{
+    padding: 0;
+    width: 280px;
+    height: auto;
+    /* border-color: aqua; */
+    border-color: linear-gradient(90deg, #FFA1B8 0%, #0495FF 100%) 2px;
+}
+.image{
+    height: 172px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 2%;
+}
+
+.info{
+    padding: 1.2rem;
+}
+
+.Stxv{
+    /* composes: h2; */
+    color: #667080;
+}
+
+.Xtxv{
+    /* composes: h2; */
+    color: #1F2933;
+}
