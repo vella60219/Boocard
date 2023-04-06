@@ -13,14 +13,6 @@ function Home() {
             <Helmet>
                 <title>{title}</title>
             </Helmet>
-            <p>This is Home page</p>
-            <Link to="event"><p>活動總覽</p></Link>
-            <Link to="static/help"><p>說明</p></Link>
-            <Link to="static/how"><p>使用教學</p></Link>
-            <Button>13334</Button>
-            <BoothInfoCard a='2'/>
-            <BoothInfoCard a='3'/>
-            <BoothInfoCard a='4'/>
         </div>
     );
 }
