@@ -1,3 +1,4 @@
+/*img*/
 .img_star{
     height: 76px;
     width: 76px;
@@ -19,39 +20,28 @@
     width: 190px;
 }
 
-.starSection{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 30px;
-}
-
-
+/*txv*/
 
 .title{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 30px;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.2em;
     margin-top: 40px;
 }
 
 .startxv{
-    font-size: 24px;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.1em;
     margin: 0px;
 }
 
 .txv{
-    font-size: 24px;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.1em;
     text-align: center;
 }
 
 .txvS{
-    font-size: 15px;
     letter-spacing: 0.08rem;
     color: #667080;
     display: flex;
@@ -59,12 +49,18 @@
     justify-content: center;
 }
 
+/*section*/
+
 .allSection{
     margin: 0px;
+    padding: 0px;
+    width: 100%;
 }
 
 .box{
     margin: 0px;
+    padding: 0px;
+    width: 100%;
 }
 
 .upsection{
@@ -80,6 +76,16 @@
     justify-content: center;
 }
 
+.starSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.twitterSection{
+    height: 600px;
+}
 
 @media screen and (min-width: 578px){
 

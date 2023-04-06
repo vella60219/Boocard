@@ -3,8 +3,8 @@ import { Row , Col} from 'antd';
 
 function Publicity(){
     return(
-        <div>
-            <Row justify="center" gutter={[24, 24]} className={`${styles.allSection} ${styles.box}`}>
+        <div className={`${styles.allSection} ${styles.box}`}>
+            <Row justify="center" gutter={[24, 24]} >
                 <Col 
                     xs = {{ span: 20}}
                     sm = {{ span: 20}}
@@ -123,7 +123,6 @@ function Publicity(){
                             src='./images/img_publicity_5.png'
                         />  
                     </div>
-                    
                 </Col>
 
                 <Col
@@ -145,7 +144,6 @@ function Publicity(){
                             src='./images/img_publicity_6.png'
                         />                        
                     </div>
-
                 </Col>
                 <Col
                     xs = {{ span: 20}}
@@ -189,7 +187,18 @@ function Publicity(){
                     </div>
                     
                 </Col>
-
+                <Col
+                    xs = {{ span: 20 }}
+                    sm = {{ span: 20}}
+                    lg = {{ span: 16}}
+                >
+                    <div className={styles.twitterSection}>
+                        <a class="twitter-timeline" data-width="500" data-height="300" 
+                        data-theme="light" href="https://twitter.com/Boocard_?ref_src=twsrc%5Etfw">
+                            Tweets by Boocard_</a> 
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </Col>
             </Row>
         </div>
     )
