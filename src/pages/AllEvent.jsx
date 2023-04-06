@@ -5,6 +5,7 @@
 import { Helmet } from "react-helmet-async"
 import { useParams, Link } from "react-router-dom";
 import RightTopButton from "../components/RightTopButton";
+import events from "../json/events.json"
 
 function AllEvent() {
     const { tagName, searchKeyword } = useParams();
