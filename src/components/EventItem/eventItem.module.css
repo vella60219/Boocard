@@ -1,15 +1,21 @@
+
 .box{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
     padding: 0;
     width: 280px;
     height: auto;
     /* border-color: aqua; */
-    border-color: linear-gradient(90deg, #FFA1B8 0%, #0495FF 100%) 2px;
+    border-radius: 25px;
 }
 .image{
     height: 172px;
+    width: auto;
     object-fit: cover;
     object-position: center;
-    border-radius: 2%;
+    border-radius: 25px 25px 0 0 !important;
 }
 
 .info{
