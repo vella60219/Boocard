@@ -1,5 +1,4 @@
 import { Row , Col} from 'antd';
-import { Link } from 'react-router-dom';
 import styles from './myFooter.module.css';
 
 function MyFooter() {

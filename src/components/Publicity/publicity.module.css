@@ -1,0 +1,106 @@
+.img_star{
+    height: 76px;
+    width: 76px;
+    margin-right: 20px;
+}
+
+.imgM{
+    height: 198px;
+    width: 238px;
+}
+
+.imgM1{
+    height: 217px;
+    width: 182px;
+}
+
+.imgS{
+    height: 190px;
+    width: 190px;
+}
+
+.starSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0.2rem;
+    margin-top: 40px;
+}
+
+.startxv{
+    font-size: 24px;
+    letter-spacing: 0.1rem;
+    margin: 0px;
+}
+
+.txv{
+    font-size: 24px;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+.txvS{
+    font-size: 15px;
+    letter-spacing: 0.08rem;
+    color: #667080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.allSection{
+    margin: 0px;
+}
+
+.box{
+    margin: 0px;
+}
+
+.upsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+.middleSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 578px){
+
+    .img_star{
+        height: 124px;
+        width: 124px;
+        margin-right: 20px;
+    }
+    
+    .imgM{
+        height: 377px;
+        width: 450px;
+    }
+    
+    .imgM1{
+        height: 436px;
+        width: 364px;
+    }
+    
+    .imgS{
+        height: 190px;
+        width: 190px;
+    }
+}
