@@ -2,12 +2,14 @@
 import styles from './boothInfoPage.module.css';
 
 import BoothGoodsItem from '../BoothGoodsItem';
+import BoothOwnerItem from '../BoothOwnerItem';
 
 function BoothInfoPage() {
 
     return (
         <div>
             <BoothGoodsItem />
+            <BoothOwnerItem/>
         </div>
     );
 }
