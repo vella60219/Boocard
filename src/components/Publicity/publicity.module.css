@@ -1,0 +1,112 @@
+/*img*/
+.img_star{
+    height: 76px;
+    width: 76px;
+    margin-right: 20px;
+}
+
+.imgM{
+    height: 198px;
+    width: 238px;
+}
+
+.imgM1{
+    height: 217px;
+    width: 182px;
+}
+
+.imgS{
+    height: 190px;
+    width: 190px;
+}
+
+/*txv*/
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin-top: 40px;
+}
+
+.startxv{
+    letter-spacing: 0.1em;
+    margin: 0px;
+}
+
+.txv{
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.txvS{
+    letter-spacing: 0.08rem;
+    color: #667080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*section*/
+
+.allSection{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.box{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.upsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+.middleSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.starSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.twitterSection{
+    height: 600px;
+}
+
+@media screen and (min-width: 578px){
+
+    .img_star{
+        height: 124px;
+        width: 124px;
+        margin-right: 20px;
+    }
+    
+    .imgM{
+        height: 377px;
+        width: 450px;
+    }
+    
+    .imgM1{
+        height: 436px;
+        width: 364px;
+    }
+    
+    .imgS{
+        height: 190px;
+        width: 190px;
+    }
+}
