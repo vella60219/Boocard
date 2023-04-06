@@ -14,7 +14,7 @@ export const lightTheme = {
       colorLink: '#FFFFFF',
     },
     Button: {
-      colorPrimary: "#FFFFFF;",
+      // colorPrimary: "#FFFFFF;",
       colorTextBase: '#ffffff',
       colorLinkHover: '#ffffff',
       //   colorPrimaryHover: "#9192f5",
