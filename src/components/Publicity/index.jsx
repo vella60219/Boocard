@@ -1,4 +1,4 @@
-import styles from './publicity.module.css'
+import styles from './publicity.module.css';
 import { Row , Col} from 'antd';
 
 function Publicity(){
