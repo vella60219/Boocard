@@ -1,0 +1,40 @@
+.cardBoxL {
+    display: flex;
+    max-width: 987px;
+    max-height: 530px;
+    width: 77vw !important;
+    height: 70vh !important;
+    border-radius: 25px;
+}
+
+.cardBoxS {
+    width: 90vw;
+    height: auto;
+    border-radius: 25px;
+}
+
+.imageS{
+    height: 288px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px 25px 0 0 !important;  /* 不這樣的話完全改不了 Card 的 border-radius */
+}
+
+.imgBoxL {
+    height: 100%;
+}
+
+.imageL {
+    width: 35vw;
+    height: 70vh;
+
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px 0 0 25px !important;
+    /* ^ 不這樣的話完全改不了 Card 的 border-radius */
+}
+
+.title {
+    color: #1F2933;
+}
