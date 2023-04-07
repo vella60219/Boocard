@@ -1,0 +1,77 @@
+[
+    {
+        "id": "1",
+        "booth_name": "ccyc",
+        "cover_img": "/images/test1.png",
+        "circle": "moe moe kuu",
+        "circle_img": "/images/test2.png",
+        "note": "早上沒零錢 勿給大鈔",
+        "booths": [
+            {
+                "actID": "day-1",
+                "act": "DAY 1",
+                "areaID": "floor-1",
+                "area": "一樓",
+                "zone": "A",
+                "number": "01"
+            }
+        ],
+        "owners": [
+            {
+                "id": "1",
+                "owner_name": "抽不到推的非洲同人女",
+                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "sns": [
+                    {
+                        "type": "instagram",
+                        "href": "https://www.instagram.com/"
+                    },
+                    {
+                        "type": "facebook",
+                        "href": "https://www.facebook.com/"
+                    },
+                    {
+                        "type": "twitter",
+                        "href": "https://twitter.com/"
+                    },
+                    {
+                        "type": "patreon",
+                        "href": "https://www.patreon.com/"
+                    }
+                ],
+                "goods": [
+                    {
+                        "id": "1",
+                        "goods_name": "好看的小垃圾",
+                        "price": 80,
+                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                        "styles": [
+                            "熊熊",
+                            "貓貓",
+                            "狗勾",
+                            "鯊沙"
+                        ]
+                    },
+                    {
+                        "id": "2",
+                        "goods_name": "熊熊和鯊沙的小薄本",
+                        "price": 150,
+                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                        "styles": [
+                            "基本"
+                        ]
+                    },
+                    {
+                        "id": "3",
+                        "goods_name": "好看的小垃圾套組",
+                        "price": 300,
+                        "intro": "套組會比較便宜",
+                        "styles": [
+                            "我全都要"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

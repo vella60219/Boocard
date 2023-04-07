@@ -6,6 +6,8 @@ import events from "../../json/events.json"
 
 function ActAreaButton() {
     // const navigate = useNavigate();
+    const act = events[0].act[0].id;
+    const area = events[0].act[0].area[0].id;
     const zone = events[0].act[0].area[0].zone[0];
     return (
         <ConfigProvider theme={{
@@ -14,7 +16,7 @@ function ActAreaButton() {
                 colorBorder: '#0495FF',
             }
         }}>
-            <Link to={"."}>
+            <Link to={`${act}/${area}/${zone}`}>
                 <Button
                     type="default"
                     shape="round"
