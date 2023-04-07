@@ -3,6 +3,9 @@
 import { Helmet } from "react-helmet-async"
 import { useParams } from "react-router-dom";
 
+import ActInfoItem from "../components/ActInfoItem";
+import ActInfoItemList from "../components/ActInfoItemList";
+
 function Event() {
     const { eventId } = useParams();
     const eventName = eventId;      // 之後還會再改，會去對照活動id找出活動名字
@@ -15,6 +18,7 @@ function Event() {
                 <title>{title}</title>
             </Helmet>
             <p>This is Event page{eventName}</p>
+            <ActInfoItem/>
         </div>
     );
 }

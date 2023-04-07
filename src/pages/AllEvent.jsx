@@ -8,6 +8,7 @@ import RightTopButton from "../components/RightTopButton";
 import events from "../json/events.json"
 
 import EventItem from "../components/EventItem";
+import EventItemList from "../components/EventItemList";
 
 function AllEvent() {
     const { tagName, searchKeyword } = useParams();
@@ -22,11 +23,12 @@ function AllEvent() {
         : `搜尋活動 "${searchText}"｜布卡 Boocard`;
 
     return (
-        <div>
+        <div className="container">
             <Helmet>
                 <title>{title}</title>
             </Helmet>
-            <EventItem />
+            {/* <EventItem event={events[0]} /> */}
+            <EventItemList events={events} />
         </div>
     );
 }
