@@ -5,23 +5,30 @@ import { Card } from "antd";
 
 const { Meta } = Card;
 
-function ActInfoItem({ event, act }) {
+// function CardContent() {
+//     return(
+
+//     );
+// }
+// ^ 看有沒有需要，可以把文字內容集中在這
+
+function ActInfoItemL({ event, act }) {
     return (
         <div className={`borderBox borderBox3 ${styles.box}`}>
             <Link to={`${event.id}`} >
                 <Card
-                    className={styles.cardBox}
+                    className={styles.cardBoxL}
                     size='default'
                     type='inner'
                     bordered={false}
                     bodyStyle={{ width: '42vw' }}
                     // ^ 控制卡片文字區塊的寬度
                     cover={
-                        <div className={styles.imgBox}>
+                        <div className={styles.imgBoxL}>
                             <img
                                 alt={event.name}
                                 src={event.image}
-                                className={styles.image}
+                                className={styles.imageL}
                             />
                         </div>
                     }
@@ -34,4 +41,32 @@ function ActInfoItem({ event, act }) {
     );
 }
 
-export default ActInfoItem;
+function ActInfoItemS({ event, act }) {
+    return (
+        <div className={`borderBox borderBox3 ${styles.box}`}>
+            <Link to={`${event.id}`} >
+                <Card
+                    className={styles.cardBoxS}
+                    size='deult'
+                    type='inner'
+                    bordered={false}
+                    // bodyStyle={{ width: '42vw' }}
+                    // ^ 控制卡片文字區塊的寬度
+                    cover={
+                        <img
+                            alt={event.name}
+                            src={event.image}
+                            className={styles.imageS}
+                        />
+                    }
+                >
+                    <Meta title={act.act_name} className={`h2 ${styles.title}`} />
+                    <p>tags</p>
+                </Card>
+            </Link>
+        </div>
+    );
+}
+
+
+export { ActInfoItemS, ActInfoItemL };

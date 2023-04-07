@@ -1,0 +1,15 @@
+.cardBoxL {
+    display: none;
+}
+
+@media (min-width: 576px) {
+    .cardBoxL {
+        display: block;
+    }
+}
+
+@media (min-width: 576px) {
+    .cardBoxS {
+        display: none;
+    }
+}

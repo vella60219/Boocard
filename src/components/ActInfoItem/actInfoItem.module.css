@@ -1,4 +1,4 @@
-.cardBox {
+.cardBoxL {
     display: flex;
     max-width: 987px;
     max-height: 530px;
@@ -7,11 +7,25 @@
     border-radius: 25px;
 }
 
-.imgBox {
+.cardBoxS {
+    width: 90vw;
+    height: auto;
+    border-radius: 25px;
+}
+
+.imageS{
+    height: 288px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px 25px 0 0 !important;  /* 不這樣的話完全改不了 Card 的 border-radius */
+}
+
+.imgBoxL {
     height: 100%;
 }
 
-.image {
+.imageL {
     width: 35vw;
     height: 70vh;
 
