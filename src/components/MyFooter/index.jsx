@@ -14,14 +14,17 @@ function MyFooter() {
                         <h3 className={styles.Stxv}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. </h3>
                     </div>
                     <div className={`${styles.btnSection} ${styles.box}`}>
-                        <a href='https://zh-tw.facebook.com/'>
-                            <img className={styles.btn} src="./images/btn_Facebook.png"/>
-                        </a>
                         <a href='https://www.instagram.com/'>
                             <img className={styles.btn} src="./images/btn_Instargram.png"/>
                         </a>
+                        <a href='https://zh-tw.facebook.com/'>
+                            <img className={styles.btn} src="./images/btn_Facebook.png"/>
+                        </a>
                         <a href='https://twitter.com/Boocard_'>
                         <img className={styles.btn} src="./images/btn_Twitter.png"/>
+                        </a>
+                        <a href='https://www.youtube.com/'>
+                        <img className={styles.btn} src="./images/btn_Youtube.png"/>
                         </a>
                     </div>
                 </Col>
