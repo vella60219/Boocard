@@ -1,6 +1,7 @@
 [
     {
         "id": "1",
+        "eventID": "1",
         "booth_name": "ccyc",
         "cover_img": "/images/test1.png",
         "circle": "moe moe kuu",
@@ -76,6 +77,7 @@
     },
     {
         "id": "2",
+        "eventID": "1",
         "booth_name": "ccyc",
         "cover_img": "/images/test1.png",
         "circle": "moe moe kuu",
