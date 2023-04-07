@@ -1,0 +1,27 @@
+.tabOuterLink {
+    height: 50px;
+    margin: -12px 0;
+    /* ^ 解決設定成 disabled 時會出現無法改掉的 antd 的 cursor: not-allowed */
+    display: flex;
+    align-items: center;
+    color: #000000;
+    cursor: pointer;
+}
+
+.ant-tabs-tab .ant-tabs-tab-disabled {
+    cursor: none !important;
+    padding: 0 !important;
+}
+
+.ant-tabs-tab-disabled {
+    cursor: none !important;
+    padding: 0 !important;
+}
+
+.tabOuterLink:hover {
+    color: rgba(255, 161, 184, 0.6);
+}
+
+.tabOuterLinkText {
+    margin-right: 5px;
+}

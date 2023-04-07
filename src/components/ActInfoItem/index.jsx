@@ -3,6 +3,8 @@ import styles from "./actInfoItem.module.css"
 import { Link } from 'react-router-dom';
 import { Card } from "antd";
 
+import ActAreaButton from "../ActAreaButton";
+import ActAreaButtonList from "../ActAreaButtonList";
 const { Meta } = Card;
 
 // function CardContent() {
@@ -34,6 +36,7 @@ function ActInfoItemL({ event, act }) {
             >
                 <Meta title={act.act_name} className={`h2 ${styles.title}`} />
                 <p>tags</p>
+                <ActAreaButton/>
             </Card>
         </div>
     );

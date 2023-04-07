@@ -1,0 +1,22 @@
+
+.cardBox{
+    padding: 0;
+    width: 280px;
+    height: auto;
+    border-radius: 25px;
+}
+.image{
+    height: 172px;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px 25px 0 0 !important;  /* 不這樣的話完全改不了 Card 的 border-radius */
+}
+
+.date{
+    color: #667080;
+}
+
+.title{
+    color: #1F2933;
+}

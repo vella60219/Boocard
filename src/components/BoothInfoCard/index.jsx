@@ -1,4 +1,4 @@
-// 攤位item會先在此包裝上modal再加入list，此頁管理 modal 和管理 modal 的 page
+// StallItem會先在此包裝上modal再加入list，此頁管理 modal 和管理 modal 的 page
 import styles from './boothInfoCard.module.css';
 import { Button, Modal } from 'antd';
 import { LeftOutlined, CloseOutlined } from '@ant-design/icons';
@@ -10,6 +10,8 @@ import {
     selectOwnerID, setOwnerID,
     selectGoodsID, setGoodsID
 } from '../../redux/modalSlice';
+
+import StallItem from '../StallItem';
 
 import BoothInfoPage from '../BoothInfoPage';
 import BoothOwnerInfoPage from '../BoothOwnerInfoPage';
@@ -43,8 +45,9 @@ function BoothInfoCard({ a }) {
     return (
         <div>
             <Button type="text" onClick={showModal} style={{ width: 'auto', height: 'auto' }}>
-                <div style={{ width: '100px', height: '100px', background: 'red' }} />
+                {/* <div style={{ width: '100px', height: '100px', background: 'red' }} /> */}
                 {/* ^ 測試用 style 和 div，事實是這裡應該要放 StallItem */}
+            <StallItem/>
             </Button>
             <Modal
                 open={open}
