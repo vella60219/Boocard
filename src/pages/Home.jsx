@@ -3,7 +3,7 @@
 import { Helmet } from "react-helmet-async"
 import { Link } from "react-router-dom";
 import { Button } from "antd";
-import Publicity from "../components/Publicity"
+import Introduction from "../components/Introduction"
 import BoothInfoCard from "../components/BoothInfoCard";
 
 function Home() {
@@ -15,7 +15,7 @@ function Home() {
                 <title>{title}</title>
             </Helmet>
 
-            <Publicity/>
+            <Introduction/>
         </div>
     );
 }

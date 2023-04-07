@@ -1,7 +1,7 @@
-import styles from './publicity.module.css';
+import styles from './introduction.module.css';
 import { Row , Col} from 'antd';
 
-function Publicity(){
+function Introduction(){
     return(
         <div className={`${styles.allSection} ${styles.box}`}>
             <Row justify="center" gutter={[24, 24]} >
@@ -181,4 +181,4 @@ function Publicity(){
     )
 }
 
-export default Publicity;
+export default Introduction;
