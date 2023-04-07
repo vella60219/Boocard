@@ -30,7 +30,7 @@ function RightTopButton() {
             type: 'divider',
         },
         {
-            label: (<a href='' onClick={toggleLogin}>登出</a>),
+            label: (<a href='/' onClick={toggleLogin}>登出</a>),
             key: '5',
             danger: true,
         },
