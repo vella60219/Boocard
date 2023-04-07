@@ -1,10 +1,4 @@
-.box{
-    /* width: auto; */
-    /* max-width: 987px; */
-    /* max-height: 536px; */
-}
-
-.cardBox{
+.cardBox {
     display: flex;
     max-width: 987px;
     max-height: 530px;
@@ -13,24 +7,20 @@
     border-radius: 25px;
 }
 
-.imgBox{
+.imgBox {
     height: 100%;
 }
 
-.image{
-
+.image {
     width: 35vw;
     height: 70vh;
-    
+
     object-fit: cover;
     object-position: center;
-    border-radius: 25px 0 0 25px !important;  /* 不這樣的話完全改不了 Card 的 border-radius */
+    border-radius: 25px 0 0 25px !important;
+    /* ^ 不這樣的話完全改不了 Card 的 border-radius */
 }
 
-.date{
-    color: #667080;
-}
-
-.title{
+.title {
     color: #1F2933;
 }

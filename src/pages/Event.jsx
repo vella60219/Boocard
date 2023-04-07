@@ -3,22 +3,24 @@
 import { Helmet } from "react-helmet-async"
 import { useParams } from "react-router-dom";
 
-import ActInfoItem from "../components/ActInfoItem";
 import ActInfoItemList from "../components/ActInfoItemList";
+import events from "../json/events.json";
 
 function Event() {
     const { eventId } = useParams();
-    const eventName = eventId;      // 之後還會再改，會去對照活動id找出活動名字
+    const event = events.find(
+        (x) => x.id === eventId
+    );
+    // ^ 從網址中搜尋 eventID，再從 json 查找活動資料
 
-    const title = `活動主頁 - ${eventName}｜布卡 Boocard`;
+    const title = `${event.name} - 活動主頁 ｜布卡 Boocard`;
 
     return (
         <div>
             <Helmet>
                 <title>{title}</title>
             </Helmet>
-            <p>This is Event page{eventName}</p>
-            <ActInfoItem/>
+            <ActInfoItemList event={event} />
         </div>
     );
 }
