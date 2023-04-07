@@ -15,28 +15,26 @@ const { Meta } = Card;
 function ActInfoItemL({ event, act }) {
     return (
         <div className={`borderBox borderBox3 ${styles.box}`}>
-            <Link to={`${event.id}`} >
-                <Card
-                    className={styles.cardBoxL}
-                    size='default'
-                    type='inner'
-                    bordered={false}
-                    bodyStyle={{ width: '42vw' }}
-                    // ^ 控制卡片文字區塊的寬度
-                    cover={
-                        <div className={styles.imgBoxL}>
-                            <img
-                                alt={event.name}
-                                src={event.image}
-                                className={styles.imageL}
-                            />
-                        </div>
-                    }
-                >
-                    <Meta title={act.act_name} className={`h2 ${styles.title}`} />
-                    <p>tags</p>
-                </Card>
-            </Link>
+            <Card
+                className={styles.cardBoxL}
+                size='default'
+                type='inner'
+                bordered={false}
+                bodyStyle={{ width: '42vw' }}
+                // ^ 控制卡片文字區塊的寬度
+                cover={
+                    <div className={styles.imgBoxL}>
+                        <img
+                            alt={event.name}
+                            src={event.image}
+                            className={styles.imageL}
+                        />
+                    </div>
+                }
+            >
+                <Meta title={act.act_name} className={`h2 ${styles.title}`} />
+                <p>tags</p>
+            </Card>
         </div>
     );
 }
@@ -44,26 +42,24 @@ function ActInfoItemL({ event, act }) {
 function ActInfoItemS({ event, act }) {
     return (
         <div className={`borderBox borderBox3 ${styles.box}`}>
-            <Link to={`${event.id}`} >
-                <Card
-                    className={styles.cardBoxS}
-                    size='deult'
-                    type='inner'
-                    bordered={false}
-                    // bodyStyle={{ width: '42vw' }}
-                    // ^ 控制卡片文字區塊的寬度
-                    cover={
-                        <img
-                            alt={event.name}
-                            src={event.image}
-                            className={styles.imageS}
-                        />
-                    }
-                >
-                    <Meta title={act.act_name} className={`h2 ${styles.title}`} />
-                    <p>tags</p>
-                </Card>
-            </Link>
+            <Card
+                className={styles.cardBoxS}
+                size='deult'
+                type='inner'
+                bordered={false}
+                // bodyStyle={{ width: '42vw' }}
+                // ^ 控制卡片文字區塊的寬度
+                cover={
+                    <img
+                        alt={event.name}
+                        src={event.image}
+                        className={styles.imageS}
+                    />
+                }
+            >
+                <Meta title={act.act_name} className={`h2 ${styles.title}`} />
+                <p>tags</p>
+            </Card>
         </div>
     );
 }
