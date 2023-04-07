@@ -7,20 +7,22 @@
     "location": "台北 世貿中心 ",
     "act": [
       {
-        "id": "1",
+        "id": "day-1",
         "act_name": "DAY 1",
         "act_time": "2022/02/28 星期一",
         "area": [
           {
+            "id": "floor-1",
             "area_name": "一樓",
-            "area_data": [
+            "zone": [
               "A",
               "B"
             ]
           },
           {
             "area_name": "二樓",
-            "area_data": [
+            "id": "floor-2",
+            "zone": [
               "C",
               "D",
               "E"
@@ -28,7 +30,8 @@
           },
           {
             "area_name": "三樓",
-            "area_data": [
+            "id": "floor-3",
+            "zone": [
               "F",
               "G",
               "H",
@@ -38,28 +41,31 @@
         ]
       },
       {
-        "id": "2",
+        "id": "day-2",
         "act_name": "DAY 2",
         "act_time": "2022/03/01 星期二",
         "area": [
           {
+            "id": "floor-1",
             "area_name": "一樓",
-            "area_data": [
+            "zone": [
               "A",
               "B"
             ]
           },
           {
+            "id": "floor-2",
             "area_name": "二樓",
-            "area_data": [
+            "zone": [
               "C",
               "D",
               "E"
             ]
           },
           {
+            "id": "floor-3",
             "area_name": "三樓",
-            "area_data": [
+            "zone": [
               "F",
               "G",
               "H",
