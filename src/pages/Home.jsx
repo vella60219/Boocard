@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import { Button } from "antd";
 import Introduction from "../components/Introduction"
 import BoothInfoCard from "../components/BoothInfoCard";
+import BackTop from "../components/FloatButton";
+
 
 function Home() {
     const title = "布卡 Boocard";
@@ -16,6 +18,7 @@ function Home() {
             </Helmet>
 
             <Introduction/>
+            <BackTop/>
         </div>
     );
 }

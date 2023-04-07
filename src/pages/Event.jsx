@@ -2,6 +2,7 @@
 // boocard.vercel.app/event/:eventId
 import { Helmet } from "react-helmet-async"
 import { useParams } from "react-router-dom";
+import { FloatGrop } from "../components/FloatButton";
 
 import ActInfoItemList from "../components/ActInfoItemList";
 import events from "../json/events.json";
@@ -21,6 +22,7 @@ function Event() {
                 <title>{title}</title>
             </Helmet>
             <ActInfoItemList event={event} />
+            <FloatGrop/>
         </div>
     );
 }

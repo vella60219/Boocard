@@ -6,6 +6,7 @@ import { Helmet } from "react-helmet-async"
 import { useParams, Link } from "react-router-dom";
 import RightTopButton from "../components/RightTopButton";
 import events from "../json/events.json"
+import { FloatGrop } from "../components/FloatButton";
 
 import EventItem from "../components/EventItem";
 import EventItemList from "../components/EventItemList";
@@ -29,6 +30,7 @@ function AllEvent() {
             </Helmet>
             {/* <EventItem event={events[0]} /> */}
             <EventItemList events={events} />
+            <FloatGrop/>
         </div>
     );
 }
