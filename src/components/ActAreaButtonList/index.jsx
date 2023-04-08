@@ -1,9 +1,37 @@
+// 將 ActInfoItem map 為 list，自帶標題
 import styles from "./actAreaButtonList.module.css"
+// ^ styles
+import { Row, Col } from "antd";
+// ^ 外部元件們
+import ActAreaButton from "../ActAreaButton";
+// ^ 自家的元件們
 
-function ActAreaButtonList() {
+function ActAreaButtonList({ actID, areas }) {
+    // ^ 要給 ActAreaButton actID 去做 route，所以傳進來
     return (
         <div>
-
+            <Row gutter={[24, 24]} >
+                {areas.map(area => (
+                    <Col
+                        className={styles.cardBoxL}
+                        key={area.id}
+                        lg={{ span: 24 }}
+                    >
+                        <p>{area.area_name}</p>
+                        <Row gutter={[24, 24]} >
+                            {area.zone.map(zone => (
+                                <Col
+                                    className={styles.cardBoxL}
+                                    key={zone}
+                                    lg={{ span: 3 }}
+                                >
+                                    <ActAreaButton key={zone} actID={actID} areaID={area.id} zone={zone} />
+                                </Col>
+                            ))}
+                        </Row>
+                    </Col>
+                ))}
+            </Row>
         </div>
     );
 }

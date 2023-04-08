@@ -35,6 +35,11 @@
     /* ^ 不這樣的話完全改不了 Card 的 border-radius */
 }
 
+.infoBox{
+    height: 100%;
+    width: 100%;
+}
+
 .title {
     color: #1F2933;
 }
