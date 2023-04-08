@@ -6,11 +6,12 @@ import styles from "./event.module.css"
 import { Helmet } from "react-helmet-async"
 import { useParams } from "react-router-dom";
 // ^ route 相關
-import { Tabs, Button } from 'antd';
+import { Tabs } from 'antd';
 import { MdOutlineOpenInNew } from "react-icons/md";
 // ^ 外部元件們
 import ActInfoItemList from "../../components/ActInfoItemList";
 import StallItemList from "../../components/StallItemList";
+import ZoneNavButton from "../../components/ZoneNavButton";
 // ^ 自家的元件們
 import events from "../../json/events.json";
 // ^ json
@@ -31,7 +32,8 @@ function EventContent({ event }) {
                     <p>{actID} {areaID} {zoneID}</p>
                     {/* ^ 測試用資料 */}
                     {/* 此處應放搜尋元件 */}
-                    <StallItemList eventId={eventId} actID={actID} areaID={areaID} zoneID={zoneID} />
+                    <ZoneNavButton zone="B"/>
+                    <StallItemList />
                 </div>
             }
         </>
@@ -96,6 +98,7 @@ function Event() {
                     defaultActiveKey="1"
                     centered
                     items={tabItems}
+                    className={styles.tabBox}
                 />
             </div>
         </div>

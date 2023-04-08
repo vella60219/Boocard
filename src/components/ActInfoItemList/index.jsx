@@ -1,4 +1,5 @@
-// 將 ActInfoItem map 為 list，根據寬度在 css 設定 display 不同的大小
+// 將 ActInfoItem map 為 list
+// 根據寬度在 css 設定 display 不同的大小
 // ^ 沒辦法自己 rwd，這用 Antd 的卡片做的
 import styles from "./actInfoItemList.module.css"
 // ^ styles

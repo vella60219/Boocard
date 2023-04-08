@@ -44,7 +44,7 @@ function BoothInfoCard({ booth }) {
 
     return (
         <div>
-            <Button type="text" onClick={showModal} style={{ width: 'auto', height: 'auto' }}>
+            <Button type="link" onClick={showModal} style={{ width: 'auto', height: 'auto' }}>
                 {/* <div style={{ width: '100px', height: '100px', background: 'red' }} /> */}
                 {/* ^ 測試用 style 和 div，事實是這裡應該要放 StallItem */}
             <StallItem stall={booth}/>

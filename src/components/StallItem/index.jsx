@@ -13,7 +13,7 @@ function StallItem({ stall }) {
     const boothNumber = `${act.zone}${act.number}`;
 
     return (
-        <div className="borderBox borderBox3">
+        <div className="borderBox borderBox2">
             <Card
                 className={styles.cardBox}
                 size='small'

@@ -1,12 +1,17 @@
+// 將 BoothInfoCard map 為 list
 import styles from "./stallItemList.module.css"
+// ^ styles
 import { useParams } from "react-router-dom";
+// ^ route 相關
 import { Row, Col } from "antd";
-import StallItem from "../StallItem"
+// ^ 外部元件們
 import BoothInfoCard from "../BoothInfoCard";
-
+// ^ 自家的元件們
 import stalls from "../../json/booths.json"
+// ^ json
 
-function StallItemList({ eventId, actID, areaID, zoneID }) {
+function StallItemList() {
+    const { eventId, actID, areaID, zoneID } = useParams();
     const _stalls = stalls.filter(x => {
         return x?.eventID.toUpperCase() === eventId.toUpperCase()
             && x?.booths.some((y) => {
@@ -15,6 +20,7 @@ function StallItemList({ eventId, actID, areaID, zoneID }) {
                     && y.zone.toUpperCase() === zoneID.toUpperCase()
             })
     });
+    // ^ 過濾出本活動的、在個 act 這個 area 這個 zone 的
 
     return (
         <div>
