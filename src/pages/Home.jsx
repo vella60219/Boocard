@@ -19,9 +19,7 @@ function Home() {
             <Helmet>
                 <title>{title}</title>
             </Helmet>
-            <div>
                 <EventItemSwiper />
-            </div>
             {/* <EventItemSwiper /> */}
             {/* <EventItemListL events={events} /> */}
             <Introduction />

@@ -1,7 +1,9 @@
-.box{
-    /* padding: 50px 0; */
+.box {
+    width: 100vw;
+    
 }
-.slide{
+
+.slide {
     width: fit-content;
     height: fit-content;
     padding: 50px 0;

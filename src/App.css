@@ -1,3 +1,22 @@
+/* 解決滾動條造成的排版問題 */
+html {
+  overflow-y: scroll; 
+}
+
+:root {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+:root body {
+  position: absolute;
+}
+
+body {
+  width: 100vw;
+  /* overflow: hidden; */
+}
+
 /* Global Style */
 
 html {
