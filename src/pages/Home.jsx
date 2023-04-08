@@ -16,7 +16,7 @@ function Home() {
             <Helmet>
                 <title>{title}</title>
             </Helmet>
-            {/* <Searching/> */}
+            <Searching/>
             <Introduction/>
             <BackTop/>
         </div>
