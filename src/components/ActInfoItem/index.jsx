@@ -1,20 +1,25 @@
 // 有分橫版、直版兩種
 import styles from "./actInfoItem.module.css"
-import { Link } from 'react-router-dom';
+// ^ styles
 import { Card } from "antd";
-
+const { Meta } = Card;
+// ^ 外部元件們
 import ActAreaButton from "../ActAreaButton";
 import ActAreaButtonList from "../ActAreaButtonList";
-const { Meta } = Card;
+// ^ 自家的元件們
 
-// function CardContent() {
-//     return(
-
-//     );
-// }
-// ^ 看有沒有需要，可以把文字內容集中在這
+function CardContent({ event, act }) {
+    // 卡片文字內容
+    return (
+        <div className={styles.infoBox}>
+            <Meta title={act.act_name} className={`h2 ${styles.title}`} />
+            <ActAreaButtonList actID={act.id} areas={act.area} />
+        </div>
+    );
+}
 
 function ActInfoItemL({ event, act }) {
+    // ^ 因為也要活動的主視覺圖和活動地點，所以也接收 event
     return (
         <div className={`borderBox borderBox3 ${styles.box}`}>
             <Card
@@ -34,15 +39,14 @@ function ActInfoItemL({ event, act }) {
                     </div>
                 }
             >
-                <Meta title={act.act_name} className={`h2 ${styles.title}`} />
-                <p>tags</p>
-                <ActAreaButton/>
+                <CardContent event={event} act={act} />
             </Card>
         </div>
     );
 }
 
 function ActInfoItemS({ event, act }) {
+    // ^ 因為也要活動的主視覺圖和活動地點，所以也接收 event
     return (
         <div className={`borderBox borderBox3 ${styles.box}`}>
             <Card
@@ -50,8 +54,6 @@ function ActInfoItemS({ event, act }) {
                 size='deult'
                 type='inner'
                 bordered={false}
-                // bodyStyle={{ width: '42vw' }}
-                // ^ 控制卡片文字區塊的寬度
                 cover={
                     <img
                         alt={event.name}
@@ -60,12 +62,10 @@ function ActInfoItemS({ event, act }) {
                     />
                 }
             >
-                <Meta title={act.act_name} className={`h2 ${styles.title}`} />
-                <p>tags</p>
+                <CardContent event={event} act={act} />
             </Card>
         </div>
     );
 }
-
 
 export { ActInfoItemS, ActInfoItemL };

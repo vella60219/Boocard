@@ -18,7 +18,7 @@ import BoothOwnerInfoPage from '../BoothOwnerInfoPage';
 import BoothGoodsInfoPage from '../BoothGoodsInfoPage';
 
 
-function BoothInfoCard({ a }) {
+function BoothInfoCard({ booth }) {
     // ^ 先隨便弄了一個 a 參數，下方只有一個 p 標籤用了他，證明資料有傳過來
     const nextPageMode = useSelector(selectNextPageMode);
     const ownerID = useSelector(selectOwnerID);
@@ -47,7 +47,7 @@ function BoothInfoCard({ a }) {
             <Button type="text" onClick={showModal} style={{ width: 'auto', height: 'auto' }}>
                 {/* <div style={{ width: '100px', height: '100px', background: 'red' }} /> */}
                 {/* ^ 測試用 style 和 div，事實是這裡應該要放 StallItem */}
-            <StallItem/>
+            <StallItem stall={booth}/>
             </Button>
             <Modal
                 open={open}
@@ -75,7 +75,7 @@ function BoothInfoCard({ a }) {
                     </div>
                 }
                 {/* ^ Nav */}
-                <p>{a}</p>
+                <p>{booth.id}</p>
                 {/* ^ 測試資料用 */}
                 <div className={styles.contentBox}>
                     {!nextPageMode ? <BoothInfoPage /> :

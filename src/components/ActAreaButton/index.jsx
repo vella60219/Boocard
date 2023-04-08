@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 import events from "../../json/events.json"
 
-function ActAreaButton() {
+function ActAreaButton({ actID, areaID, zone }) {
     // const navigate = useNavigate();
-    const act = events[0].act[0].id;
-    const area = events[0].act[0].area[0].id;
-    const zone = events[0].act[0].area[0].zone[0];
+    // const act = events[0].act[0].id;
+    // const area = events[0].act[0].area[0].id;
+    // const zone = events[0].act[0].area[0].zone[0];
     return (
         <ConfigProvider theme={{
             token: {
@@ -16,7 +16,7 @@ function ActAreaButton() {
                 colorBorder: '#0495FF',
             }
         }}>
-            <Link to={`${act}/${area}/${zone}`}>
+            <Link to={`${actID}/${areaID}/${zone}`}>
                 <Button
                     type="default"
                     shape="round"
