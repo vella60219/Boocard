@@ -5,7 +5,11 @@ import { Link } from "react-router-dom";
 import { Button } from "antd";
 import Introduction from "../components/Introduction"
 import BoothInfoCard from "../components/BoothInfoCard";
+import { EventItemListL } from "../components/EventItemList";
 import BackTop from "../components/FloatButton";
+import EventItemSwiper from "../components/EventItemSwiper";
+
+import events from "../json/events.json"
 
 function Home() {
     const title = "布卡 Boocard";
@@ -15,9 +19,13 @@ function Home() {
             <Helmet>
                 <title>{title}</title>
             </Helmet>
-
-            <Introduction/>
-            <BackTop/>
+            <div>
+                <EventItemSwiper />
+            </div>
+            {/* <EventItemSwiper /> */}
+            {/* <EventItemListL events={events} /> */}
+            <Introduction />
+            <BackTop />
         </div>
     );
 }

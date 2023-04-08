@@ -1,9 +1,14 @@
+.box{
+    pointer-events: auto;
+}
 
 .cardBox{
     padding: 0;
     width: 280px;
     height: auto;
     border-radius: 25px;
+    z-index: 2;
+    cursor: pointer;
 }
 .image{
     height: 172px;

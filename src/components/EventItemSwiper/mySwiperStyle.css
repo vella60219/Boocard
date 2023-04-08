@@ -1,0 +1,25 @@
+.swiper {
+  width: 100vw;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.swiper-wrapper{
+  z-index: -1;
+  /* pointer-events: none; */
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* pointer-events: none; */
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
