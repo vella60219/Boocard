@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "image": "/images/test2.png",
+    "image": "/images/img_event_1.png",
     "name": "C.W.T. x IFF",
     "time": "2022 03月31(五)-04月03日(一)",
     "location": "台北 世貿中心 ",
@@ -79,57 +79,859 @@
   },
   {
     "id": "2",
-    "image": "/images/img_event_1.png",
-    "name": "C.W.T. x IFF",
-    "time": "2022 03月31(五)-04月03日(一)",
-    "date1": "2022 03月31(五)",
-    "date2": "2022 04月01(六)",
-    "date3": "2022 04月02(日)",
-    "date4": "2022 04月03(一)",
-    "location": "台北 世貿中心 "
+    "image": "/images/img_event_2.png",
+    "name": "ORV ONLY",
+    "time": "2022 06月03(五)-06月05日(日)",
+    "location": "台北 花博爭豔館 ",
+    "website": "https://www.google.com.tw/",
+    "act": [
+      {
+        "id": "day-1",
+        "act_name": "DAY 1",
+        "act_time": "2022/06/03 星期五",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "area_name": "二樓",
+            "id": "floor-2",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "area_name": "三樓",
+            "id": "floor-3",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "day-2",
+        "act_name": "DAY 2",
+        "act_time": "2022/06/04 星期六",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "id": "floor-2",
+            "area_name": "二樓",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "id": "floor-3",
+            "area_name": "三樓",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "3",
-    "image": "/images/ImagePlaceholder.png",
-    "name": "C.W.T. x IFF",
-    "time": "2022 03月31(五)-04月03日(一)",
-    "date1": "2022 03月31(五)",
-    "date2": "2022 04月01(六)",
-    "date3": "2022 04月02(日)",
-    "date4": "2022 04月03(一)",
-    "location": "台北 世貿中心 "
+    "image": "/images/img_event_3.png",
+    "name": "RHODSODY",
+    "time": "2022 06月03(五)-06月04日(六)",
+    "location": "台北 世貿中心 ",
+    "website": "https://www.google.com.tw/",
+    "act": [
+      {
+        "id": "day-1",
+        "act_name": "DAY 1",
+        "act_time": "2022/06/03 星期五",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "area_name": "二樓",
+            "id": "floor-2",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "area_name": "三樓",
+            "id": "floor-3",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "day-2",
+        "act_name": "DAY 2",
+        "act_time": "2022/06/04 星期六",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "id": "floor-2",
+            "area_name": "二樓",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "id": "floor-3",
+            "area_name": "三樓",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "4",
-    "image": "/images/ImagePlaceholder.png",
-    "name": "C.W.T. x IFF",
-    "time": "2022 03月31(五)-04月03日(一)",
-    "date1": "2022 03月31(五)",
-    "date2": "2022 04月01(六)",
-    "date3": "2022 04月02(日)",
-    "date4": "2022 04月03(一)",
-    "location": "台北 世貿中心 "
-  },
-  {
+    "image": "/images/img_event_4.png",
+    "name": "NOX ONLY",
+    "time": "2022 06月11(五)-06月13日(日)",
+    "location": "台北 南港展覽館 ",
+    "website": "https://www.google.com.tw/",
+    "act": [
+      {
+        "id": "day-1",
+        "act_name": "DAY 1",
+        "act_time": "2022/06/11 星期五",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "area_name": "二樓",
+            "id": "floor-2",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "area_name": "三樓",
+            "id": "floor-3",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "day-2",
+        "act_name": "DAY 2",
+        "act_time": "2022/06/12 星期六",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "id": "floor-2",
+            "area_name": "二樓",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "id": "floor-3",
+            "area_name": "三樓",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      }
+    ]
+  },  {
     "id": "5",
-    "image": "/images/ImagePlaceholder.png",
-    "name": "C.W.T. x IFF",
-    "time": "2022 03月31(五)-04月03日(一)",
-    "date1": "2022 03月31(五)",
-    "date2": "2022 04月01(六)",
-    "date3": "2022 04月02(日)",
-    "date4": "2022 04月03(一)",
-    "location": "台北 世貿中心 "
+    "image": "/images/img_event_5.png",
+    "name": "ICE",
+    "time": "2022 06月15(六)-06月16日(日)",
+    "location": "台北 世貿中心 ",
+    "website": "https://www.google.com.tw/",
+    "act": [
+      {
+        "id": "day-1",
+        "act_name": "DAY 1",
+        "act_time": "2022/06/15 星期六",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "area_name": "二樓",
+            "id": "floor-2",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "area_name": "三樓",
+            "id": "floor-3",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "day-2",
+        "act_name": "DAY 2",
+        "act_time": "2022/06/16 星期日",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "id": "floor-2",
+            "area_name": "二樓",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "id": "floor-3",
+            "area_name": "三樓",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "id": "6",
-    "image": "/images/ImagePlaceholder.png",
+    "image": "/images/img_event_6.png",
+    "name": "IFF",
+    "time": "2022 03月31(五)-04月03日(一)",
+    "location": "台北 世貿中心 ",
+    "website": "https://www.google.com.tw/",
+    "act": [
+      {
+        "id": "day-1",
+        "act_name": "DAY 1",
+        "act_time": "2022/02/28 星期一",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "area_name": "二樓",
+            "id": "floor-2",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "area_name": "三樓",
+            "id": "floor-3",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "day-2",
+        "act_name": "DAY 2",
+        "act_time": "2022/03/01 星期二",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "id": "floor-2",
+            "area_name": "二樓",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "id": "floor-3",
+            "area_name": "三樓",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "image": "/images/img_event_7.png",
+    "name": "ORV ONLY",
+    "time": "2022 03月31(五)-04月03日(一)",
+    "location": "台北 世貿中心 ",
+    "website": "https://www.google.com.tw/",
+    "act": [
+      {
+        "id": "day-1",
+        "act_name": "DAY 1",
+        "act_time": "2022/02/28 星期一",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "area_name": "二樓",
+            "id": "floor-2",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "area_name": "三樓",
+            "id": "floor-3",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "day-2",
+        "act_name": "DAY 2",
+        "act_time": "2022/03/01 星期二",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "id": "floor-2",
+            "area_name": "二樓",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "id": "floor-3",
+            "area_name": "三樓",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "image": "/images/img_event_8.png",
+    "name": "C.W.T.",
+    "time": "2022 03月31(五)-04月03日(一)",
+    "location": "台北 花博爭豔館 ",
+    "website": "https://www.google.com.tw/",
+    "act": [
+      {
+        "id": "day-1",
+        "act_name": "DAY 1",
+        "act_time": "2022/02/28 星期一",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "area_name": "二樓",
+            "id": "floor-2",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "area_name": "三樓",
+            "id": "floor-3",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "day-2",
+        "act_name": "DAY 2",
+        "act_time": "2022/03/01 星期二",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "id": "floor-2",
+            "area_name": "二樓",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "id": "floor-3",
+            "area_name": "三樓",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      }
+    ]
+  },  {
+    "id": "9",
+    "image": "/images/img_event_9.png",
     "name": "C.W.T. x IFF",
     "time": "2022 03月31(五)-04月03日(一)",
-    "date1": "2022 03月31(五)",
-    "date2": "2022 04月01(六)",
-    "date3": "2022 04月02(日)",
-    "date4": "2022 04月03(一)",
-    "location": "台北 世貿中心 "
+    "location": "台北 花博爭豔館 ",
+    "website": "https://www.google.com.tw/",
+    "act": [
+      {
+        "id": "day-1",
+        "act_name": "DAY 1",
+        "act_time": "2022/02/28 星期一",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "area_name": "二樓",
+            "id": "floor-2",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "area_name": "三樓",
+            "id": "floor-3",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "day-2",
+        "act_name": "DAY 2",
+        "act_time": "2022/03/01 星期二",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "id": "floor-2",
+            "area_name": "二樓",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "id": "floor-3",
+            "area_name": "三樓",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "image": "/images/img_event_3.png",
+    "name": "C.W.T. x IFF",
+    "time": "2022 03月31(五)-04月03日(一)",
+    "location": "台北 南港展覽館 ",
+    "website": "https://www.google.com.tw/",
+    "act": [
+      {
+        "id": "day-1",
+        "act_name": "DAY 1",
+        "act_time": "2022/02/28 星期一",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "area_name": "二樓",
+            "id": "floor-2",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "area_name": "三樓",
+            "id": "floor-3",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "day-2",
+        "act_name": "DAY 2",
+        "act_time": "2022/03/01 星期二",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "id": "floor-2",
+            "area_name": "二樓",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "id": "floor-3",
+            "area_name": "三樓",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "image": "/images/img_event_4.png",
+    "name": "C.W.T. x IFF",
+    "time": "2022 03月31(五)-04月03日(一)",
+    "location": "台北 世貿中心 ",
+    "website": "https://www.google.com.tw/",
+    "act": [
+      {
+        "id": "day-1",
+        "act_name": "DAY 1",
+        "act_time": "2022/02/28 星期一",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "area_name": "二樓",
+            "id": "floor-2",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "area_name": "三樓",
+            "id": "floor-3",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "day-2",
+        "act_name": "DAY 2",
+        "act_time": "2022/03/01 星期二",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "id": "floor-2",
+            "area_name": "二樓",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "id": "floor-3",
+            "area_name": "三樓",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "12",
+    "image": "/images/img_event_1.png",
+    "name": "C.W.T. x IFF",
+    "time": "2022 03月31(五)-04月03日(一)",
+    "location": "台北 南港展覽館 ",
+    "website": "https://www.google.com.tw/",
+    "act": [
+      {
+        "id": "day-1",
+        "act_name": "DAY 1",
+        "act_time": "2022/02/28 星期一",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "area_name": "二樓",
+            "id": "floor-2",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "area_name": "三樓",
+            "id": "floor-3",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "day-2",
+        "act_name": "DAY 2",
+        "act_time": "2022/03/01 星期二",
+        "area": [
+          {
+            "id": "floor-1",
+            "area_name": "一樓",
+            "zone": [
+              "A",
+              "B"
+            ]
+          },
+          {
+            "id": "floor-2",
+            "area_name": "二樓",
+            "zone": [
+              "C",
+              "D",
+              "E"
+            ]
+          },
+          {
+            "id": "floor-3",
+            "area_name": "三樓",
+            "zone": [
+              "F",
+              "G",
+              "H",
+              "I"
+            ]
+          }
+        ]
+      }
+    ]
   }
+
 ]
