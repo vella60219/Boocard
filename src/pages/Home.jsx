@@ -6,6 +6,7 @@ import { Button } from "antd";
 import Introduction from "../components/Introduction"
 import BoothInfoCard from "../components/BoothInfoCard";
 import BackTop from "../components/FloatButton";
+import Searching from "../components/Searching";
 
 function Home() {
     const title = "布卡 Boocard";
@@ -15,7 +16,7 @@ function Home() {
             <Helmet>
                 <title>{title}</title>
             </Helmet>
-
+            {/* <Searching/> */}
             <Introduction/>
             <BackTop/>
         </div>
