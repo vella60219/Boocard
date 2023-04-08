@@ -6,6 +6,7 @@ import { Helmet } from "react-helmet-async"
 import { useParams } from "react-router-dom";
 import { Tabs, Button } from 'antd';
 import { MdOutlineOpenInNew } from "react-icons/md";
+import { FloatGrop } from "../../components/FloatButton";
 
 import ActInfoItemList from "../../components/ActInfoItemList";
 import events from "../../json/events.json";
@@ -80,6 +81,7 @@ function Event() {
                 items={items}
             />
 
+            <FloatGrop/>
         </div>
     );
 }

@@ -9,6 +9,7 @@ import events from "../json/events.json"
 
 import EventItem from "../components/EventItem";
 import EventItemList from "../components/EventItemList";
+import { FloatGrop } from "../components/FloatButton";
 
 function AllEvent() {
     const { tagName, searchKeyword } = useParams();
@@ -29,6 +30,7 @@ function AllEvent() {
             </Helmet>
             {/* <EventItem event={events[0]} /> */}
             <EventItemList events={events} />
+            <FloatGrop/>
         </div>
     );
 }
