@@ -3,12 +3,14 @@ import styles from "./zoneNavButton.module.css"
 import { Link, useParams } from "react-router-dom";
 // ^ route 相關
 import { Button } from "antd";
+import { MdKeyboardBackspace } from "react-icons/md";
 // ^ 外部元件們
 
-function ZoneNavButton({ zone }) {
-    const { eventId, actID, areaID, zoneID } = useParams();
-        const type = (zone === zoneID) ? "primary" : "default"
-    
+function ZoneNavButton({ areaID, zone }) {
+    // ^ 接收 areaID 才能傳正確的 areaID，吃 Param 的話不會改
+    const { eventId, actID, zoneID } = useParams();
+    const type = (zone === zoneID) ? "primary" : "default"
+
     return (
         <Link to={`../${eventId}/${actID}/${areaID}/${zone}`}>
             <Button
@@ -21,4 +23,20 @@ function ZoneNavButton({ zone }) {
     );
 }
 
-export default ZoneNavButton;
+function ZoneNavBackButton() {
+    const { eventId } = useParams();
+
+    return (
+        <Link to={`../${eventId}`}>
+            <Button
+                type="default"
+                shape="circle"
+                className="btn"
+            >
+                <MdKeyboardBackspace />
+            </Button>
+        </Link>
+    );
+}
+
+export { ZoneNavButton, ZoneNavBackButton };

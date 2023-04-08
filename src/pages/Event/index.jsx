@@ -12,29 +12,34 @@ import { MdOutlineOpenInNew } from "react-icons/md";
 import { FloatGrop } from "../../components/FloatButton";
 import ActInfoItemList from "../../components/ActInfoItemList";
 import StallItemList from "../../components/StallItemList";
-import ZoneNavButton from "../../components/ZoneNavButton";
+import ZoneNav from "../../components/ZoneNav";
 // ^ 自家的元件們
 import events from "../../json/events.json";
 // ^ json
 
 
 function EventContent({ event }) {
-    // ^ 不會 export，只在這個檔案使用，用於決定「攤位一覽」的 tab children 要顯示什麼
+    // ^ 只在這個檔案使用，用於決定「攤位一覽」的 tab children 要顯示什麼
     // ^ 因為下面的 Event 都查好活動資料了，就順便一起傳進來給 ActInfoItemList 用
     const { eventId, actID, areaID, zoneID } = useParams();
     // ^ 讀 URL，如果沒有 zoneID == 使用者還沒有選區域，應該要顯示 Act
     // ^ 但其實也可以考慮看看：URL 只有到 act 可以顯示那天的活動總覽；只有到 area 可以顯示那層樓的活動總覽
     // ^ 只是如果攤位很多的話會不會當掉呢......?
+    const act = event.act.find(
+        (x) => x.id === actID
+    );
+    // ^ 要傳 act.area 給 ZoneNav，重查好麻煩
     return (
         <>
             {!zoneID ?
                 <ActInfoItemList event={event} /> :
                 <div>
-                    <p>{actID} {areaID} {zoneID}</p>
+                    {/* <p>{actID} {areaID} {zoneID}</p> */}
                     {/* ^ 測試用資料 */}
                     {/* 此處應放搜尋元件 */}
-                    <ZoneNavButton zone="B"/>
+                    <ZoneNav areas={act.area} />
                     <StallItemList />
+                    <ZoneNav areas={act.area} />
                 </div>
             }
         </>
@@ -101,7 +106,7 @@ function Event() {
                     items={tabItems}
                     className={styles.tabBox}
                 />
-                 <FloatGrop/>
+                <FloatGrop />
             </div>
         </div>
     );
