@@ -9,6 +9,7 @@ import { useParams } from "react-router-dom";
 import { Tabs } from 'antd';
 import { MdOutlineOpenInNew } from "react-icons/md";
 // ^ 外部元件們
+import { FloatGrop } from "../../components/FloatButton";
 import ActInfoItemList from "../../components/ActInfoItemList";
 import StallItemList from "../../components/StallItemList";
 import ZoneNavButton from "../../components/ZoneNavButton";
@@ -100,6 +101,7 @@ function Event() {
                     items={tabItems}
                     className={styles.tabBox}
                 />
+                 <FloatGrop/>
             </div>
         </div>
     );

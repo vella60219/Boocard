@@ -1,5 +1,7 @@
 import { Row , Col} from 'antd';
 import styles from './myFooter.module.css';
+import { FaBeer, FaFacebookF, FaInstagram, FaTwitter, FaYoutube, } from "react-icons/fa";
+{/* <FontAwesomeIcon icon={faFacebookF} /> */}
 
 function MyFooter() {
     return (
@@ -15,16 +17,16 @@ function MyFooter() {
                     </div>
                     <div className={`${styles.btnSection} ${styles.box}`}>
                         <a href='https://www.instagram.com/'>
-                            <img className={styles.btn} src="./images/btn_Instargram.png"/>
+                            <FaInstagram className={styles.icon}/>
                         </a>
                         <a href='https://zh-tw.facebook.com/'>
-                            <img className={styles.btn} src="./images/btn_Facebook.png"/>
+                            <FaFacebookF className={styles.icon}/>
                         </a>
                         <a href='https://twitter.com/Boocard_'>
-                        <img className={styles.btn} src="./images/btn_Twitter.png"/>
+                            <FaTwitter className={styles.icon}/>
                         </a>
                         <a href='https://www.youtube.com/'>
-                        <img className={styles.btn} src="./images/btn_Youtube.png"/>
+                            <FaYoutube className={styles.icon}/>
                         </a>
                     </div>
                 </Col>
