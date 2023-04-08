@@ -4,7 +4,7 @@ import { Row , Col} from 'antd';
 function Introduction(){
     return(
         <div className={`${styles.allSection} ${styles.box}`}>
-            <Row justify="center" gutter={[24, 24]} >
+            <Row justify="center" gutter={[24, 24]} className={styles.box}>
                 <Col 
                     xs = {{ span: 20}}
                     sm = {{ span: 20}}
