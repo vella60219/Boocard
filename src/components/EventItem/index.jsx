@@ -23,7 +23,7 @@ function EventItemS({ event }) {
                         {event.location}
                     </p>
                     <Meta title={event.name} className={`h2 ${styles.title}`} />
-                    <p>tags</p>
+                    <p style={{width:'inherit', flexWrap: 'true'}}>tags</p>
                     {/* ^ tag list */}
                 </Card>
             </Link>

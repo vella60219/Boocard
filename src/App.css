@@ -84,7 +84,7 @@ body {
   display: flex;
   align-self: center;
   margin: auto;
-  padding: 50px 0;
+  padding: 50px 20px;
   flex-direction: column;
   align-items: center;
 }
@@ -92,36 +92,36 @@ body {
 /* sm */
 @media (min-width: 576px) {
   .container {
-    width: 540px;
+    /* width: 540px; */
   }
 }
 
 /* md */
 @media (min-width: 768px) {
   .container {
-    width: 720px;
-    padding: 65px 0;
+    /* width: 720px; */
+    padding: 50px;
   }
 }
 
 /* lg */
 @media (min-width: 992px) {
   .container {
-    width: 960px;
+    /* width: 960px; */
   }
 }
 
 /* xl */
 @media (min-width: 1200px) {
   .container {
-    width: 1140px;
+    /* width: 1140px; */
   }
 }
 
 /* xxl */
 @media (min-width: 1400px) {
   .container {
-    width: 1320px;
+    /* width: 1320px; */
   }
 }
 
@@ -207,6 +207,8 @@ button {
   z-index: -1;
   height: fit-content;
   width: fit-content;
+  /* width: 100%; */
+  margin: 0 auto;
   background: linear-gradient(90deg, #FFA1B8 0%, #0495FF 100%);
 }
 

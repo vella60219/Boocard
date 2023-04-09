@@ -1,0 +1,13 @@
+.title {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+    .title {
+        margin-bottom: 41px;
+    }
+}
+
+.moreButton {
+    margin-top: 48px;
+}
