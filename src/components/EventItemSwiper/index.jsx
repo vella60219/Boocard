@@ -1,3 +1,4 @@
+// 接收多個活動資料，用 EventItemL map 為 list，裝在 Swiper
 import React, { useRef, useState } from "react";
 //      Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -8,16 +9,14 @@ import "swiper/css/navigation";
 import "./mySwiperStyle.css"
 //      import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
-// ^ Swiper 相關
+// ^^^ Swiper 相關，沒用到的東西我也不敢刪，他問題好多的感覺
 
 import styles from "./eventItemSwiper.module.css"
 // ^ styles
 import { IoChevronBackOutline, IoChevronForwardOutline } from "react-icons/io5";
-
+// ^ 外部元件們
 import { EventItemL } from "../EventItem";
 // ^ 自家的元件們
-
-// import events from "../../json/events.json"
 
 
 function EventItemSwiper({ events }) {

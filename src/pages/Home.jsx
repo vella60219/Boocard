@@ -2,12 +2,15 @@
 // boocard.vercel.app/
 import { Helmet } from "react-helmet-async"
 import { Link } from "react-router-dom";
+// ^ route 相關
 import { Button } from "antd";
+// ^ 外部元件們
 import Introduction from "../components/Introduction"
 import BackTop from "../components/FloatButton";
 import EventItemSwiper from "../components/EventItemSwiper";
-
+// ^ 自家的元件們
 import events from "../json/events.json"
+// ^ json
 
 function Home() {
     const title = "布卡 Boocard";
