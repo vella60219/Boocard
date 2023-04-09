@@ -4,7 +4,7 @@ import { Button } from 'antd';
 function HomeBanner(){
     return(
         <div className={style.H}>
-            <div className={style.Hs}>
+            <div>
                 <div >
                     <img
                         className={style.HImg}
@@ -32,12 +32,13 @@ function HomeBanner(){
     )
 }
 
-function CommonBanner(){
+function CommonBanner(event){
     return(
         <div>
             <img
                 className={style.CImg}
-                src='' 
+                src={event.image}
+                alt='banner'
             />
         </div>
     )
