@@ -8,7 +8,7 @@ export const lightTheme = {
     // colorTextFooter: '#ffffff',
     colorPrimary: "#FFA1B8",
     fontSize: '15px',
-    fontFamily:'Resource Han Rounded TW',
+    fontFamily: 'Resource Han Rounded TW',
   },
   components: {
     Header: {
@@ -32,7 +32,7 @@ export const lightTheme = {
       colorText: '#000000',
       paddingXS: 12,
       paddingXXS: 8,
-      lineHeight:2,
+      lineHeight: 2,
     },
     Drawer: {
       colorText: '#000000',
