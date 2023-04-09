@@ -3,18 +3,19 @@ import styles from "./eventItemList.module.css"
 // ^ styles
 import { Row, Col } from "antd";
 // ^ 外部元件們
-import {EventItemS} from "../EventItem";
+import { EventItemS } from "../EventItem";
 // ^ 自家的元件們
 
 function EventItemList({ events }) {
     return (
-        <Row gutter={[24, 24]} >
+        <Row gutter={[{ sm: 10, md: 15, xl: 20 }, { xs: 20, sm: 25, xl: 30 }]} justify="center" >
             {events.map(event => (
                 <Col
                     key={event.id}
-                    xs={{ span: 24 }}
+                    xs={{ span: 23 }}
                     sm={{ span: 12 }}
-                    lg={{ span: 6 }}
+                    lg={{ span: 8 }}
+                    xl={{ span: 6 }}
                 >
                     <EventItemS key={event.id} event={event} />
                 </Col>
