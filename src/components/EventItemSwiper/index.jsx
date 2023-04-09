@@ -12,6 +12,8 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 import styles from "./eventItemSwiper.module.css"
 // ^ styles
+import { IoChevronBackOutline, IoChevronForwardOutline } from "react-icons/io5";
+
 import { EventItemL } from "../EventItem";
 // ^ 自家的元件們
 
@@ -24,7 +26,7 @@ function EventItemSwiper() {
             <Swiper
                 slidesPerView={"auto"}
                 centeredSlides={true}
-                spaceBetween={50}
+                spaceBetween={110}
                 navigation={true}
                 loop={true}
                 autoplay={{
@@ -39,8 +41,13 @@ function EventItemSwiper() {
                         <EventItemL key={event.id} event={event} />
                     </SwiperSlide>
                 ))}
+                <div className={`swiper-button-prev ${styles.navigationButton}`}>
+                    <IoChevronBackOutline size={35} />
+                </div>
+                <div className={`swiper-button-next ${styles.navigationButton}`}>
+                    <IoChevronForwardOutline size={35}/>
+                </div>
             </Swiper>
-            <p>123</p>
         </div>
     );
 }

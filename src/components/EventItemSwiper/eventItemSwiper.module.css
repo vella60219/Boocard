@@ -1,10 +1,15 @@
 .box {
     width: 100vw;
-    
 }
 
 .slide {
     width: fit-content;
     height: fit-content;
     padding: 50px 0;
+}
+
+.navigationButton {
+    pointer-events: none;
+    background: transparent;
+    border: none;
 }
