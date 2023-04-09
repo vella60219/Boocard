@@ -1,4 +1,30 @@
-.tabBox{
+.bannerBox {
+    position: relative;
+    width: 100vw;
+    height: 275px;
+}
+
+.banner {
+    width: 100vw;
+    height: 275px;
+    /* ^ 我覺得 425px 有點太多了我先改掉 */
+    object-fit: cover;
+    object-position: top;
+    /* position: relative; */
+    z-index: -1;
+}
+
+.shade {
+    content: '';
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgba(75, 75, 75, 0) 25%, rgba(0, 0, 0, .35) 100%);
+}
+
+.tabBox {
     width: 100%;
 }
 

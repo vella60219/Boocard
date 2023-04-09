@@ -1,41 +1,41 @@
 @font-face {
     font-family: 'Resource Han Rounded TW';
     font-weight: 300;
-    src: url('./fonts/ResourceHanRoundedTW-Regular.ttf');
+    src: url('/fonts/ResourceHanRoundedTW-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Resource Han Rounded TW';
     font-weight: 400;
-    src: url('./fonts/ResourceHanRoundedTW-Normal.ttf');
+    src: url('/fonts/ResourceHanRoundedTW-Normal.ttf');
 }
 
 @font-face {
     font-family: 'Resource Han Rounded TW';
     font-weight: 500;
-    src: url('./fonts/ResourceHanRoundedTW-Medium.ttf') format('truetype');
+    src: url('/fonts/ResourceHanRoundedTW-Medium.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Resource Han Rounded TW';
     font-weight: 200;
-    src: url('./fonts/ResourceHanRoundedTW-Light.ttf') format('truetype');
+    src: url('/fonts/ResourceHanRoundedTW-Light.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Resource Han Rounded TW';
     font-weight: 800;
-    src: url('./fonts/ResourceHanRoundedTW-Heavy.ttf') format('truetype');
+    src: url('/fonts/ResourceHanRoundedTW-Heavy.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Resource Han Rounded TW';
     font-weight: 100;
-    src: url('./fonts/ResourceHanRoundedTW-ExtraLight.ttf') format('truetype');
+    src: url('/fonts/ResourceHanRoundedTW-ExtraLight.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Resource Han Rounded TW';
     font-weight: 700;
-    src: url('./fonts/ResourceHanRoundedTW-Bold.ttf') format('truetype');
+    src: url('/fonts/ResourceHanRoundedTW-Bold.ttf') format('truetype');
 }

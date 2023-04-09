@@ -33,6 +33,7 @@ function HomeBanner(){
 }
 
 function CommonBanner(event){
+    console.log(event.id)
     return(
         <div>
             <img

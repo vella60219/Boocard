@@ -13,6 +13,7 @@ import { FloatGrop } from "../../components/FloatButton";
 import ActInfoItemList from "../../components/ActInfoItemList";
 import StallItemList from "../../components/StallItemList";
 import ZoneNav from "../../components/ZoneNav";
+import { CommonBanner } from "../../components/Banner";
 // ^ 自家的元件們
 import events from "../../json/events.json";
 // ^ json
@@ -91,13 +92,19 @@ function Event() {
             // ^ 避免這個 tab 被 active，這樣很尷尬
         },
     ]
-
     return (
         <div>
             <Helmet>
                 <title>{title}</title>
             </Helmet>
-            {/* 此處應放 banner 元件 */}
+            <div className={styles.bannerBox}>
+            <img
+                className={styles.banner}
+                src={event.image}
+                alt='banner'
+            />
+            <div className={styles.shade}/>
+            </div>
             <div className="container">
                 <p className="h1">{event.name}</p>
                 <Tabs
