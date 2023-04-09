@@ -19,6 +19,10 @@
     border-radius: 25px;
 }
 
+.cardBoxLS {
+    width: 280px;
+}
+
 @media (min-width: 768px) {
     .cardBoxL {
         display: flex;
