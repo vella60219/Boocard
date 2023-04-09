@@ -17,10 +17,10 @@ import { IoChevronBackOutline, IoChevronForwardOutline } from "react-icons/io5";
 import { EventItemL } from "../EventItem";
 // ^ 自家的元件們
 
-import events from "../../json/events.json"
+// import events from "../../json/events.json"
 
 
-function EventItemSwiper() {
+function EventItemSwiper({ events }) {
     return (
         <div className={styles.box}>
             <Swiper
@@ -45,7 +45,7 @@ function EventItemSwiper() {
                     <IoChevronBackOutline size={35} />
                 </div>
                 <div className={`swiper-button-next ${styles.navigationButton}`}>
-                    <IoChevronForwardOutline size={35}/>
+                    <IoChevronForwardOutline size={35} />
                 </div>
             </Swiper>
         </div>
