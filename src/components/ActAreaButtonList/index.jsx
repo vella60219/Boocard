@@ -13,9 +13,10 @@ function ActAreaButtonList({ actID, areas }) {
             <Row gutter={[24, 24]} >
                 {areas.map(area => (
                     <Col
-                        className={styles.cardBoxL}
+                        className={`${styles.cardBoxL} ${styles.box}`} 
                         key={area.id}
                         lg={{ span: 24 }}
+                        xs={{ span: 24 }}
                     >
                         <p>{area.area_name}</p>
                         <Row gutter={[24, 24]} >
@@ -23,7 +24,9 @@ function ActAreaButtonList({ actID, areas }) {
                                 <Col
                                     className={styles.cardBoxL}
                                     key={zone}
-                                    lg={{ span: 3 }}
+                                    lg={{ span: 10 }}
+                                    sm ={{ span: 5 }}
+                                    xs={{ span: 3 }}
                                 >
                                     <ActAreaButton key={zone} actID={actID} areaID={area.id} zone={zone} />
                                 </Col>
