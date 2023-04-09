@@ -8,6 +8,7 @@ export const lightTheme = {
     // colorTextFooter: '#ffffff',
     colorPrimary: "#FFA1B8",
     fontSize: '15px',
+    fontFamily:'Resource Han Rounded TW',
   },
   components: {
     Header: {

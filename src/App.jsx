@@ -1,5 +1,6 @@
 import 'antd/dist/reset.css'
 import './App.css'
+import './font.css'
 
 import { Provider } from 'react-redux'
 import { PersistGate } from 'redux-persist/integration/react'
