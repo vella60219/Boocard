@@ -93,7 +93,7 @@ function Hamburger() {
         <div className={styles.box}>
             <NavLink to="/" className={styles.logoLink}>
                 <img
-                    src="/images/logo.svg"
+                    src="/images/logo.png"
                     alt="布卡 Boocard"
                     className={styles.logo}
                 />
