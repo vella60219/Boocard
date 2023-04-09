@@ -7,7 +7,6 @@ import { useParams, Link } from "react-router-dom";
 import RightTopButton from "../components/RightTopButton";
 import events from "../json/events.json"
 
-import EventItem from "../components/EventItem";
 import EventItemList from "../components/EventItemList";
 import { FloatGrop } from "../components/FloatButton";
 
@@ -28,7 +27,6 @@ function AllEvent() {
             <Helmet>
                 <title>{title}</title>
             </Helmet>
-            {/* <EventItem event={events[0]} /> */}
             <EventItemList events={events} />
             <FloatGrop/>
         </div>

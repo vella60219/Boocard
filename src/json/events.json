@@ -5,6 +5,7 @@
     "name": "C.W.T. x IFF",
     "time": "2022 03月31(五)-04月03日(一)",
     "location": "台北 世貿中心 ",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.",
     "website": "https://www.google.com.tw/",
     "act": [
       {
@@ -83,6 +84,7 @@
     "name": "ORV ONLY",
     "time": "2022 06月03(五)-06月05日(日)",
     "location": "台北 花博爭豔館 ",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.",
     "website": "https://www.google.com.tw/",
     "act": [
       {
@@ -161,6 +163,7 @@
     "name": "RHODSODY",
     "time": "2022 06月03(五)-06月04日(六)",
     "location": "台北 世貿中心 ",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.",
     "website": "https://www.google.com.tw/",
     "act": [
       {
@@ -239,6 +242,7 @@
     "name": "NOX ONLY",
     "time": "2022 06月11(五)-06月13日(日)",
     "location": "台北 南港展覽館 ",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.",
     "website": "https://www.google.com.tw/",
     "act": [
       {
@@ -310,12 +314,14 @@
         ]
       }
     ]
-  },  {
+  },
+  {
     "id": "5",
     "image": "/images/img_event_5.png",
     "name": "ICE",
     "time": "2022 06月15(六)-06月16日(日)",
     "location": "台北 世貿中心 ",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.",
     "website": "https://www.google.com.tw/",
     "act": [
       {
@@ -394,6 +400,7 @@
     "name": "IFF",
     "time": "2022 03月31(五)-04月03日(一)",
     "location": "台北 世貿中心 ",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. ",
     "website": "https://www.google.com.tw/",
     "act": [
       {
@@ -472,6 +479,7 @@
     "name": "ORV ONLY",
     "time": "2022 03月31(五)-04月03日(一)",
     "location": "台北 世貿中心 ",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.",
     "website": "https://www.google.com.tw/",
     "act": [
       {
@@ -550,6 +558,7 @@
     "name": "C.W.T.",
     "time": "2022 03月31(五)-04月03日(一)",
     "location": "台北 花博爭豔館 ",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "website": "https://www.google.com.tw/",
     "act": [
       {
@@ -621,12 +630,14 @@
         ]
       }
     ]
-  },  {
+  },
+  {
     "id": "9",
     "image": "/images/img_event_9.png",
     "name": "C.W.T. x IFF",
     "time": "2022 03月31(五)-04月03日(一)",
     "location": "台北 花博爭豔館 ",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.",
     "website": "https://www.google.com.tw/",
     "act": [
       {
@@ -705,6 +716,7 @@
     "name": "C.W.T. x IFF",
     "time": "2022 03月31(五)-04月03日(一)",
     "location": "台北 南港展覽館 ",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.",
     "website": "https://www.google.com.tw/",
     "act": [
       {
@@ -783,6 +795,7 @@
     "name": "C.W.T. x IFF",
     "time": "2022 03月31(五)-04月03日(一)",
     "location": "台北 世貿中心 ",
+    "info": "Lorem ipsum dolor sit amet.",
     "website": "https://www.google.com.tw/",
     "act": [
       {
@@ -861,6 +874,7 @@
     "name": "C.W.T. x IFF",
     "time": "2022 03月31(五)-04月03日(一)",
     "location": "台北 南港展覽館 ",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris.",
     "website": "https://www.google.com.tw/",
     "act": [
       {
@@ -933,5 +947,4 @@
       }
     ]
   }
-
 ]
