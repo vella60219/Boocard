@@ -9,6 +9,7 @@ import Introduction from "../components/Introduction"
 import BackTop from "../components/FloatButton";
 import EventItemSwiper from "../components/EventItemSwiper";
 import Searching from "../components/Searching";
+import { HomeBanner } from "../components/Banner";
 // ^ 自家的元件們
 import events from "../json/events.json"
 // ^ json
@@ -24,6 +25,7 @@ function Home() {
             <Helmet>
                 <title>{title}</title>
             </Helmet>
+            <HomeBanner/>
             <Searching/>
             <EventItemSwiper events={_events}/>
             <Introduction />
