@@ -162,8 +162,8 @@ body {
 
 .layoutFooter {
   grid-area: footer;
-
   background: #F7F9FC;
+  padding: 50px 6vw 10px 6vw !important;
 }
 
 /* other */
