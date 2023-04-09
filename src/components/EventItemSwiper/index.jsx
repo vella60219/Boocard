@@ -13,6 +13,8 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 import styles from "./eventItemSwiper.module.css"
 // ^ styles
+import { Link } from "react-router-dom";
+import { ConfigProvider, Button } from "antd";
 import { IoChevronBackOutline, IoChevronForwardOutline } from "react-icons/io5";
 // ^ 外部元件們
 import { EventItemL } from "../EventItem";
@@ -22,10 +24,11 @@ import { EventItemL } from "../EventItem";
 function EventItemSwiper({ events }) {
     return (
         <div className={styles.box}>
+            <h1 className={`h1 ${styles.title}`}>即將舉辦的活動</h1>
             <Swiper
                 slidesPerView={"auto"}
                 centeredSlides={true}
-                spaceBetween={110}
+                spaceBetween={100}
                 navigation={true}
                 loop={true}
                 autoplay={{
@@ -47,6 +50,12 @@ function EventItemSwiper({ events }) {
                     <IoChevronForwardOutline size={35} />
                 </div>
             </Swiper>
+            <Link
+                to={'event'}
+                className={`gradientBtn h2 ${styles.moreButton}`}
+            >
+                更多活動
+            </Link>
         </div>
     );
 }
