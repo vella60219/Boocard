@@ -28,7 +28,7 @@ function AllEvent() {
             <Helmet>
                 <title>{title}</title>
             </Helmet>
-            <SearchingEmp />
+            
             <EventItemList events={events} />
             <FloatGrop/>
         </div>
