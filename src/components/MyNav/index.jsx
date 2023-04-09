@@ -1,6 +1,6 @@
 import styles from './myNav.module.css';
 
-import { Menu } from 'antd';
+import { Menu, ConfigProvider } from 'antd';
 import { NavLink } from 'react-router-dom';
 import RightTopButton from '../RightTopButton';
 
@@ -57,6 +57,9 @@ function MyNav() {
                     className={styles.logo}
                 />
             </NavLink> */}
+            <ConfigProvider theme={{token:{
+                colorPrimary:'#ffffff'
+            }}}>
             <Menu
                 mode="horizontal"
                 items={navItems}
@@ -64,6 +67,7 @@ function MyNav() {
                 // onClick={getKey()}
                 className={styles.menu}
             />
+            </ConfigProvider>
             <div style={{ flexBasis: '1px' }} />    {/* 讓 menu 在 RWD 可以收起來 */}
             <RightTopButton />
         </div>
