@@ -10,6 +10,7 @@ import events from "../../json/events.json";
 
 import EventItemList from "../../components/EventItemList";
 import { FloatGrop } from "../../components/FloatButton";
+import { SearchingEmpty } from '../../components/Searching';
 
 function AllEvent() {
     const { tagName, searchKeyword } = useParams();
@@ -29,7 +30,9 @@ function AllEvent() {
                 <title>{title}</title>
             </Helmet>
             <h1 className={`h1 ${styles.title}`}>即將舉辦的活動</h1>
+            <SearchingEmpty/>
             <EventItemList events={events} />
+
             <FloatGrop />
             <Link
                 to
