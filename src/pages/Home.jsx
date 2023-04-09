@@ -8,6 +8,7 @@ import { Button } from "antd";
 import Introduction from "../components/Introduction"
 import BackTop from "../components/FloatButton";
 import EventItemSwiper from "../components/EventItemSwiper";
+import Searching from "../components/Searching";
 // ^ 自家的元件們
 import events from "../json/events.json"
 // ^ json
@@ -23,6 +24,7 @@ function Home() {
             <Helmet>
                 <title>{title}</title>
             </Helmet>
+            <Searching/>
             <EventItemSwiper events={_events}/>
             <Introduction />
             <BackTop />

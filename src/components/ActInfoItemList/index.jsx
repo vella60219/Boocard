@@ -11,7 +11,7 @@ import { ActInfoItemL, ActInfoItemS } from "../ActInfoItem";
 function ActInfoItemList({ event }) {
     const acts = event.act;
     return (
-        <Row gutter={[24, 24]} >
+        <Row gutter={[24, 24]} justify={"center"} className={styles.Rowbox} >
             {acts.map(act => (
                 <Col
                     className={styles.cardBoxL}
