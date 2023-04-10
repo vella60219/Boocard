@@ -1,5 +1,6 @@
 import style from'./banner.module.css'
 import { Button } from 'antd';
+import { useParams, Link } from "react-router-dom";
 
 function HomeBanner(){
     return(
@@ -13,17 +14,26 @@ function HomeBanner(){
                     />            
                 </div>
 
-
                 <div className={style.Htxv}>
                     <img
                         className={style.HLogo}
                         src='./images/logo_H.png'
                         alt='logo'
                     />
-                    <p className={style.Hxv_intro}>帶您在攤位的海洋中，掌握每個攤位的資訊，<br/> 快速找到您喜愛的創作者的攤位與商品！</p>
+                    <h2 className={style.Hxv_intro}>帶您在攤位的海洋中，掌握每個攤位的資訊，<br/> 快速找到您喜愛的創作者的攤位與商品！</h2>
                     <div className={style.btn}>
-                        <Button className={`${style.rgsbtn} `}>免費註冊</Button>
-                        <Button className={style.howbtn}>如何使用</Button>
+                        <Link
+                           
+                            className={` h2 ${style.freebtn}`}
+                        >
+                            免費註冊
+                        </Link>
+                        <Link
+
+                           className={` h2 ${style.howbtn}`}
+                       >
+                           如何使用
+                       </Link>
                     </div>
                 </div>                
             </div>
@@ -32,17 +42,5 @@ function HomeBanner(){
     )
 }
 
-function CommonBanner(event){
-    console.log(event.id)
-    return(
-        <div>
-            <img
-                className={style.CImg}
-                src={event.image}
-                alt='banner'
-            />
-        </div>
-    )
-}
 
-export {HomeBanner, CommonBanner};
+export {HomeBanner};
