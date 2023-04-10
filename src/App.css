@@ -232,3 +232,24 @@ button {
 .ant-menu-item-selected {
   font-weight: 700;
 }
+
+
+
+.ant-tabs-ink-bar {
+  background: linear-gradient(90deg, #FFA1B8 0%, #0495FF 100%) !important;
+}
+
+.ant-tabs-tab-btn {
+  color: #777777 !important;
+}
+
+.ant-tabs-tab-btn:hover {
+  color: #000000 !important;
+}
+
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #000000 !important;
+}
+
+/* ^ 用 ConfigProvider 改的話會有點尷尬，所以只好在這改
+      但其實我覺得用粉色也可以的說 */

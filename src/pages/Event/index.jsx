@@ -13,7 +13,7 @@ import { FloatGrop } from "../../components/FloatButton";
 import ActInfoItemList from "../../components/ActInfoItemList";
 import StallItemList from "../../components/StallItemList";
 import ZoneNav from "../../components/ZoneNav";
-import { CommonBanner } from "../../components/Banner";
+import { SearchingEmpty } from "../../components/Searching";
 // ^ 自家的元件們
 import events from "../../json/events.json";
 // ^ json
@@ -33,11 +33,14 @@ function EventContent({ event }) {
     return (
         <>
             {!zoneID ?
-                <ActInfoItemList event={event} /> :
+                <>
+                    <SearchingEmpty />
+                    <ActInfoItemList event={event} />
+                </> :
                 <div>
                     {/* <p>{actID} {areaID} {zoneID}</p> */}
                     {/* ^ 測試用資料 */}
-                    {/* 此處應放搜尋元件 */}
+                    <SearchingEmpty />
                     <ZoneNav areas={act.area} />
                     <StallItemList />
                     <ZoneNav areas={act.area} />
@@ -98,18 +101,21 @@ function Event() {
                 <title>{title}</title>
             </Helmet>
             <div className={styles.bannerBox}>
-            <img
-                className={styles.banner}
-                src={event.image}
-                alt='banner'
-            />
-            <div className={styles.shade}/>
+                <img
+                    className={styles.banner}
+                    src={event.image}
+                    alt='banner'
+                />
+                <div className={styles.shade} />
             </div>
             <div className="container">
                 <p className="h1">{event.name}</p>
                 <Tabs
                     defaultActiveKey="1"
                     centered
+                    tabBarStyle={{
+                        color: '#000000'
+                    }}
                     items={tabItems}
                     className={styles.tabBox}
                 />
