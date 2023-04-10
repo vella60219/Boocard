@@ -23,6 +23,7 @@ function EventItemS({ event }) {
                         {event.location}
                     </p>
                     <Meta title={event.name} className={`h2 ${styles.title}`} />
+                    {/* <p>　</p> */}
                     {/* <p style={{width:'inherit', flexWrap: 'true'}}>tags</p> */}
                     {/* ^ tag list */}
                 </Card>
@@ -52,9 +53,11 @@ function EventItemL({ event }) {
                         {event.location}
                     </p>
                     <Meta title={event.name} className={`h2 ${styles.title}`} />
-                    <Paragraph ellipsis={{ rows: 3, expandable: false }}>
-                        {event.info}
-                    </Paragraph>
+                    <div className={styles.pBoxL}>
+                        <Paragraph ellipsis={{ rows: 3, expandable: false }}>
+                            {event.info}
+                        </Paragraph>
+                    </div>
                     {/* <p>tags</p> */}
                     {/* ^ tag list */}
                 </Card>
@@ -73,9 +76,11 @@ function EventItemL({ event }) {
                         {event.location}
                     </p>
                     <Meta title={event.name} className={`h2 ${styles.title}`} />
-                    <Paragraph ellipsis={{ rows: 7, expandable: false }}>
-                        {event.info}
-                    </Paragraph>
+                    <div className={styles.pBoxS}>
+                        <Paragraph ellipsis={{ rows: 7, expandable: false }}>
+                            {event.info}
+                        </Paragraph>
+                    </div>
                     {/* <p>tags</p> */}
                     {/* ^ tag list */}
                 </Card>
