@@ -14,7 +14,9 @@ function MyFooter() {
                     lg={{ span: 10 }}
                 >
                     <div>
-                        <p className={`h3 ${styles.Stxv}`}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. </p>
+                        <p className={`h3 ${styles.Stxv}`}>布卡 Boocard是專為攤主和逛攤者設計的攤宣網站。</p>
+                        <p className={`h3 ${styles.Stxv}`}>攤主可以輕鬆製作攤宣網頁，推廣自己的攤位，讓您不再為攤位宣傳感到困擾；逛攤者可以提前瀏覽攤位的宣傳網頁，方便快速找到心儀的攤位，讓您不再遺漏想買的商品。</p>
+                        <p className={`h3 ${styles.Stxv}`}>布卡 Boocard 讓場次活動更加便捷與高效，為參與者們帶來無限便利。</p>
                     </div>
                     <div className={`${styles.btnSection} ${styles.box}`}>
                         <a href='https://www.instagram.com/'>
