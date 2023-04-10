@@ -23,7 +23,7 @@ function StallItemList() {
     // ^ 過濾出本活動的、在個 act 這個 area 這個 zone 的
 
     return (
-        <div>
+        <div className={styles.box}>
             <Row gutter={[15, 50]} justify={{ xs: 'center' }} >
                 {_stalls.map(stall => (
                     <Col

@@ -17,7 +17,7 @@ function ActAreaButton({ actID, areaID, zone }) {
                 <Button
                     type="default"
                     shape="round"
-                    className={`h3 ${styles.btn}`}
+                    className={`h3 btn ${styles.btn}`}
                 >
                     {zone}
                 </Button>

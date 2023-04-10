@@ -54,7 +54,7 @@ function BoothInfoCard({ booth }) {
     document.body.style.overflow = 'visible'
     // ^ 解決為了解決滾動條造成排版問題導致的打開 modal 網頁會跑到最頂部的問題
     // ^ 總之就是在有開跟沒開 modal 的狀態間切換成需要的狀態
-    
+
     return (
         <div className={styles.box}>
             <Button type="link" onClick={showModal} className={styles.cardBox}>
@@ -88,11 +88,8 @@ function BoothInfoCard({ booth }) {
                     </div>
                 }
                 {/* ^ Nav */}
-                <p>攤位ID：{booth.id}</p>
-                <div style={{ height: '500px' }} />
-                {/* ^ 測試資料用 */}
                 <div className={styles.contentBox}>
-                    {!nextPageMode ? <BoothInfoPage /> :
+                    {!nextPageMode ? <BoothInfoPage booth={booth} /> :
                         (ownerID !== "") ? <BoothOwnerInfoPage /> :
                             <BoothGoodsInfoPage />
                     }

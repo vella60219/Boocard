@@ -4,12 +4,15 @@ import styles from './boothInfoPage.module.css';
 import BoothGoodsItem from '../BoothGoodsItem';
 import BoothOwnerItem from '../BoothOwnerItem';
 
-function BoothInfoPage() {
+function BoothInfoPage({ booth }) {
 
     return (
         <div>
+            <p>攤位ID：{booth.id}</p>
+            <div style={{ height: '500px' }} />
+            {/* ^ 測試資料用 */}
             <BoothGoodsItem />
-            <BoothOwnerItem/>
+            <BoothOwnerItem />
         </div>
     );
 }
