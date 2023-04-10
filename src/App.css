@@ -28,6 +28,7 @@ html {
 body {
   font-family: 'Resource Han Rounded TW', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   line-height: 1.5;
+  width: 100vw;
 }
 
 /* Text */
@@ -152,17 +153,19 @@ body {
   position: sticky;
   top: 0;
   z-index: 1;
-  width: 100%;
+  width: 100vw;
   background: linear-gradient(90deg, #FFA1B8 0%, #0495FF 100%);
 }
 
 .layoutContent {
   grid-area: content;
+  width: 100vw;
 }
 
 .layoutFooter {
   grid-area: footer;
   background: #F7F9FC;
+  width: 100vw;
   padding: 50px 6vw 10px 6vw !important;
 }
 

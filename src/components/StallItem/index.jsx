@@ -25,7 +25,7 @@ function StallItem({ stall }) {
                 />}
             >
                 <Meta title={boothNumber} className={`h2 ${styles.title}`} />
-                <p>tags</p>
+                {/* <p>tags</p> */}
                 {/* ^ tag list */}
             </Card>
         </div>

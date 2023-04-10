@@ -1,3 +1,6 @@
+.box {
+    width: 100%;
+}
 
 .Htxv {
     color: #1F2933;
@@ -7,6 +10,12 @@
 
 .Stxv {
     color: #5E6B78;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+.StxvBox {
+    /* width: 100%; */
     margin-bottom: 10px;
 }
 
@@ -20,7 +29,7 @@ a.Stxv:hover {
         margin-bottom: 20px;
     }
 
-    .Stxv {
+    .StxvBox {
         margin-bottom: 15px;
     }
 }
@@ -40,6 +49,7 @@ a.Stxv:hover {
 }
 
 .Copy {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;

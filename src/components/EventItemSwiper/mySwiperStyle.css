@@ -6,10 +6,12 @@
   pointer-events: none;
 }
 
+.swiper-container{
+  /* width: 100%; */
+}
 
 .swiper-wrapper {
   z-index: -1;
-  
   /* pointer-events: none; */
 }
 
