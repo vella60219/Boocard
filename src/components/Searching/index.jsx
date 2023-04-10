@@ -1,5 +1,6 @@
 import { Input, Row, Col, Button, Tag } from 'antd';
 import { AiOutlineSearch } from "react-icons/ai";
+import { Link } from 'react-router-dom';
 import style from './searching.module.css'
 
 function Searching(){
@@ -20,9 +21,11 @@ function Searching(){
                 >
                     <div className={style.upsection}>
                         <Input placeholder="輸入關鍵字"  size="large" className={style.input}/>
-                        <Button shape="round" size='large' type="primary" className={`btn `}>
-                            搜尋 <AiOutlineSearch className={style.searchBtn}/>
-                        </Button>                    
+                        <Link
+                           className={` h3 ${style.searchbtn}`}
+                       >
+                           搜尋 <AiOutlineSearch className={style.searchBtn}/>
+                       </Link>                      
                     </div>
 
                 </Col>
@@ -58,7 +61,7 @@ function Searching(){
 
 function SearchingEmpty(){
     return(
-        <div >
+        <>
             <Row justify="center" gutter={[24, 24]} className={style.box}>
 
                 <Col
@@ -67,17 +70,19 @@ function SearchingEmpty(){
                     lg={{ span: 17 }}
                 >
                     <div className={style.upsection}>
-                        <Input placeholder="輸入關鍵字"  size="large" className={style.input}/>
-                        <Button shape="round" size='large' type="primary" className={`btn `}>
-                            搜尋 <AiOutlineSearch className={style.searchBtn}/>
-                        </Button>                    
+                        <Input placeholder="輸入關鍵字"  size="large" className={`${style.input} h3`}/>    
+                        <Link
+                           className={` h3 ${style.searchbtn}`}
+                       >
+                           搜尋 <AiOutlineSearch className={style.searchBtn}/>
+                       </Link>            
                     </div>
 
                 </Col>
                 <Col
                     xs={{ span: 20 }}
                     sm={{ span: 8 }}
-                    lg={{ span: 8 }}
+                    lg={{ span: 9 }}
                 >
                     <div className={style.HotTxv}>
                         <h3 className={style.txv}>#人氣搜尋關鍵字</h3>             
@@ -100,7 +105,7 @@ function SearchingEmpty(){
 
                 </Col>
             </Row>
-        </div>
+        </>
     )
 }
 
