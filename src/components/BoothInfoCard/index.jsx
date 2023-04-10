@@ -34,20 +34,33 @@ function BoothInfoCard({ booth }) {
     }
 
     const [open, setOpen] = useState(false);    // 用於控制 modal 使否開啟
-    const showModal = () => setOpen(true);      // 給按鈕用來打開 modal
+    const showModal = () => {      // 給按鈕用來打開 modal
+        document.body.style.overflow = 'hidden'
+        document.body.style.position = 'fixed'
+        // ^ 解決為了解決滾動條造成排版問題導致的打開 modal 網頁會跑到最頂部的問題
+        setOpen(true);
+    }
     const handleCancel = () => {                // 關掉 modal 用的，順便用 goBack 歸零
+        // document.body.style.overflowX = 'scroll'
         setOpen(false);
         goBack();
+        document.body.style.position = 'absolute'
+        document.body.style.overflowX = 'hidden'
+        document.body.style.overflowY = 'auto'
+        // ^ 解決為了解決滾動條造成排版問題導致的打開 modal 網頁會跑到最頂部的問題
     }
 
-
-
+    document.body.style.position = 'absolute'
+    document.body.style.overflow = 'visible'
+    // ^ 解決為了解決滾動條造成排版問題導致的打開 modal 網頁會跑到最頂部的問題
+    // ^ 總之就是在有開跟沒開 modal 的狀態間切換成需要的狀態
+    
     return (
-        <div>
-            <Button type="link" onClick={showModal} style={{ width: 'auto', height: 'auto' }}>
+        <div className={styles.box}>
+            <Button type="link" onClick={showModal} className={styles.cardBox}>
                 {/* <div style={{ width: '100px', height: '100px', background: 'red' }} /> */}
                 {/* ^ 測試用 style 和 div，事實是這裡應該要放 StallItem */}
-            <StallItem stall={booth}/>
+                <StallItem stall={booth} />
             </Button>
             <Modal
                 open={open}
@@ -75,7 +88,8 @@ function BoothInfoCard({ booth }) {
                     </div>
                 }
                 {/* ^ Nav */}
-                <p>{booth.id}</p>
+                <p>攤位ID：{booth.id}</p>
+                <div style={{ height: '500px' }} />
                 {/* ^ 測試資料用 */}
                 <div className={styles.contentBox}>
                     {!nextPageMode ? <BoothInfoPage /> :

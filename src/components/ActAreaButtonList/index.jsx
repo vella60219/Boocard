@@ -11,11 +11,13 @@ function ActAreaButtonList({ actID, areas }) {
     return (
         <div className={styles.box}>
             {areas.map(area => (
-                <div className={styles.listBox}>
+                <div
+                    className={styles.listBox}
+                    key={area.id}
+                >
                     <p className={styles.title}>{area.area_name}</p>
                     <div
                         className={`${styles.cardBoxL} ${styles.btnBox}`}
-                        key={area.id}
                     >
 
                         <Row gutter={[10, 5]} >

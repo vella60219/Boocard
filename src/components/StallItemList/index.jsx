@@ -24,13 +24,15 @@ function StallItemList() {
 
     return (
         <div>
-            <Row gutter={[24, 24]} >
+            <Row gutter={[15, 50]} justify={{ xs: 'center' }} >
                 {_stalls.map(stall => (
                     <Col
                         key={stall.id}
-                        xs={{ span: 24 }}
+                        xs={{ span: 22 }}
                         sm={{ span: 12 }}
-                        lg={{ span: 5 }}
+                        md={{ span: 8 }}
+                        lg={{ span: 6 }}
+                        xxl={{ span: 4 }}
                     >
                         <BoothInfoCard key={stall.id} booth={stall} />
                     </Col>
