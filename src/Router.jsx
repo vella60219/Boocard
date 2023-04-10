@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { HelmetProvider } from 'react-helmet-async'
 // ^ router 相關
 import { ConfigProvider } from 'antd';
@@ -17,6 +18,16 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 // ^ page 元件們
 
+const ScrollToTop = () => {
+    // Extracts pathname property(key) from an object
+    const { pathname } = useLocation();
+
+    // Automatically scrolls to top whenever pathname changes
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
+}
+
 function Router() {
     const lightMode = useSelector(selectLightMode);     // redux-persist 變數
     const theme = lightMode ? lightTheme : darkTheme;
@@ -25,6 +36,7 @@ function Router() {
         <ConfigProvider theme={theme} >     {/* theme 的 provider */}
             <HelmetProvider context={{}}>     {/* 網頁頁籤的字的 provider */}
                 <BrowserRouter>
+                    <ScrollToTop />
                     <Routes>
                         <Route path="/*" element={<PageLayout />}>
                             <Route index element={<Home />} />
