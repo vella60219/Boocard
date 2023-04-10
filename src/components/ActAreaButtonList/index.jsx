@@ -9,32 +9,28 @@ import ActAreaButton from "../ActAreaButton";
 function ActAreaButtonList({ actID, areas }) {
     // ^ 要給 ActAreaButton actID 去做 route，所以傳進來
     return (
-        <div>
-            <Row gutter={[24, 24]} >
-                {areas.map(area => (
-                    <Col
-                        className={`${styles.cardBoxL} ${styles.box}`} 
+        <div className={styles.box}>
+            {areas.map(area => (
+                <div className={styles.listBox}>
+                    <p className={styles.title}>{area.area_name}</p>
+                    <div
+                        className={`${styles.cardBoxL} ${styles.btnBox}`}
                         key={area.id}
-                        lg={{ span: 24 }}
-                        xs={{ span: 24 }}
                     >
-                        <p>{area.area_name}</p>
-                        <Row gutter={[24, 24]} >
+
+                        <Row gutter={[10, 5]} >
                             {area.zone.map(zone => (
                                 <Col
                                     className={styles.cardBoxL}
                                     key={zone}
-                                    lg={{ span: 10 }}
-                                    sm ={{ span: 5 }}
-                                    xs={{ span: 3 }}
                                 >
                                     <ActAreaButton key={zone} actID={actID} areaID={area.id} zone={zone} />
                                 </Col>
                             ))}
                         </Row>
-                    </Col>
-                ))}
-            </Row>
+                    </div>
+                </div>
+            ))}
         </div>
     );
 }

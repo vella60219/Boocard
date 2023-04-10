@@ -4,7 +4,6 @@ import styles from "./actInfoItem.module.css"
 import { Card } from "antd";
 const { Meta } = Card;
 // ^ 外部元件們
-import ActAreaButton from "../ActAreaButton";
 import ActAreaButtonList from "../ActAreaButtonList";
 // ^ 自家的元件們
 
@@ -13,7 +12,13 @@ function CardContent({ event, act }) {
     return (
         <div className={styles.infoBox}>
             <Meta title={act.act_name} className={`h2 ${styles.title}`} />
-            <ActAreaButtonList actID={act.id} areas={act.area} />
+            <div className={styles.infoBottomBox}>
+                <ActAreaButtonList actID={act.id} areas={act.area} />
+                <div className={styles.textBox}>
+                    <span className="h3">{act.act_time}</span>
+                    <span className="h3">{event.location}</span>
+                </div>
+            </div>
         </div>
     );
 }
@@ -27,7 +32,7 @@ function ActInfoItemL({ event, act }) {
                 size='default'
                 type='inner'
                 bordered={false}
-                bodyStyle={{ width: '42vw' }}
+                bodyStyle={{ width: '42vw', padding: '20px' }}
                 // ^ 控制卡片文字區塊的寬度
                 cover={
                     <div className={styles.imgBoxL}>
