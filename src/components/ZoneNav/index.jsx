@@ -10,7 +10,7 @@ function ZoneNav({ areas }) {
 
     return (
         <div className={styles.box}>
-            <Row gutter={[5, 5]} >
+            <Row gutter={[5, 5]} justify="center">
                 <ZoneNavBackButton />
                 {areas.map(area => (
                     area.zone.map(zone => (
