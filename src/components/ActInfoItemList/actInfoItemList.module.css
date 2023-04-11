@@ -1,0 +1,21 @@
+.cardBoxL {
+    display: none;
+}
+
+.Rowbox {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .cardBoxL {
+        display: block;
+    }
+}
+
+@media (min-width: 576px) {
+    .cardBoxS {
+        display: none;
+    }
+}

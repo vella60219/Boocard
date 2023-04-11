@@ -1,0 +1,30 @@
+.box {
+    width: 100%;
+    flex-direction: column;
+}
+
+.listBox {
+    width: 100%;
+    margin: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btnBox {
+    display: flex;
+    width: 100%;
+}
+
+.title {
+    margin: 0 20px 10px 0;
+}
+
+@media (min-width: 768px) {
+    .btnBox {
+        width: fit-content;
+    }
+
+    .title {
+        margin: auto 20px auto 0;
+    }
+}

@@ -1,0 +1,22 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* md */
+@media (min-width: 768px) {
+    .box {
+        display: none;
+    }
+}
+
+.logo {
+    height: 42px;
+    width: auto;
+    margin: 6px 0;
+}
+
+.logoLink {
+    margin-right: 4rem;
+}

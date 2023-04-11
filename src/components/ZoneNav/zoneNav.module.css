@@ -1,0 +1,12 @@
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+@media (min-width: 768px) {
+    .box {
+        margin: 40px 0;
+    }
+}

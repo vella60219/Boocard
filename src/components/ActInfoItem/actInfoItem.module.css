@@ -1,0 +1,85 @@
+.box {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.cardBoxL {
+    display: flex;
+    max-width: 987px;
+    max-height: 530px;
+    width: 77vw !important;
+    height: 70vh !important;
+    border-radius: 25px;
+}
+
+.cardBoxS {
+    width: 90vw;
+    height: auto;
+    border-radius: 25px;
+}
+
+.imageS {
+    height: 288px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px 25px 0 0 !important;
+    /* 不這樣的話完全改不了 Card 的 border-radius */
+}
+
+.imgBoxL {
+    height: 100%;
+}
+
+.imageL {
+    width: 35vw;
+    height: 70vh;
+
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px 0 0 25px !important;
+    /* ^ 不這樣的話完全改不了 Card 的 border-radius */
+}
+
+.infoBox {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    color: #1F2933;
+}
+
+.infoBottomBox {
+    width: 100%;
+}
+
+.textBox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.textBox span{
+    max-width: 50%;
+}
+
+@media (min-width: 768px) {
+    .infoBox {
+        padding: 20px 10px;
+    }
+
+    .title {
+        margin-bottom: auto;
+    }
+
+    .textBox {
+        margin-top: 40px;
+    }
+}

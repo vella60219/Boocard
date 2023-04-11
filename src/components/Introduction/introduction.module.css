@@ -1,0 +1,176 @@
+/* 沒有整理過 */
+
+/*img*/
+.img_star {
+    height: 76px;
+    width: 76px;
+    margin-right: 20px;
+}
+
+.imgBoxM {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgM {
+    /* height: 198px;
+    width: 238px; */
+    max-height: 100%;
+    max-width: 100%;
+    /* padding-top: 30px;
+    padding-bottom: -30px; */
+}
+
+.imgM1 {
+    height: 217px;
+    width: 182px;
+    padding-top: 30px;
+    margin-bottom: 60px;
+}
+
+.imgBoxS {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgS {
+    max-height: 100%;
+    max-width: 100%;
+    margin-bottom: 7px;
+}
+
+/*txv*/
+
+p {
+    margin: 0;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.2em;
+    /* margin-top: 40px; */
+}
+
+.startxv {
+    letter-spacing: 0.1em;
+    margin: 0px;
+}
+
+.txv {
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.txvS {
+    letter-spacing: 0.08rem;
+    color: #667080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*section*/
+
+.allSection {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.box {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.upsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+.middleSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.starSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 30px; */
+}
+
+.starSection2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.twitterSection {
+    height: 600px;
+}
+
+@media screen and (min-width: 576px) {
+
+    .imgM {
+        /* height: 377px;
+        width: 450px; */
+    }
+
+    .imgM1 {
+        height: 436px;
+        width: 364px;
+    }
+
+    .imgS {
+        margin-bottom: 17px;
+    }
+}
+
+@media (min-width: 992px) {
+    .imgBoxM {
+        height: 420px;
+    }
+
+    .starSection {
+        justify-content: flex-start;
+    }
+
+    .img_star {
+        height: 124px;
+        width: 124px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    /* 因為這頁用 lg 做 rwd 斷點，跟其他頁不一樣所以特別弄的 */
+    .title {
+        font-size: 2.2rem;
+        font-weight: 700;
+        line-height: 1.5;
+        letter-spacing: 0.2em;
+    }
+
+    .txv {
+        font-size: 1.7rem;
+        font-weight: 500;
+        line-height: 1.4;
+        letter-spacing: 0.1em;
+    }
+}
