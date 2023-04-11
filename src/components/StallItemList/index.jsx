@@ -26,7 +26,7 @@ function StallItemList() {
         <>
             {(_stalls.length === 0) ? <Empty description={false} /> :
                 <div className={styles.box}>
-                    <Row gutter={[15, 50]} justify={{ xs: 'center' }} >
+                    <Row gutter={[15, 20]} justify={{ xs: 'center' }} >
                         {_stalls.map(stall => (
                             <Col
                                 key={stall.id}
