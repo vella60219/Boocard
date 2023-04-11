@@ -16,6 +16,7 @@ function EventItemList({ events }) {
                     sm={{ span: 12 }}
                     lg={{ span: 8 }}
                     xl={{ span: 6 }}
+                    xxl={{ span: 4 }}
                 >
                     <EventItemS key={event.id} event={event} />
                 </Col>
