@@ -6,7 +6,7 @@ import { FaBeer, FaFacebookF, FaInstagram, FaTwitter, FaYoutube, } from "react-i
 function MyFooter() {
     return (
         <div className={styles.box}>
-            <Row gutter={[45, 0]} >
+            <Row gutter={[45, 30]} >
                 <Col
                     xs={{ span: 24 }}
                     sm={{ span: 22 }}
