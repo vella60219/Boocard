@@ -210,10 +210,20 @@ button {
 }
 
 
-/* 漸層字的按鈕，請為他上一個有 borderbox */
-
+/* 漸層字的按鈕，用法：
+  <div className={`borderBox borderBox3`}>（borderBox3 是框線寬度，也有 borderBox2）
+      <div className='gradientLineBtnBG'>
+          <Link
+              className={'gradientLineBtn'}
+          >
+              內容
+          </Link>
+      </div>
+  </div>
+*/
 .gradientLineBtnBG {
   background: #ffffff;
+  border-radius: 100px;
 }
 
 .gradientLineBtn {
