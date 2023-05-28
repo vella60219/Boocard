@@ -11,8 +11,8 @@ function RightTopButton() {
 
     const items = [
         {
-            label: (<Link to={'.'}>帳號資訊</Link>),
-            key: '1',
+            label: (<Link to={'/user/user_edit'}>帳號資訊</Link>),
+            key: 'user_edit',
         },
         {
             label: (<Link to={'.'}>我的吃土單</Link>),
