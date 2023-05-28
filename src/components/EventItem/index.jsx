@@ -16,6 +16,7 @@ function EventItemS({ event }) {
                         src={event.image}
                         className={styles.image}
                     />}
+                    Style={{ width: 'auto' }}
                 >
                     <p className={`h3 ${styles.date}`}>
                         {event.time}

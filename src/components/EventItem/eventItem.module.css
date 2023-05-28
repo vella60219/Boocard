@@ -4,12 +4,11 @@
 
 .cardBox {
     padding: 0;
-    /* width: 280px; */
+    width: 255px;
     height: auto;
     border-radius: 25px;
     cursor: pointer;
 }
-
 
 .cardBoxLS {
     min-width: 236px;
@@ -27,9 +26,9 @@
 
 .image {
     height: 172px;
-    width: auto;
+    width: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: top;
     border-radius: 25px 25px 0 0 !important;
     /* 不這樣的話完全改不了 Card 的 border-radius */
 }

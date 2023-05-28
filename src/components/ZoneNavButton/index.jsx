@@ -1,15 +1,17 @@
 import styles from "./zoneNavButton.module.css"
 // ^ styles
-import { Link, useParams } from "react-router-dom";
+import { Link, useParams, useSearchParams } from "react-router-dom";
 // ^ route 相關
 import { Button, ConfigProvider } from "antd";
 import { MdKeyboardBackspace } from "react-icons/md";
 // ^ 外部元件們
 
-function ZoneNavButton({ areaID, zone }) {
+function ZoneNavButton({ areaID, zoneID }) {
     // ^ 接收 areaID 才能傳正確的 areaID，吃 Param 的話不會改
-    const { eventId, actID, zoneID } = useParams();
-    const type = (zone === zoneID) ? "primary" : "default"
+    // const { eventId, actID, zoneID } = useParams();
+    const [searchParams, setSearchParams] = useSearchParams();
+    const zone = searchParams.get('zone');
+    const type = (zoneID === zone) ? "primary" : "default"
 
     return (
         <ConfigProvider theme={{
@@ -21,21 +23,23 @@ function ZoneNavButton({ areaID, zone }) {
                 colorPrimaryActive: '#ffffff',
             }
         }}>
-            <Link to={`../${eventId}/${actID}/${areaID}/${zone}`}>
                 <Button
                     type={type}
                     shape="circle"
                     className={`h3 btn ${styles.btn}`}
+                    onClick={() => {type==="default" ? setSearchParams({zone: zoneID}) : setSearchParams({})}}
                 >
-                    {zone}
+                    {zoneID}
                 </Button>
-            </Link>
+
         </ConfigProvider >
     );
 }
 
 function ZoneNavBackButton() {
     const { eventId } = useParams();
+    const [searchParams, setSearchParams] = useSearchParams();
+    const zone = searchParams.get('zone');
 
     return (
         <ConfigProvider theme={{
@@ -47,15 +51,14 @@ function ZoneNavBackButton() {
                 colorPrimaryActive: '#ffffff',
             }
         }}>
-            <Link to={`../${eventId}`}>
                 <Button
                     type="default"
                     shape="circle"
                     className={`h3 btn ${styles.btn}`}
+                    onClick={() => setSearchParams({})}
                 >
                     <MdKeyboardBackspace />
                 </Button>
-            </Link>
         </ConfigProvider>
     );
 }
