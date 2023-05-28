@@ -48,27 +48,6 @@ function Event() {
                 <StallItemList />
                 <ZoneNav areas={event.act[0].area} />
             </div>
-            {/* <div className={styles.bannerBox}>
-                <img
-                    className={styles.banner}
-                    src={event.image}
-                    alt='banner'
-                />
-                <div className={styles.shade} />
-            </div>
-            <div >
-                <p className="h1">{event.name}</p>
-                <Tabs
-                    defaultActiveKey="1"
-                    centered
-                    tabBarStyle={{
-                        color: '#000000'
-                    }}
-                    items={tabItems}
-                    className={styles.tabBox}
-                />
-                
-            </div> */}
             <FloatGrop />
         </div>
     );
