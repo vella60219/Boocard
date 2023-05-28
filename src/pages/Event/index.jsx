@@ -6,7 +6,7 @@ import styles from "./event.module.css"
 import { Helmet } from "react-helmet-async"
 import { useParams } from "react-router-dom";
 // ^ route 相關
-import { Tabs } from 'antd';
+import { Tabs, Row, Col } from 'antd';
 import { MdOutlineOpenInNew } from "react-icons/md";
 // ^ 外部元件們
 import { FloatGrop } from "../../components/FloatButton";
@@ -96,11 +96,28 @@ function Event() {
         },
     ]
     return (
-        <div>
+        <div className="container">
             <Helmet>
                 <title>{title}</title>
             </Helmet>
-            <div className={styles.bannerBox}>
+            <Row
+                gutter={[{ md: 100 }, 0]}
+            >
+                <Col
+                    md={{
+                        span: 7
+                    }}>
+                    <div className={`borderBox borderBox2`}>
+                        <img
+                            className={styles.image}
+                            src={event.image}
+                            alt='banner'
+                        />
+                    </div>
+                </Col>
+                <Col></Col>
+            </Row>
+            {/* <div className={styles.bannerBox}>
                 <img
                     className={styles.banner}
                     src={event.image}
@@ -108,7 +125,7 @@ function Event() {
                 />
                 <div className={styles.shade} />
             </div>
-            <div className="container">
+            <div >
                 <p className="h1">{event.name}</p>
                 <Tabs
                     defaultActiveKey="1"
@@ -119,8 +136,9 @@ function Event() {
                     items={tabItems}
                     className={styles.tabBox}
                 />
-                <FloatGrop />
-            </div>
+                
+            </div> */}
+            <FloatGrop />
         </div>
     );
 }
