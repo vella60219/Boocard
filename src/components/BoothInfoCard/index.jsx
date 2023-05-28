@@ -68,6 +68,7 @@ function BoothInfoCard({ booth }) {
                 closable={false}
                 destroyOnClose={true}
                 footer={null}
+                width={700}
             >
                 {nextPageMode ?
                     <div className={styles.navBox}>
