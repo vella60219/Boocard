@@ -15,8 +15,8 @@ function RightTopButton() {
             key: 'userEdit',
         },
         {
-            label: (<Link to={'.'}>我的吃土單</Link>),
-            key: '2',
+            label: (<Link to={'/user/memos'}>我的吃土單</Link>),
+            key: 'memos',
         },
         {
             label: (<Link to={'.'}>我的攤位</Link>),
