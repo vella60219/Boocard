@@ -1,16 +1,21 @@
 // 攤位資料：傳進來
 // act 資料：useParams
 import styles from "./stallItem.module.css"
-import { useParams, Link } from 'react-router-dom';
+import { useParams, useSearchParams, Link } from 'react-router-dom';
 import { Card } from "antd";
 const { Meta } = Card;
 
 function StallItem({ stall }) {
-    const { actID } = useParams();
-    const act = stall.booths.find(
-        (x) => x.actID.toUpperCase() === actID.toUpperCase()
+    const [searchParams, setSearchParams] = useSearchParams();
+    const act = searchParams.get("act");
+    // const { actID } = useParams();
+    // console.log(searchParams.get("act"))
+    const _act = act===null ? stall.booths[0] : stall.booths.find(
+        (x) => x.actID.toUpperCase() === act.toUpperCase()
     );
-    const boothNumber = `${act.zone}${act.number}`;
+    // const _act =  stall.booths[0]
+
+    const boothNumber = `${_act.zone}${_act.number}`;
 
     return (
         <div className="borderBox borderBox2">

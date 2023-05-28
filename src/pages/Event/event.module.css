@@ -60,9 +60,9 @@
 
 
 
-
-.image {
-    height: auto;
-    max-width: 100%;
-    border-radius: 27.5px;
+.box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
