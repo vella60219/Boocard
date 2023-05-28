@@ -255,11 +255,11 @@ function Introduction() {
                     </Col>
                 </Row>
             </Col>
-            <Col span={24}>
+            <Col span={23}>
                 <Row gutter={[0, { xs: 30, lg: 40 }]} justify="center">
-                    <Col span={24}><h2 className={`h1 ${styles.title}`}>喜愛逛場次的你，<br />可以利用Boocard ── </h2></Col>
+                    <Col span={20}><h2 className={`h1 ${styles.title}`}>喜愛逛場次的你，<br />可以利用Boocard ── </h2></Col>
                     <Col span={24}>
-                        <Row gutter={[110, 30]} justify="center">
+                        <Row gutter={[{xs:0 ,sm:110}, 30]} justify="center">
                             <Col
                                 xs={{ span: 20 }}
                                 lg={{ span: 9, order: 2 }}
@@ -273,10 +273,10 @@ function Introduction() {
                                 </div>
                             </Col>
                             <Col
-                                xs={{ span: 20 }}
-                                lg={{ span: 11 }}
+                                xs={{ span: 22 }}
+                                lg={{ span: 12 }}
                             >
-                                <Row gutter={[0, { xs: 30, lg: 34 }]} justify="center">
+                                <Row gutter={[30, { xs: 30, lg: 34 }]} justify="center">
                                     <Col span={24}>
                                         <div className={styles.starSection}>
                                             <img
@@ -313,11 +313,11 @@ function Introduction() {
                     </Col>
                 </Row>
             </Col>
-            <Col span={24}>
+            <Col span={23}>
                 <Row gutter={[0, { xs: 30, lg: 40 }]} justify="center">
-                    <Col span={24}><h2 className={`h1 ${styles.title}`}>身為創作者的你，<br />可以利用Boocard ── </h2></Col>
-                    <Col span={24}>
-                        <Row gutter={[110, 30]} justify="center">
+                    <Col span={23}><h2 className={`h1 ${styles.title}`}>身為創作者的你，<br />可以利用Boocard ── </h2></Col>
+                    <Col span={23}>
+                        <Row gutter={[{xs:0 ,sm:110}, 30]} justify="center">
                             <Col
                                 xs={{ span: 20 }}
                                 lg={{ span: 9 }}
@@ -331,7 +331,7 @@ function Introduction() {
                                 </div>
                             </Col>
                             <Col
-                                xs={{ span: 20 }}
+                                xs={{ span: 22 }}
                                 lg={{ span: 12 }}
                             >
                                 <Row gutter={[30, { xs: 30, lg: 34 }]} justify="center">

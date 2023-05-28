@@ -90,6 +90,13 @@ body {
   align-items: center;
 }
 
+/* xs */
+@media (min-width: 375px) {
+  .container {
+    /* width: 540px; */
+  }
+}
+
 /* sm */
 @media (min-width: 576px) {
   .container {
