@@ -18,7 +18,9 @@ function EventItemS({ event }) {
                     />}
                 >
                     <p className={`h3 ${styles.date}`}>
-                        {event.time}<br />
+                        {event.time}
+                    </p>
+                    <p className={`h3 ${styles.location}`}>
                         {event.location}
                     </p>
                     <Meta title={event.name} className={`h2 ${styles.title}`} />
@@ -51,7 +53,7 @@ function EventItemL({ event }) {
                     <p className={`h3 ${styles.date}`}>
                         {event.time}
                     </p>
-                    <p className={`h3 ${styles.date}`}>
+                    <p className={`h3 ${styles.location}`}>
                         {event.location}
                     </p>
                     <Meta title={event.name} className={`h2 ${styles.title}`} />
