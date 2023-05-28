@@ -186,7 +186,7 @@ function IntroductionE() {
 function Introduction() {
     return (
         <Row gutter={[0, 100]} className="container" justify="center">
-            <Col span={24}>
+            <Col span={20}>
                 <Row gutter={[0, { xs: 30, lg: 40 }]} justify="center">
                     <Col span={24}><h2 className={`h1 ${styles.title}`}>利用Boocard，<br />隨時隨地瀏覽場次攤宣，並提早規劃好吃土單！</h2></Col>
                     <Col span={24}>
