@@ -256,6 +256,12 @@
     .freebtnBox {
         padding: 2px;
     }
+
+    .freebtn {
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 

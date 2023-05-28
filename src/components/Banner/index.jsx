@@ -51,12 +51,14 @@ function HomeBanner() {
                 <h2 className={`h2 ${style.intro}`}>帶您在攤位的海洋中，掌握每個攤位的資訊，快速找到您喜愛的創作者的攤位與商品！</h2>
                 <div className={style.btnBox}>
                     <div className={`borderBox borderBox3 ${style.freebtnBox}`}>
-                        <Link
+                        <div className='gradientLineBtnBG'>
+                            <Link
 
-                            className={` h2 btn ${style.btn} ${style.freebtn}`}
-                        >
-                            免費註冊
-                        </Link>
+                                className={` h2 btn ${style.btn} ${style.freebtn}`}
+                            >
+                                免費註冊
+                            </Link>
+                        </div>
                     </div>
                     <Link
 
