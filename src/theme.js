@@ -37,6 +37,11 @@ export const lightTheme = {
     Drawer: {
       colorText: '#000000',
     },
+    Modal: {
+      borderRadiusLG: 30,
+      // ^ 做不到 rwd......暫時先用小的了
+      margin: 20,
+    },
   },
 };
 

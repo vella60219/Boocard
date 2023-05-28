@@ -1,6 +1,6 @@
 // StallItem會先在此包裝上modal再加入list，此頁管理 modal 和管理 modal 的 page
 import styles from './boothInfoCard.module.css';
-import { Button, Modal } from 'antd';
+import { Button, Modal, ConfigProvider } from 'antd';
 import { LeftOutlined, CloseOutlined } from '@ant-design/icons';
 import { useState } from 'react';
 
@@ -70,24 +70,37 @@ function BoothInfoCard({ booth }) {
                 footer={null}
                 width={700}
             >
-                {nextPageMode ?
-                    <div className={styles.navBox}>
-                        <Button
-                            type="default"
-                            shape='circle'
-                            icon={<LeftOutlined />}
-                            onClick={goBack}
-                        />
-                    </div> :
-                    <div className={styles.navBox} style={{ justifyContent: 'flex-end', }}>
-                        <Button
-                            type="default"
-                            shape='circle'
-                            icon={<CloseOutlined />}
-                            onClick={handleCancel}
-                        />
-                    </div>
-                }
+                <ConfigProvider theme={{
+                    token: {
+                        colorPrimary: '#FFA1B8',
+                        colorText: '#FFA1B8',
+                        colorBorder: '#FFA1B8',
+                        colorPrimaryHover: '#ffffff',
+                    }
+                }}>
+                    {nextPageMode ?
+                        <div className={styles.navBox}>
+                            <Button
+                                type="default"
+                                shape='circle'
+                                size='large'
+                                icon={<LeftOutlined />}
+                                onClick={goBack}
+                                className={styles.navBtn}
+                            />
+                        </div> :
+                        <div className={styles.navBox} style={{ justifyContent: 'flex-end', }}>
+                            <Button
+                                type="default"
+                                shape='circle'
+                                size='large'
+                                icon={<CloseOutlined />}
+                                onClick={handleCancel}
+                                className={styles.navBtn}
+                            />
+                        </div>
+                    }
+                </ConfigProvider>
                 {/* ^ Nav */}
                 <div className={styles.contentBox}>
                     {!nextPageMode ? <BoothInfoPage booth={booth} /> :

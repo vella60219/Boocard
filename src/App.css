@@ -290,3 +290,13 @@ button {
 
 /* ^ 用 ConfigProvider 改的話會有點尷尬，所以只好在這改
       但其實我覺得用粉色也可以的說 */
+/* 
+.ant-modal-content {
+  border-radius: 30px;
+}
+
+@media (min-width: 768px) {
+  .ant-modal-content {
+    border-radius: 50px;
+  }
+} */
