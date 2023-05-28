@@ -215,6 +215,11 @@ button {
   background: linear-gradient(90deg, #FFA1B8 0%, #0495FF 100%);
 }
 
+.borderBox0 {
+  padding: 1px;
+  border-radius: 10px;
+}
+
 .borderBox2 {
   padding: 2px;
   border-radius: 27.5px;

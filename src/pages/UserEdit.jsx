@@ -1,16 +1,17 @@
 import { Helmet } from "react-helmet-async"
+import UserEditPage from "../components/UserEditPage"
 
-function User_edit() {
+function UserEdit() {
     const title = "帳號資訊｜布卡 Boocard";
 
     return (
-        <div>
+        <div >
             <Helmet>
                 <title>{title}</title>
             </Helmet>
-            <p>This is User_edit page</p>
+            <UserEditPage />
         </div>
     );
 }
 
-export default User_edit;
+export default UserEdit;

@@ -16,7 +16,7 @@ import AllEvent from "./pages/AllEvent";
 import Event from "./pages/Event";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
-import User_edit from "./pages/User_edit";
+import UserEdit from "./pages/UserEdit";
 // ^ page 元件們
 
 const ScrollToTop = () => {
@@ -55,11 +55,14 @@ function Router() {
                                 <Route path="tag/:tagName" element={<AllEvent />} />  {/* 活動搜尋（tag）頁面 */}
                                 <Route path="search/:searchKeyword" element={<AllEvent />} />  {/* 活動搜尋（關鍵字）頁面 */}
                             </Route>
+                            <Route path="user" >   
+                                <Route path="userEdit" element={<UserEdit />} />   {/* 帳號資訊 */}
+                            </Route>
                         </Route>
                         <Route path="user" >     {/* 通常在登入、註冊頁面不出現通用 nav 和 footer */}
                             <Route path="login" element={<Login />} />     {/* 登入頁面 */}
                             <Route path="signup" element={<Signup />} />   {/* 註冊頁面 */}
-                            <Route path= "user_edit" element={<User_edit />} /> {/* 帳號資訊 */}
+                            {/*<Route path="userEdit" element={<UserEdit />} />    帳號資訊 */}
                         </Route>
                     </Routes>
                 </BrowserRouter>
