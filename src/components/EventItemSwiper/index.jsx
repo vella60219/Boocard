@@ -29,7 +29,7 @@ function EventItemSwiper({ events }) {
             <Swiper
                 slidesPerView={"auto"}
                 centeredSlides={true}
-                spaceBetween={100}
+                spaceBetween={40}
                 navigation={true}
                 loop={true}
                 autoplay={{
