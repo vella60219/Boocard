@@ -3,3 +3,7 @@
     align-items: center;
     justify-content: center;
 }
+
+.btn:hover {
+    background: #0495FF;
+}

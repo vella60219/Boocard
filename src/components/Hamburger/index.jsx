@@ -5,7 +5,7 @@ import { NavLink, Link } from 'react-router-dom';
 import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { selectLoginMode, setLoginMode } from '../../redux/loginSlice';
-
+import RightTopButton from '../RightTopButton';
 
 function Hamburger() {
     const LoginMode = useSelector(selectLoginMode);
@@ -91,19 +91,22 @@ function Hamburger() {
 
     return (
         <div className={styles.box}>
-            <NavLink to="/" className={styles.logoLink}>
-                <img
-                    src="/images/logo.png"
-                    alt="布卡 Boocard"
-                    className={styles.logo}
-                />
-            </NavLink>
-            <Button
-                type="text"
-                shape="circle"
-                icon={<MenuOutlined />}
-                onClick={showDrawer}
-                className='btn' />
+            <div className={styles.leftBox}>
+                <Button
+                    type="text"
+                    shape="circle"
+                    icon={<MenuOutlined />}
+                    onClick={showDrawer}
+                    className={`btn ${styles.drawerBtn}`} />
+                <NavLink to="/" className={styles.logoLink}>
+                    <img
+                        src="/images/logo.svg"
+                        alt="布卡 Boocard"
+                        className={styles.logo}
+                    />
+                </NavLink>
+            </div>
+            <RightTopButton />
             <ConfigProvider theme={{
                 token: {
                     colorText: '#000000'
