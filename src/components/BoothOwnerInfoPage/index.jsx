@@ -5,7 +5,7 @@ import styles from './boothOwnerInfoPage.module.css';
 import { useSelector } from 'react-redux';
 import { selectOwnerID } from '../../redux/modalSlice';
 
-function BoothOwnerInfoPage() {
+function BoothOwnerInfoPage({ booth }) {
     const ownerID = useSelector(selectOwnerID);
     return (
         <div>

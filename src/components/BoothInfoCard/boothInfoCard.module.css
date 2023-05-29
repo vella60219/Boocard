@@ -23,3 +23,7 @@
     align-items: center;
     height: auto;
 }
+
+.navBtn:hover {
+    background: #FFA1B8;
+}
