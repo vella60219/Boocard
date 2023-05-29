@@ -16,6 +16,8 @@ import AllEvent from "./pages/AllEvent";
 import Event from "./pages/Event";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import UserEdit from "./pages/UserEdit";
+import Memos from "./pages/Memos";
 
 // ^ page 元件們
 
@@ -55,7 +57,10 @@ function Router() {
                                 <Route path="tag/:tagName" element={<AllEvent />} />  {/* 活動搜尋（tag）頁面 */}
                                 <Route path="search/:searchKeyword" element={<AllEvent />} />  {/* 活動搜尋（關鍵字）頁面 */}
                             </Route>
-
+                            <Route path="user" >   
+                                <Route path="userEdit" element={<UserEdit />} />   {/* 帳號資訊 */}
+                                <Route path="memos" element={<Memos />} /> 
+                            </Route>
                         </Route>
                         <Route path="user" >     {/* 通常在登入、註冊頁面不出現通用 nav 和 footer */}
                             <Route path="login" element={<Login />} />     {/* 登入頁面 */}
