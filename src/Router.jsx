@@ -18,6 +18,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import UserEdit from "./pages/UserEdit";
 import Memos from "./pages/Memos";
+import MemosDetail from "./pages/MemosDetail";
 
 // ^ page 元件們
 
@@ -59,7 +60,9 @@ function Router() {
                             </Route>
                             <Route path="user" >   
                                 <Route path="userEdit" element={<UserEdit />} />   {/* 帳號資訊 */}
-                                <Route path="memos" element={<Memos />} /> 
+                                <Route path="memos" element={<Memos />} />
+                                <Route path="memos/memosDetail" element={<MemosDetail />} /> 
+                                
                             </Route>
                         </Route>
                         <Route path="user" >     {/* 通常在登入、註冊頁面不出現通用 nav 和 footer */}
