@@ -16,6 +16,8 @@ import AllEvent from "./pages/AllEvent";
 import Event from "./pages/Event";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import UserEdit from "./pages/UserEdit";
+import Memos from "./pages/Memos";
 
 // ^ page 元件們
 
@@ -54,6 +56,10 @@ function Router() {
                                 {/* 搜尋到時候會用 useSearchParams（吧），暫時先弄個暫定的網頁，我不知道 */}
                                 <Route path="tag/:tagName" element={<AllEvent />} />  {/* 活動搜尋（tag）頁面 */}
                                 <Route path="search/:searchKeyword" element={<AllEvent />} />  {/* 活動搜尋（關鍵字）頁面 */}
+                            </Route>
+                            <Route path="user">
+                                <Route path="userEdit" element={<UserEdit />} />
+                                <Route path="memos" element={<Memos />} />
                             </Route>
 
                         </Route>
