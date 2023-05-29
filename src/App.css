@@ -161,7 +161,8 @@ body {
   top: 0;
   z-index: 10;
   width: 100vw;
-  background: linear-gradient(90deg, #FFA1B8 0%, #0495FF 100%);
+  background: #F7F9FC;
+  /* background: linear-gradient(90deg, #FFA1B8 0%, #0495FF 100%); */
 }
 
 .layoutContent {
@@ -269,9 +270,22 @@ button {
 /* Antd */
 
 .ant-menu-item-selected {
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 
+.ant-menu-item-selected:not(:first-child)::after {
+  position: absolute;
+  z-index: 11;
+  left: 0;
+  bottom: 15px !important;
+  /* ^ 移動 active 的底線 */
+  content: " ";
+  width: auto;
+  padding: 0 inherit;
+  height: 2px;
+  background: linear-gradient(90deg, #FFA1B8 0%, #0495FF 100%) !important;
+
+}
 
 
 .ant-tabs-ink-bar {
