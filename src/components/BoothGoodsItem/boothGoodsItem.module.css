@@ -1,8 +1,8 @@
-.box{
+.box {
     margin: 40px 0;
 }
 
-.title{
+.title {
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
@@ -17,6 +17,7 @@
     width: auto;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 .cardBox {
@@ -38,6 +39,7 @@
     width: 100%;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 .cardBoxL {
@@ -49,12 +51,12 @@
     background: #F7F9FC;
 }
 
-.imgBoxL{
+.imgBoxL {
     width: 55%;
     height: 100%;
 
     overflow: hidden;
-    
+
     border-radius: 25px 0 0 25px !important;
 }
 
@@ -93,4 +95,11 @@
     .l {
         display: none;
     }
+}
+
+.r18Tag {
+    position: absolute;
+    left: 12px;
+    top: 11px;
+    padding: 0 10px;
 }

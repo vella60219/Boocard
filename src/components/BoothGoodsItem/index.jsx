@@ -2,11 +2,25 @@
 // 李雅淳覺得或許應該要有「大」、「小」兩種，可直接做兩個元件一起輸出，或是傳參數改變狀態
 // 點擊元件會進到下一頁（BoothGoodsInfoPage），並將點擊的品項 ID 指定給 goodsID
 import styles from './boothGoodsItem.module.css';
-import { Button, Card, Row, Col } from 'antd';
+import { Button, Card, Row, Col, Tag, ConfigProvider } from 'antd';
 const { Meta } = Card;
 
 import { useDispatch } from 'react-redux';
 import { setNextPageMode, setGoodsID } from '../../redux/modalSlice';
+
+function R18tag({ isR18 }) {
+    return (
+        <ConfigProvider theme={{
+            token: {
+                borderRadiusSM: '20px'
+            }
+        }}>
+            {isR18 ?
+                <Tag color="#FF2B2B" className={styles.r18Tag}>r18</Tag> : <></>
+            }
+        </ConfigProvider>
+    );
+}
 
 function BoothGoodsItemS({ good }) {
     const dispatch = useDispatch();
@@ -32,6 +46,7 @@ function BoothGoodsItemS({ good }) {
                     <p className={`h3 ${styles.name}`}>{good.goods_name}</p>
                     <p className={`h3 ${styles.price}`}>NT {good.price}</p>
                 </Card>
+                <R18tag isR18={good.r18} />
             </Button>
         </div>
     );
@@ -62,6 +77,7 @@ function BoothGoodsItemL({ good }) {
                         <p className={`h3 ${styles.price}`}>NT {good.price}</p>
                     </div>
                 </div>
+                <R18tag isR18={good.r18} />
             </Button>
         </div>
     );
