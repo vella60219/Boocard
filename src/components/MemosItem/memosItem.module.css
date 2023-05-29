@@ -5,7 +5,7 @@
 .box{
     height: 76px;
     width: 350px; 
-    border-radius: 27.5px;
+    border-radius: 50px;
     background: #fff; 
     display: flex;
     flex-direction: row;
@@ -20,6 +20,9 @@
 .arrow{
     margin-right: 25px;
     color: #0495FF;
+}
+.borderbox{
+    border-radius: 50px;
 }
 
 @media (min-width: 768px) {

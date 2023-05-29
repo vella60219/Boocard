@@ -9,11 +9,11 @@ function MemosItemList({ user }){
             {user.map(user =>(
                 <Col
                     key={user.id}
-                    xs={{ span: 20 }}
-                    sm={{ span: 20 }}
-                    lg={{ span: 20 }}
-                    xl={{ span: 20 }}
-                    xxl={{ span: 20 }}
+                    xs={{ span: 24 }}
+                    sm={{ span: 24 }}
+                    lg={{ span: 24 }}
+                    xl={{ span: 24 }}
+                    xxl={{ span: 24 }}
                 >    
                     <MemosItem key={user.id} user={user} />
                 </Col>
