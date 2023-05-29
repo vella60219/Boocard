@@ -4,7 +4,7 @@ import { Empty, Row, Col } from 'antd';
 import { Link, useSearchParams } from 'react-router-dom';
 import BoothGoodsItem from '../BoothGoodsItem';
 import { BoothOwnerItemList } from '../BoothOwnerItem';
-
+import BoothInfoItem from '../BoothInfoItem';
 import events from '../../json/events.json'
 
 function BoothHomePage({ booth }) {
@@ -29,14 +29,16 @@ function BoothHomePage({ booth }) {
                 </span>
             </div>
             {/* ^ 標題 */}
-            <BoothOwnerItemList owners={booth.owners} />
-
+            <div className={styles.infoBox}>
+                <BoothOwnerItemList owners={booth.owners} />
+                <BoothInfoItem booth={booth} />
+            </div>
             {/* <Empty description={false} /> */}
             <div style={{ height: '400px' }} />
             {/* ^ 測試資料用 */}
             <BoothGoodsItem />
 
-        </div>
+        </div >
     );
 }
 

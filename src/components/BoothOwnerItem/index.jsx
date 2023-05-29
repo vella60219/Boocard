@@ -95,7 +95,7 @@ function BoothOwnerItem({ owner }) {
 
 function BoothOwnerItemList({ owners }) {
     return (
-        <Row gutter={[0, { xs: 10, sm: 10, md: 20 }]}  className={styles.box} >
+        <Row gutter={[0, { xs: 10, sm: 20 }]} className={styles.box} >
             {owners.map(owner => (
                 <Col key={owner.id} span={24}>
                     <BoothOwnerItem key={owner.id} owner={owner} />

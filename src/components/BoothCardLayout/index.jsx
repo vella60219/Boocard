@@ -1,7 +1,7 @@
 // StallItem會先在此包裝上modal再加入list，此頁管理 modal 和管理 modal 的 page
 import styles from './boothCardLayout.module.css';
 import { Button, Modal, ConfigProvider } from 'antd';
-import { LeftOutlined, CloseOutlined } from '@ant-design/icons';
+import { IoClose, IoChevronBackOutline } from "react-icons/io5";
 import { useState } from 'react';
 
 import { useSelector, useDispatch } from 'react-redux';
@@ -12,7 +12,6 @@ import {
 } from '../../redux/modalSlice';
 
 import StallItem from '../StallItem';
-
 import BoothHomePage from '../BoothHomePage';
 import BoothOwnerInfoPage from '../BoothOwnerInfoPage';
 import BoothGoodsInfoPage from '../BoothGoodsInfoPage';
@@ -69,6 +68,7 @@ function BoothCardLayout({ booth }) {
                 destroyOnClose={true}
                 footer={null}
                 width={700}
+                bodyStyle={{ margin: "-20px -24px" }}
             >
                 <ConfigProvider theme={{
                     token: {
@@ -76,6 +76,7 @@ function BoothCardLayout({ booth }) {
                         colorText: '#FFA1B8',
                         colorBorder: '#FFA1B8',
                         colorPrimaryHover: '#ffffff',
+                        lineWidth: 2
                     }
                 }}>
                     {nextPageMode ?
@@ -84,9 +85,9 @@ function BoothCardLayout({ booth }) {
                                 type="default"
                                 shape='circle'
                                 size='large'
-                                icon={<LeftOutlined />}
+                                icon={<IoChevronBackOutline size={34} />}
                                 onClick={goBack}
-                                className={styles.navBtn}
+                                className={`btn ${styles.navBtn}`}
                             />
                         </div> :
                         <div className={styles.navBox} style={{ justifyContent: 'flex-end', }}>
@@ -94,9 +95,9 @@ function BoothCardLayout({ booth }) {
                                 type="default"
                                 shape='circle'
                                 size='large'
-                                icon={<CloseOutlined />}
+                                icon={<IoClose size={34} />}
                                 onClick={handleCancel}
-                                className={styles.navBtn}
+                                className={`btn ${styles.navBtn}`}
                             />
                         </div>
                     }
