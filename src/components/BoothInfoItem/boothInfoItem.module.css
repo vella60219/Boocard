@@ -23,19 +23,19 @@
     margin-bottom: 20px;
 }
 
-ul {
+.box ul {
     margin: 0;
     display: flex;
     flex-direction: column;
 }
 
-li {
+.box li {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
 }
 
-li p {
+.box li p {
     height: inherit;
     /* margin-bottom: 5px; */
 }
@@ -56,18 +56,18 @@ li p {
         border-right: 1px solid #ffa1b8;
     }
 
-    ul {
+    .box ul {
         flex: 1;
         margin-left: 30px;
     }
 
-    li {
+    .box li {
         display: flex;
         align-items: center;
         margin-bottom: 15px;
     }
 }
 
-li:last-child {
+.box li:last-child {
     margin-bottom: 0;
 }

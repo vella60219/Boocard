@@ -24,7 +24,9 @@ function BoothHomePage({ booth }) {
             <div>
                 <span className={`h3 ${styles.eventName}`}>{event.name}</span>
                 <span className={`h2 ${styles.boothLink}`}>
-                    <Link>#{_act.zone}{_act.number}</Link>
+                    <Link
+                    // to={`/booth/${booth.id}`}
+                    >#{_act.zone}{_act.number}</Link>
                     {/* ^ 預計會像噗浪一樣弄出一個新頁面 */}
                 </span>
             </div>
