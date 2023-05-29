@@ -224,6 +224,8 @@ button {
 .gradientLineBtnBG {
   background: #ffffff;
   border-radius: 100px;
+  width: fit-content;
+  height: fit-content;
 }
 
 .gradientLineBtn {
@@ -241,7 +243,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  z-index: -1;
+  z-index: 0;
   height: fit-content;
   width: fit-content;
   /* width: 100%; */

@@ -38,29 +38,33 @@ function EventItemSwiper({ events }) {
                 }}
                 modules={[Autoplay, Pagination, Navigation]}
                 className="mySwiper"
-                // ^ swiper 基礎設定
+            // ^ swiper 基礎設定
             >
                 {events.map(event => (
                     <SwiperSlide key={event.id} className={styles.slide}>
                         <EventItemL key={event.id} event={event} />
                     </SwiperSlide>
                 ))}
-                    {/* ^ 內容  */}
+                {/* ^ 內容  */}
                 <div className={`swiper-button-prev ${styles.navigationButton}`}>
                     <IoChevronBackOutline size={35} />
                 </div>
                 <div className={`swiper-button-next ${styles.navigationButton}`}>
                     <IoChevronForwardOutline size={35} />
                 </div>
-                    {/* ^ 左右切換鍵 */}
+                {/* ^ 左右切換鍵 */}
             </Swiper>
-            <Link
-                to={'event'}
-                className={`gradientBtn h2 ${styles.moreButton}`}
-            >
-                更多活動
-            </Link>
-                    {/* ^ 下方的更多活動鍵 */}
+            <div className={`borderBox borderBox2 ${styles.moreButton}`}>
+                <div className={`gradientLineBtnBG ${styles.moreButtonPadding}`}>
+                    <Link
+                        to={'event'}
+                        className={`gradientLineBtn h2`}
+                    >
+                        更多活動
+                    </Link>
+                </div>
+            </div>
+            {/* ^ 下方的更多活動鍵 */}
         </div>
     );
 }

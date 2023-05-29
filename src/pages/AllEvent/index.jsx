@@ -33,14 +33,19 @@ function AllEvent() {
             <SearchingEmpty />
             <EventItemList events={events} />
 
-            <BackTop />
-            <Link
-                to
-                className={`gradientBtn h2 ${styles.moreButton}`}
-            >
-                更多活動
-            </Link>
+
+            <div className={`borderBox borderBox2 ${styles.moreButton}`}>
+                <div className={`gradientLineBtnBG ${styles.moreButtonPadding}`}>
+                    <Link
+                        to
+                        className={`gradientLineBtn h2`}
+                    >
+                        更多活動
+                    </Link>
+                </div>
+            </div>
             {/* ^ 尚未實現先 render 指定筆數資料，然後再請求載入一定數量資料 */}
+            <BackTop />
         </div>
     );
 }
