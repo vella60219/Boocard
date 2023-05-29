@@ -1,5 +1,5 @@
 // StallItem會先在此包裝上modal再加入list，此頁管理 modal 和管理 modal 的 page
-import styles from './boothInfoCard.module.css';
+import styles from './boothCardLayout.module.css';
 import { Button, Modal, ConfigProvider } from 'antd';
 import { LeftOutlined, CloseOutlined } from '@ant-design/icons';
 import { useState } from 'react';
@@ -13,12 +13,12 @@ import {
 
 import StallItem from '../StallItem';
 
-import BoothInfoPage from '../BoothInfoPage';
+import BoothHomePage from '../BoothHomePage';
 import BoothOwnerInfoPage from '../BoothOwnerInfoPage';
 import BoothGoodsInfoPage from '../BoothGoodsInfoPage';
 
 
-function BoothInfoCard({ booth }) {
+function BoothCardLayout({ booth }) {
     // ^ 先隨便弄了一個 a 參數，下方只有一個 p 標籤用了他，證明資料有傳過來
     const nextPageMode = useSelector(selectNextPageMode);
     const ownerID = useSelector(selectOwnerID);
@@ -103,7 +103,7 @@ function BoothInfoCard({ booth }) {
                 </ConfigProvider>
                 {/* ^ Nav */}
                 <div className={styles.contentBox}>
-                    {!nextPageMode ? <BoothInfoPage booth={booth} /> :
+                    {!nextPageMode ? <BoothHomePage booth={booth} /> :
                         (ownerID !== "") ? <BoothOwnerInfoPage booth={booth} /> :
                             <BoothGoodsInfoPage booth={booth} />
                     }
@@ -114,4 +114,4 @@ function BoothInfoCard({ booth }) {
     );
 }
 
-export default BoothInfoCard;
+export default BoothCardLayout;

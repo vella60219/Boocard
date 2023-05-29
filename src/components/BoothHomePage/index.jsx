@@ -1,5 +1,5 @@
 // 攤位資訊頁面，從這裡可以點進去攤主的自我介紹頁面和品項頁面
-import styles from './boothInfoPage.module.css';
+import styles from './boothHomePage.module.css';
 import { Empty, Row, Col } from 'antd';
 import { Link, useSearchParams } from 'react-router-dom';
 import BoothGoodsItem from '../BoothGoodsItem';
@@ -7,7 +7,7 @@ import { BoothOwnerItemList } from '../BoothOwnerItem';
 
 import events from '../../json/events.json'
 
-function BoothInfoPage({ booth }) {
+function BoothHomePage({ booth }) {
     const event = events.find(
         (x) => x.id === booth.eventID
     );
@@ -40,4 +40,4 @@ function BoothInfoPage({ booth }) {
     );
 }
 
-export default BoothInfoPage;
+export default BoothHomePage;
