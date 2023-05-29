@@ -1,0 +1,37 @@
+.content{
+    width: 100%;
+}
+
+.box{
+    height: 76px;
+    width: 350px; 
+    border-radius: 27.5px;
+    background: #fff; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.txv{
+    margin-left: 25px;
+}
+
+.arrow{
+    margin-right: 25px;
+    color: #0495FF;
+}
+
+@media (min-width: 768px) {
+
+    .box{
+        width: 700px; 
+    }
+}
+
+@media (min-width: 992px) {
+
+    .box{
+        width: 700px; 
+    }
+}

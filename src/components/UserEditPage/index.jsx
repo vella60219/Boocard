@@ -3,6 +3,7 @@ import { Row, Col, Card, Avatar } from "antd";
 import { AiTwotoneSetting } from "react-icons/ai";
 import { TfiMenuAlt } from "react-icons/tfi";
 import { FaUser, FaQuestionCircle } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 // ^ 外部元件們
 
 const { Meta } = Card;
@@ -77,15 +78,17 @@ function UserEditPage(){
                         lg={{ span: 12 }}
                         >  
                             <div className={`${styles.cardBox}`}>
-                                <Card
-                                bordered={false}
-                                >
-                                    <Meta
-                                        avatar={<TfiMenuAlt style={{ color: "#000", height: "30px", width: "30px" }}/> }
-                                        title="吃土單"
-                                        description="匯出你的吃土單"
-                                    />
-                                </Card>                            
+                                <Link to={'/user/memos'}>
+                                    <Card
+                                    bordered={false}
+                                    >
+                                        <Meta
+                                            avatar={<TfiMenuAlt style={{ color: "#000", height: "30px", width: "30px" }}/> }
+                                            title="吃土單"
+                                            description="匯出你的吃土單"
+                                        />
+                                    </Card>     
+                                </Link>                       
                             </div>  
 
                         </Col>

@@ -1,9 +1,13 @@
 import styles from "./memos.module.css"
 import { Row, Col, Breadcrumb } from "antd";
+import { Link } from 'react-router-dom';
+
+import MemosItem from "../MemosItem";
+import MemosItemList from "../MemosItemList";
 
 // ^ 外部元件們
 
-function MemosPage(){
+function MemosPage({ user }){
     return(
         <div className={`${styles.content}`}>
             <Row gutter={[5, 5]} justify="space-around">
@@ -47,7 +51,7 @@ function MemosPage(){
                     <Breadcrumb
                         items={[
                         {
-                            title: <a href="">帳戶儀錶板</a>,
+                            title: <Link to={'/user/userEdit'}>帳號資訊</Link>,
                         },
                         {
                             title: '吃土單',
@@ -56,6 +60,7 @@ function MemosPage(){
                     />
                     <p className={`h1`}>工藤勞熟 的 吃土單</p>
                     <p className={`h2 ${styles.actTxv}`}>所有活動</p>
+                    <MemosItemList user={user}/>
                 </Col>
             </Row> 
         </div>
