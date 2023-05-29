@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async"
-import UserEditPage from "../../components/UserEditPage";
+import MemosPage from "../../components/Memos";
 
 function Memos() {
     const title = "我的吃土單｜布卡 Boocard";
@@ -9,7 +9,7 @@ function Memos() {
             <Helmet>
                 <title>{title}</title>
             </Helmet>
-            <p>This is memos page</p>
+            <MemosPage />
         </div>
     );
 }

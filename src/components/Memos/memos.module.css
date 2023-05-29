@@ -1,0 +1,40 @@
+.content{
+    height: 800px;
+    margin-top: 50px;
+}
+
+.leftBox{
+    /* padding-left: 120px; */
+    display: flex;
+    
+}
+
+.leftImg{
+    height: 144px;
+    width: 144px;
+}
+
+.actTxv{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.leftTxv{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* margin-right: 120px;
+    margin-left: 30px; */
+}
+
+@media (min-width: 992px) {
+
+    .content {
+        /* width: 400px; */
+        height: 600px;
+        margin-top: 50px;
+    }
+    .leftTxv{
+        justify-content: end;
+    }
+}
