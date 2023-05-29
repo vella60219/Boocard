@@ -3,6 +3,19 @@
     margin: 0;
 }
 
+.colBoxS{
+    display: flex;
+    justify-content: center;
+}
+
+.boxS {
+    height: auto;
+    width: 100%;
+    max-width: 329px;
+    margin: 0;
+    padding: 0;
+}
+
 .buttonBox {
     height: auto;
 }
@@ -16,10 +29,24 @@
     height: 100%;
 }
 
+.cardBoxS {
+    margin: 0;
+    padding: 15px 20px;
+    border: 2px solid #FFA1B8;
+    border-radius: 30px;
+    height: 100%;
+    width: inherit;
+}
+
 .iconBox {
     width: auto;
     margin-right: 0;
     margin-bottom: 10px;
+}
+
+.iconBoxS {
+    width: auto;
+    margin-right: 10px;
 }
 
 .img {
@@ -33,6 +60,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.infoBoxS {
+    flex: 1;
+    max-width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
 .textName {
@@ -49,6 +84,20 @@
     margin-bottom: 10px;
 }
 
+.textNameS {
+    width: 100%;
+    color: #1F2933;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: start;
+    font-weight: 500;
+}
+
+.textIntroS {
+    width: 100%;
+    margin: 0 !important;
+}
+
 @media (min-width: 576px) {
     .cardBox {
         padding: 20px 40px;
@@ -62,11 +111,5 @@
     .infoBox {
         flex: 1;
         width: auto;
-    }
-}
-
-@media (min-width: 768px) {
-    .box {
-        padding: 20px 40px;
     }
 }

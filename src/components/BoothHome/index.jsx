@@ -1,13 +1,14 @@
 // 攤位資訊頁面，從這裡可以點進去攤主的自我介紹頁面和品項頁面
-import styles from './boothInfoPage.module.css';
+import styles from './boothHomePage.module.css';
 import { Empty, Row, Col } from 'antd';
 import { Link, useSearchParams } from 'react-router-dom';
 import BoothGoodsItem from '../BoothGoodsItem';
-import { BoothOwnerItemList } from '../BoothOwnerItem';
-
+import { BoothOwnerItemList, BoothOwnerItemListS } from '../BoothOwnerItem';
+import BoothInfoItem from '../BoothInfoItem';
+import { BoothGoodsItemList } from '../BoothGoodsItem';
 import events from '../../json/events.json'
 
-function BoothInfoPage({ booth }) {
+function BoothHomePage({ booth }) {
     const event = events.find(
         (x) => x.id === booth.eventID
     );
@@ -24,20 +25,24 @@ function BoothInfoPage({ booth }) {
             <div>
                 <span className={`h3 ${styles.eventName}`}>{event.name}</span>
                 <span className={`h2 ${styles.boothLink}`}>
-                    <Link>#{_act.zone}{_act.number}</Link>
+                    <Link
+                    // to={`/booth/${booth.id}`}
+                    >#{_act.zone}{_act.number}</Link>
                     {/* ^ 預計會像噗浪一樣弄出一個新頁面 */}
                 </span>
             </div>
             {/* ^ 標題 */}
-            <BoothOwnerItemList owners={booth.owners} />
-
+            <div className={styles.infoBox}>
+                <BoothOwnerItemList owners={booth.owners} />
+                <BoothInfoItem booth={booth} />
+            </div>
             {/* <Empty description={false} /> */}
-            <div style={{ height: '400px' }} />
+            {/* <div style={{ height: '400px' }} /> */}
             {/* ^ 測試資料用 */}
-            <BoothGoodsItem />
-
-        </div>
+            <BoothGoodsItemList goods={booth.goods} />
+            <BoothOwnerItemListS owners={booth.owners} />
+        </div >
     );
 }
 
-export default BoothInfoPage;
+export default BoothHomePage;

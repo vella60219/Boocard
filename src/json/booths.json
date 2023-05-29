@@ -11,6 +11,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -19,6 +20,7 @@
             {
                 "actID": "day-2",
                 "act": "DAY 2",
+                "day": "4/1",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -75,6 +77,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -87,6 +91,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": true,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -96,10 +102,23 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
                     "我全都要"
+                ]
+            },
+            {
+                "id": "4",
+                "goods_name": "原創插畫集",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 250,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
                 ]
             }
         ]
@@ -116,6 +135,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -152,6 +172,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -164,6 +186,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -173,6 +197,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -193,6 +219,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -229,6 +256,8 @@
             {
                 "id": "1",
                 "goods_name": "期末葵花寶典",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 180,
                 "intro": "欲練此功必先",
                 "styles": [
@@ -240,6 +269,8 @@
             {
                 "id": "2",
                 "goods_name": "攤主加持",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 666,
                 "intro": "有總比沒有好，對吧",
                 "styles": [
@@ -251,6 +282,8 @@
             {
                 "id": "3",
                 "goods_name": "攤主加持---過的文具",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 100,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -271,6 +304,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -307,6 +341,8 @@
             {
                 "id": "1",
                 "goods_name": "新鮮的肝",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 180,
                 "intro": "新鮮現採，買到賺到",
                 "styles": [
@@ -319,6 +355,8 @@
             {
                 "id": "2",
                 "goods_name": "肝硬化",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 50,
                 "intro": "cirrhosis",
                 "styles": [
@@ -342,6 +380,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -378,6 +417,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -390,6 +431,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -399,6 +442,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -419,6 +464,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -455,6 +501,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -467,6 +515,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -476,6 +526,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -496,6 +548,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -532,6 +585,8 @@
             {
                 "id": "1",
                 "goods_name": "期末葵花寶典",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 180,
                 "intro": "欲練此功必先",
                 "styles": [
@@ -543,6 +598,8 @@
             {
                 "id": "2",
                 "goods_name": "攤主加持",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 666,
                 "intro": "有總比沒有好，對吧",
                 "styles": [
@@ -554,6 +611,8 @@
             {
                 "id": "3",
                 "goods_name": "攤主加持---過的文具",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 100,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -574,6 +633,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -610,6 +670,8 @@
             {
                 "id": "1",
                 "goods_name": "新鮮的肝",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 180,
                 "intro": "新鮮現採，買到賺到",
                 "styles": [
@@ -622,6 +684,8 @@
             {
                 "id": "2",
                 "goods_name": "肝硬化",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 50,
                 "intro": "cirrhosis",
                 "styles": [
@@ -645,6 +709,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -681,6 +746,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -693,6 +760,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -702,6 +771,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -722,6 +793,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -758,6 +830,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -770,6 +844,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -779,6 +855,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -799,6 +877,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -835,6 +914,8 @@
             {
                 "id": "1",
                 "goods_name": "期末葵花寶典",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 180,
                 "intro": "欲練此功必先",
                 "styles": [
@@ -846,6 +927,8 @@
             {
                 "id": "2",
                 "goods_name": "攤主加持",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 666,
                 "intro": "有總比沒有好，對吧",
                 "styles": [
@@ -857,6 +940,8 @@
             {
                 "id": "3",
                 "goods_name": "攤主加持---過的文具",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 100,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -877,6 +962,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -913,6 +999,8 @@
             {
                 "id": "1",
                 "goods_name": "新鮮的肝",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 180,
                 "intro": "新鮮現採，買到賺到",
                 "styles": [
@@ -925,6 +1013,8 @@
             {
                 "id": "2",
                 "goods_name": "肝硬化",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 50,
                 "intro": "cirrhosis",
                 "styles": [
@@ -948,6 +1038,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -984,6 +1075,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -996,6 +1089,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -1005,6 +1100,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -1025,6 +1122,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -1061,6 +1159,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -1073,6 +1173,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -1082,6 +1184,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -1102,6 +1206,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -1138,6 +1243,8 @@
             {
                 "id": "1",
                 "goods_name": "期末葵花寶典",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 180,
                 "intro": "欲練此功必先",
                 "styles": [
@@ -1149,6 +1256,8 @@
             {
                 "id": "2",
                 "goods_name": "攤主加持",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 666,
                 "intro": "有總比沒有好，對吧",
                 "styles": [
@@ -1160,6 +1269,8 @@
             {
                 "id": "3",
                 "goods_name": "攤主加持---過的文具",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 100,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -1180,6 +1291,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -1216,6 +1328,8 @@
             {
                 "id": "1",
                 "goods_name": "新鮮的肝",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 180,
                 "intro": "新鮮現採，買到賺到",
                 "styles": [
@@ -1228,6 +1342,8 @@
             {
                 "id": "2",
                 "goods_name": "肝硬化",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 50,
                 "intro": "cirrhosis",
                 "styles": [
@@ -1251,6 +1367,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -1287,6 +1404,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -1299,6 +1418,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -1308,6 +1429,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -1328,6 +1451,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -1364,6 +1488,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -1376,6 +1502,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -1385,6 +1513,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -1405,6 +1535,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -1441,6 +1572,8 @@
             {
                 "id": "1",
                 "goods_name": "期末葵花寶典",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 180,
                 "intro": "欲練此功必先",
                 "styles": [
@@ -1452,6 +1585,8 @@
             {
                 "id": "2",
                 "goods_name": "攤主加持",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 666,
                 "intro": "有總比沒有好，對吧",
                 "styles": [
@@ -1463,6 +1598,8 @@
             {
                 "id": "3",
                 "goods_name": "攤主加持---過的文具",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 100,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -1483,6 +1620,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -1519,6 +1657,8 @@
             {
                 "id": "1",
                 "goods_name": "新鮮的肝",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 180,
                 "intro": "新鮮現採，買到賺到",
                 "styles": [
@@ -1531,6 +1671,8 @@
             {
                 "id": "2",
                 "goods_name": "肝硬化",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 50,
                 "intro": "cirrhosis",
                 "styles": [
@@ -1554,6 +1696,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -1590,6 +1733,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -1602,6 +1747,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -1611,6 +1758,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -1631,6 +1780,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -1667,6 +1817,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -1679,6 +1831,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -1688,6 +1842,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -1708,6 +1864,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -1744,6 +1901,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -1756,6 +1915,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -1765,6 +1926,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -1785,6 +1948,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -1821,6 +1985,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -1833,6 +1999,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -1842,6 +2010,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -1862,6 +2032,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -1898,6 +2069,8 @@
             {
                 "id": "1",
                 "goods_name": "期末葵花寶典",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 180,
                 "intro": "欲練此功必先",
                 "styles": [
@@ -1909,6 +2082,8 @@
             {
                 "id": "2",
                 "goods_name": "攤主加持",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 666,
                 "intro": "有總比沒有好，對吧",
                 "styles": [
@@ -1920,6 +2095,8 @@
             {
                 "id": "3",
                 "goods_name": "攤主加持---過的文具",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 100,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -1940,6 +2117,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -1976,6 +2154,8 @@
             {
                 "id": "1",
                 "goods_name": "新鮮的肝",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 180,
                 "intro": "新鮮現採，買到賺到",
                 "styles": [
@@ -1988,6 +2168,8 @@
             {
                 "id": "2",
                 "goods_name": "肝硬化",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 50,
                 "intro": "cirrhosis",
                 "styles": [
@@ -2011,6 +2193,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2047,6 +2230,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -2059,6 +2244,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -2068,6 +2255,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -2088,6 +2277,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2124,6 +2314,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -2136,6 +2328,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -2145,6 +2339,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -2165,6 +2361,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2201,6 +2398,8 @@
             {
                 "id": "1",
                 "goods_name": "期末葵花寶典",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 180,
                 "intro": "欲練此功必先",
                 "styles": [
@@ -2212,6 +2411,8 @@
             {
                 "id": "2",
                 "goods_name": "攤主加持",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 666,
                 "intro": "有總比沒有好，對吧",
                 "styles": [
@@ -2223,6 +2424,8 @@
             {
                 "id": "3",
                 "goods_name": "攤主加持---過的文具",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 100,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -2243,6 +2446,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2279,6 +2483,8 @@
             {
                 "id": "1",
                 "goods_name": "新鮮的肝",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 180,
                 "intro": "新鮮現採，買到賺到",
                 "styles": [
@@ -2291,6 +2497,8 @@
             {
                 "id": "2",
                 "goods_name": "肝硬化",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 50,
                 "intro": "cirrhosis",
                 "styles": [
@@ -2314,6 +2522,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2350,6 +2559,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -2362,6 +2573,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -2371,6 +2584,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -2391,6 +2606,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2427,6 +2643,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -2439,6 +2657,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -2448,6 +2668,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -2468,6 +2690,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2504,6 +2727,8 @@
             {
                 "id": "1",
                 "goods_name": "期末葵花寶典",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 180,
                 "intro": "欲練此功必先",
                 "styles": [
@@ -2515,6 +2740,8 @@
             {
                 "id": "2",
                 "goods_name": "攤主加持",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 666,
                 "intro": "有總比沒有好，對吧",
                 "styles": [
@@ -2526,6 +2753,8 @@
             {
                 "id": "3",
                 "goods_name": "攤主加持---過的文具",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 100,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -2546,6 +2775,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2582,6 +2812,8 @@
             {
                 "id": "1",
                 "goods_name": "新鮮的肝",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 180,
                 "intro": "新鮮現採，買到賺到",
                 "styles": [
@@ -2594,6 +2826,8 @@
             {
                 "id": "2",
                 "goods_name": "肝硬化",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 50,
                 "intro": "cirrhosis",
                 "styles": [
@@ -2617,6 +2851,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2653,6 +2888,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -2665,6 +2902,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -2674,6 +2913,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -2694,6 +2935,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2730,6 +2972,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -2742,6 +2986,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -2751,6 +2997,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -2771,6 +3019,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2807,6 +3056,8 @@
             {
                 "id": "1",
                 "goods_name": "期末葵花寶典",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 180,
                 "intro": "欲練此功必先",
                 "styles": [
@@ -2818,6 +3069,8 @@
             {
                 "id": "2",
                 "goods_name": "攤主加持",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 666,
                 "intro": "有總比沒有好，對吧",
                 "styles": [
@@ -2829,6 +3082,8 @@
             {
                 "id": "3",
                 "goods_name": "攤主加持---過的文具",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 100,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -2849,6 +3104,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2885,6 +3141,8 @@
             {
                 "id": "1",
                 "goods_name": "新鮮的肝",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 180,
                 "intro": "新鮮現採，買到賺到",
                 "styles": [
@@ -2897,6 +3155,8 @@
             {
                 "id": "2",
                 "goods_name": "肝硬化",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 50,
                 "intro": "cirrhosis",
                 "styles": [
@@ -2920,6 +3180,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -2956,6 +3217,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -2968,6 +3231,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -2977,6 +3242,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -2997,6 +3264,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -3033,6 +3301,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -3045,6 +3315,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -3054,6 +3326,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -3074,6 +3348,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -3110,6 +3385,8 @@
             {
                 "id": "1",
                 "goods_name": "期末葵花寶典",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 180,
                 "intro": "欲練此功必先",
                 "styles": [
@@ -3121,6 +3398,8 @@
             {
                 "id": "2",
                 "goods_name": "攤主加持",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 666,
                 "intro": "有總比沒有好，對吧",
                 "styles": [
@@ -3132,6 +3411,8 @@
             {
                 "id": "3",
                 "goods_name": "攤主加持---過的文具",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 100,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -3152,6 +3433,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -3188,6 +3470,8 @@
             {
                 "id": "1",
                 "goods_name": "新鮮的肝",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 180,
                 "intro": "新鮮現採，買到賺到",
                 "styles": [
@@ -3200,6 +3484,8 @@
             {
                 "id": "2",
                 "goods_name": "肝硬化",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 50,
                 "intro": "cirrhosis",
                 "styles": [
@@ -3223,6 +3509,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -3259,6 +3546,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -3271,6 +3560,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -3280,6 +3571,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [
@@ -3300,6 +3593,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -3336,6 +3630,8 @@
             {
                 "id": "1",
                 "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 80,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -3348,6 +3644,8 @@
             {
                 "id": "2",
                 "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 150,
                 "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
                 "styles": [
@@ -3357,6 +3655,8 @@
             {
                 "id": "3",
                 "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
                 "price": 300,
                 "intro": "套組會比較便宜",
                 "styles": [

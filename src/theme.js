@@ -6,6 +6,9 @@ export const lightTheme = {
   token: {
     // colorBgFooter: "#3e3f97",
     // colorTextFooter: '#ffffff',
+    colorBgContainer: "#F7F9FC",
+    colorBgElevated: "#F7F9FC",
+    colorBgLayout: "#F7F9FC",
     colorPrimary: "#FFA1B8",
     fontSize: '15px',
     fontFamily: 'Resource Han Rounded TW',
