@@ -49,6 +49,26 @@
                         "href": "https://www.patreon.com/"
                     }
                 ]
+            },
+            {
+                "id": "2",
+                "owner_name": "支離破碎的同人女",
+                "owner_img": "/images/img_avatar_3.png",
+                "intro": "我是被上面那個人抓來的\n這次沒有新刊～～～\n\n我可以單身，但是我cp一定要結婚",
+                "sns": [
+                    {
+                        "type": "facebook",
+                        "href": "https://www.facebook.com/"
+                    },
+                    {
+                        "type": "youtube",
+                        "href": "https://youtube.com/"
+                    },
+                    {
+                        "type": "web",
+                        "href": "https://www.google.com/"
+                    }
+                ]
             }
         ],
         "goods": [

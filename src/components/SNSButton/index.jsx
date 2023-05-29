@@ -34,6 +34,7 @@ function SNSButton({ type, href }) {
             icon = <RiPatreonFill size={26} />
             break;
 
+        case 'web':
         default:
             icon = <RiEarthFill size={26} />
             break;

@@ -1,10 +1,15 @@
 .box {
-    height: auto;
     width: 100%;
-    margin: 20px 0;
+    margin: 0;
+}
+
+.buttonBox {
+    height: auto;
 }
 
 .cardBox {
+    /* width: 100%; */
+    margin: 0;
     padding: 15px 20px;
     border: 2px solid #FFA1B8;
     border-radius: 30px;
@@ -20,13 +25,18 @@
 .img {
     border: 2px solid #FFA1B8;
     margin-right: 0;
+    width: 100%;
 }
 
 .infoBox {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .textName {
+    color: #1F2933;
     text-align: center;
     white-space: normal;
     margin: 0;

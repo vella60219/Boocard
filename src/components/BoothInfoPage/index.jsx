@@ -3,7 +3,7 @@ import styles from './boothInfoPage.module.css';
 import { Empty, Row, Col } from 'antd';
 import { Link, useSearchParams } from 'react-router-dom';
 import BoothGoodsItem from '../BoothGoodsItem';
-import BoothOwnerItem from '../BoothOwnerItem';
+import { BoothOwnerItemList } from '../BoothOwnerItem';
 
 import events from '../../json/events.json'
 
@@ -29,12 +29,8 @@ function BoothInfoPage({ booth }) {
                 </span>
             </div>
             {/* ^ 標題 */}
-            {/* <Row className={styles.box}> */}
-                {/* <Col span={24}> */}
-                <BoothOwnerItem owner={booth.owners[0]} />
-                {/* </Col> */}
-             {/* </Row> */}
-            
+            <BoothOwnerItemList owners={booth.owners} />
+
             {/* <Empty description={false} /> */}
             <div style={{ height: '400px' }} />
             {/* ^ 測試資料用 */}
