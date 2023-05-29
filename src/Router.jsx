@@ -18,6 +18,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import UserEdit from "./pages/UserEdit";
 import Memos from "./pages/Memos";
+import MemosDetail from "./pages/MemosDetail";
 import Booth from "./pages/Booth";
 
 // ^ page 元件們
@@ -61,6 +62,7 @@ function Router() {
                             <Route path="user" >
                                 <Route path="userEdit" element={<UserEdit />} />   {/* 帳號資訊 */}
                                 <Route path="memos" element={<Memos />} />
+                                <Route path="memos/memosDetail" element={<MemosDetail />} /> 
                             </Route>
                             <Route path="booth/:boothId" element={<Booth />} />   {/* 攤位頁面 */}
                         </Route>

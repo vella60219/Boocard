@@ -1,5 +1,81 @@
-{
+[
+  {
     "id":"1",
     "name":"工藤勞熟",
-    "avatar":""
-}
+    "avatar":"",
+    "join": [
+      {
+        "act_name": "IF創集繪 綜合主題同人誌販售會",
+        "memos": [
+          {
+            "id": "1",
+            "good_number": "R55",
+            "booth_name":"枕上，廁上，沒有馬上",
+            "good_name": "好可愛的貼紙",
+            "good_quantity": "3",
+            "good_price": "120",
+            "good_name_category": "電烤鼠鼠鼠"
+          },
+          {
+            "id": "2",
+            "good_number": "R32",
+            "booth_name":"新鮮現採的肝，甘甜可口",
+            "good_name": "新鮮的肝",
+            "good_quantity": "6",
+            "good_price": "666",
+            "good_name_category": "應該還沒壞的"
+          },
+          {
+            "id": "3",
+            "good_number": "R19",
+            "booth_name":"支離破碎的同人女",
+            "good_name": "好看的小垃圾套組",
+            "good_quantity": "1",
+            "good_price": "300",
+            "good_name_category": "套組會比較便宜"
+          }
+        ]
+      }
+
+    ]
+  },  {
+    "id":"2",
+    "name":"工藤勞熟",
+    "avatar":"",
+    "join": [
+      {
+        "act_name": "IF創集繪 綜合主題同人誌販售會",
+        "memos": [
+          {
+            "id": "1",
+            "good_number": "R55",
+            "booth_name":"枕上，廁上，沒有馬上",
+            "good_name": "好可愛的貼紙",
+            "good_quantity": "3",
+            "good_price": "120",
+            "good_name_category": "電烤鼠鼠鼠"
+          },
+          {
+            "id": "2",
+            "good_number": "R32",
+            "booth_name":"新鮮現採的肝，甘甜可口",
+            "good_name": "新鮮的肝",
+            "good_quantity": "6",
+            "good_price": "666",
+            "good_name_category": "應該還沒壞的"
+          },
+          {
+            "id": "3",
+            "good_number": "R19",
+            "booth_name":"支離破碎的同人女",
+            "good_name": "好看的小垃圾套組",
+            "good_quantity": "1",
+            "good_price": "300",
+            "good_name_category": "套組會比較便宜"
+          }
+        ]
+      }
+
+    ]
+  }
+]
