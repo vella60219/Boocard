@@ -3,7 +3,7 @@ import styles from './boothHomePage.module.css';
 import { Empty, Row, Col } from 'antd';
 import { Link, useSearchParams } from 'react-router-dom';
 import BoothGoodsItem from '../BoothGoodsItem';
-import { BoothOwnerItemList } from '../BoothOwnerItem';
+import { BoothOwnerItemList, BoothOwnerItemListS } from '../BoothOwnerItem';
 import BoothInfoItem from '../BoothInfoItem';
 import events from '../../json/events.json'
 
@@ -37,7 +37,7 @@ function BoothHomePage({ booth }) {
             <div style={{ height: '400px' }} />
             {/* ^ 測試資料用 */}
             <BoothGoodsItem />
-
+            <BoothOwnerItemListS owners={booth.owners} />
         </div >
     );
 }

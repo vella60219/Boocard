@@ -12,7 +12,7 @@ import {
 } from '../../redux/modalSlice';
 
 import StallItem from '../StallItem';
-import BoothHomePage from '../BoothHomePage';
+import BoothHomePage from '../BoothHome';
 import BoothOwnerInfoPage from '../BoothOwnerInfoPage';
 import BoothGoodsInfoPage from '../BoothGoodsInfoPage';
 

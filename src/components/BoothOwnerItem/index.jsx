@@ -105,5 +105,82 @@ function BoothOwnerItemList({ owners }) {
     );
 }
 
+function BoothOwnerItemS({ owner }) {
+    const id = owner.id;
+    const dispatch = useDispatch();
+    const goOwner = () => {
+        dispatch(setNextPageMode(true))
+        dispatch(setOwnerID(id));
+    }
+
+    return (
+        <Button
+            type="link"
+            onClick={goOwner}
+            className={styles.boxS}
+        >
+            <Card
+                // size='small'
+                bodyStyle={{
+                    padding: '0',
+                    width: '100%',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    // alignItems:'center',
+                    // flexWrap: 'wrap',
+                }}
+                className={styles.cardBoxS}
+            >
+
+                <div className={styles.iconBoxS}>
+                    {owner.owner_img ? <Avatar
+                        src={owner.owner_img}
+                        size={50}
+                        className={styles.img}
+                    /> : <Avatar
+                        icon={<UserOutlined />}
+                        size={50}
+                        className={styles.img}
+                    />}
+                </div>
+
+                {/* ^ icon 有圖就秀圖，沒圖給預設 */}
+                <div className={styles.infoBoxS}>
+                    <Paragraph
+                        className={`h3 ${styles.textNameS}`}
+                        ellipsis={{
+                            rows: 1,
+                            expandable: false,
+                        }}>
+                        {owner.owner_name}
+                    </Paragraph>
+                    <Paragraph
+                        className={`h3 ${styles.textIntroS}`}
+                        ellipsis={{
+                            rows: 1,
+                            expandable: false,
+                        }}
+                    // ^ 解決不了查看更多會新增一排的問題
+                    >
+                        {owner.intro}
+                    </Paragraph>
+                </div>
+            </Card>
+        </Button >
+    )
+}
+
+function BoothOwnerItemListS({ owners }) {
+    return (
+        <Row gutter={[0, 10]} justify='center' className={styles.box} >
+            {owners.map(owner => (
+                <Col key={owner.id} span={24} className={styles.colBoxS}>
+                    <BoothOwnerItemS key={owner.id} owner={owner} />
+                </Col>
+            ))}
+        </Row>
+    );
+}
+
 export default BoothOwnerItem;
-export { BoothOwnerItemList }
+export { BoothOwnerItemList, BoothOwnerItemListS }

@@ -17,7 +17,7 @@ function BoothInfoItem({ booth }) {
             </div>
             <ul>
                 <li>
-                    <span className='h2'>日期：　</span>
+                    <span className='h3'>日期：　</span>
                     {booth.booths.map((day, index) => (
                         <span className='h3' key={index}>
                             {day.act}
@@ -25,7 +25,41 @@ function BoothInfoItem({ booth }) {
                         </span>
                     ))}
                 </li>
-
+                <li>
+                    <span className='h3'>攤位編號：　</span>
+                    {booth.booths.map((day, index) => (
+                        <span className='h3' key={index}>
+                            {day.zone}{day.number}
+                            {index !== booth.booths.length - 1 && <span>　｜　</span>}
+                        </span>
+                    ))}
+                </li>
+                <li>
+                    <span className='h3'>攤位位置：　</span>
+                    {booth.booths.map((day, index) => (
+                        <span className='h3' key={index}>
+                            {day.area}
+                            {index !== booth.booths.length - 1 && <span>　｜　</span>}
+                        </span>
+                    ))}
+                </li>
+                <li>
+                    <span className='h3'>攤位位置：　</span>
+                    <span className='h3'>{booth.circle}</span>
+                </li>
+                <li>
+                    <span className='h3'>備註：　</span>
+                    <span className='h3'>{booth.note}</span>
+                </li>
+                <li>
+                    <span className='h3'>標籤：　</span>
+                    {/* {booth.tags.map((tag, index) => (
+                        <span className='h3' key={index}>
+                            {tag}
+                        </span>
+                    ))} */}
+                    {/* ^ 還沒做 */}
+                </li>
             </ul>
         </div>
     )
