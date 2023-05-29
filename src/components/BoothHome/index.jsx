@@ -5,6 +5,7 @@ import { Link, useSearchParams } from 'react-router-dom';
 import BoothGoodsItem from '../BoothGoodsItem';
 import { BoothOwnerItemList, BoothOwnerItemListS } from '../BoothOwnerItem';
 import BoothInfoItem from '../BoothInfoItem';
+import { BoothGoodsItemList } from '../BoothGoodsItem';
 import events from '../../json/events.json'
 
 function BoothHomePage({ booth }) {
@@ -36,9 +37,9 @@ function BoothHomePage({ booth }) {
                 <BoothInfoItem booth={booth} />
             </div>
             {/* <Empty description={false} /> */}
-            <div style={{ height: '400px' }} />
+            {/* <div style={{ height: '400px' }} /> */}
             {/* ^ 測試資料用 */}
-            <BoothGoodsItem />
+            <BoothGoodsItemList goods={booth.goods} />
             <BoothOwnerItemListS owners={booth.owners} />
         </div >
     );
