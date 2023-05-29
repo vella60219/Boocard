@@ -17,42 +17,48 @@ function BoothInfoItem({ booth }) {
             </div>
             <ul>
                 <li>
-                    <span className='h3'>日期：　</span>
-                    {booth.booths.map((day, index) => (
-                        <span className='h3' key={index}>
-                            {day.act}
-                            {index !== booth.booths.length - 1 && <span>　｜　</span>}
-                        </span>
-                    ))}
+                    <p className='h3'>日期：</p>
+                    <p>
+                        {booth.booths.map((day, index) => (
+                            <span className='h3' key={index}>
+                                {day.act}
+                                {index !== booth.booths.length - 1 && <span>　｜　</span>}
+                            </span>
+                        ))}
+                    </p>
                 </li>
                 <li>
-                    <span className='h3'>攤位編號：　</span>
+                    <p className='h3'>攤位編號：</p>
+                    <p>
                     {booth.booths.map((day, index) => (
                         <span className='h3' key={index}>
                             {day.zone}{day.number}
                             {index !== booth.booths.length - 1 && <span>　｜　</span>}
                         </span>
                     ))}
+                    </p>
                 </li>
                 <li>
-                    <span className='h3'>攤位位置：　</span>
+                    <p className='h3'>攤位位置：</p>
+                    <p>
                     {booth.booths.map((day, index) => (
                         <span className='h3' key={index}>
                             {day.area}
                             {index !== booth.booths.length - 1 && <span>　｜　</span>}
                         </span>
                     ))}
+                    </p>
                 </li>
                 <li>
-                    <span className='h3'>攤位位置：　</span>
-                    <span className='h3'>{booth.circle}</span>
+                    <p className='h3'>所屬社團：</p>
+                    <p className='h3'>{booth.circle}</p>
                 </li>
                 <li>
-                    <span className='h3'>備註：　</span>
-                    <span className='h3'>{booth.note}</span>
+                    <p className='h3'>備註：</p>
+                    <p className='h3'>{booth.note}</p>
                 </li>
                 <li>
-                    <span className='h3'>標籤：　</span>
+                    <p className='h3'>標籤：</p>
                     {/* {booth.tags.map((tag, index) => (
                         <span className='h3' key={index}>
                             {tag}
