@@ -104,8 +104,8 @@ function BoothInfoCard({ booth }) {
                 {/* ^ Nav */}
                 <div className={styles.contentBox}>
                     {!nextPageMode ? <BoothInfoPage booth={booth} /> :
-                        (ownerID !== "") ? <BoothOwnerInfoPage /> :
-                            <BoothGoodsInfoPage />
+                        (ownerID !== "") ? <BoothOwnerInfoPage booth={booth} /> :
+                            <BoothGoodsInfoPage booth={booth} />
                     }
                 </div>
                 {/* ^ 攤位頁面，根據狀態切成不同的頁面元件 */}

@@ -3,13 +3,18 @@
     flex-direction: column;
     align-items: center;
     margin-top: -25px;
+    width: 100%;
 }
 
-.boothName{
+.boothName {
     margin-bottom: 8px;
 }
 
-.eventName{
+.eventName {
     color: #5E6B78;
     padding-right: 20px;
+}
+
+.boothLink a {
+    color: #0495FF;
 }

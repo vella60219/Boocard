@@ -1,6 +1,6 @@
 // 攤位資訊頁面，從這裡可以點進去攤主的自我介紹頁面和品項頁面
 import styles from './boothInfoPage.module.css';
-import { Empty } from 'antd';
+import { Empty, Row, Col } from 'antd';
 import { Link, useSearchParams } from 'react-router-dom';
 import BoothGoodsItem from '../BoothGoodsItem';
 import BoothOwnerItem from '../BoothOwnerItem';
@@ -23,13 +23,18 @@ function BoothInfoPage({ booth }) {
             <h1 className={`h1 ${styles.boothName}`}>{booth.booth_name}</h1>
             <div>
                 <span className={`h3 ${styles.eventName}`}>{event.name}</span>
-                <span className="h2">
+                <span className={`h2 ${styles.boothLink}`}>
                     <Link>#{_act.zone}{_act.number}</Link>
                     {/* ^ 預計會像噗浪一樣弄出一個新頁面 */}
                 </span>
             </div>
             {/* ^ 標題 */}
-            <BoothOwnerItem />
+            {/* <Row className={styles.box}> */}
+                {/* <Col span={24}> */}
+                <BoothOwnerItem owner={booth.owners[0]} />
+                {/* </Col> */}
+             {/* </Row> */}
+            
             {/* <Empty description={false} /> */}
             <div style={{ height: '400px' }} />
             {/* ^ 測試資料用 */}

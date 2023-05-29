@@ -5,7 +5,7 @@ import styles from './boothGoodsInfoPage.module.css';
 import { useSelector, useDispatch } from 'react-redux';
 import { selectGoodsID } from '../../redux/modalSlice';
 
-function BoothGoodsInfoPage() {
+function BoothGoodsInfoPage({ booth }) {
     const goodsID = useSelector(selectGoodsID);
     const dispatch = useDispatch();
     // ^ 加入吃土單可能會需要吧，先設好

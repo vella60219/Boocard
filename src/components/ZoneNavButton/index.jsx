@@ -23,14 +23,14 @@ function ZoneNavButton({ areaID, zoneID }) {
                 colorPrimaryActive: '#ffffff',
             }
         }}>
-                <Button
-                    type={type}
-                    shape="circle"
-                    className={`h3 btn ${styles.btn}`}
-                    onClick={() => {type==="default" ? setSearchParams({zone: zoneID}) : setSearchParams({})}}
-                >
-                    {zoneID}
-                </Button>
+            <Button
+                type={type}
+                shape="circle"
+                className={`h3 btn ${styles.btn}`}
+                onClick={() => { type === "default" ? setSearchParams({ zone: zoneID }) : setSearchParams({}) }}
+            >
+                {zoneID}
+            </Button>
 
         </ConfigProvider >
     );
@@ -51,14 +51,14 @@ function ZoneNavBackButton() {
                 colorPrimaryActive: '#ffffff',
             }
         }}>
-                <Button
-                    type="default"
-                    shape="circle"
-                    className={`h3 btn ${styles.btn}`}
-                    onClick={() => setSearchParams({})}
-                >
-                    <MdKeyboardBackspace />
-                </Button>
+            <Button
+                type="default"
+                shape="circle"
+                className={`h3 btn ${styles.btn}`}
+                onClick={() => setSearchParams({})}
+            >
+                <MdKeyboardBackspace />
+            </Button>
         </ConfigProvider>
     );
 }
