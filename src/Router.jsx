@@ -60,9 +60,9 @@ function Router() {
                             </Route>
                             <Route path="user" >   
                                 <Route path="userEdit" element={<UserEdit />} />   {/* 帳號資訊 */}
-                                <Route path="memos" element={<Memos />} >
-                                    <Route path="memosDetail" element={<MemosDetail />} /> 
-                                </Route> 
+                                <Route path="memos" element={<Memos />} />
+                                <Route path="memos/memosDetail" element={<MemosDetail />} /> 
+                                
                             </Route>
                         </Route>
                         <Route path="user" >     {/* 通常在登入、註冊頁面不出現通用 nav 和 footer */}

@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async"
+import MemosDetailPage from "../components/MemosDetail";
 
 function MemosDetail() {
     const title = "吃土單｜布卡 Boocard";
@@ -8,7 +9,7 @@ function MemosDetail() {
             <Helmet>
                 <title>{title}</title>
             </Helmet>
-            <p>This is MemosDetail page</p>
+            <MemosDetailPage />
         </div>
     );
 }
