@@ -4,6 +4,16 @@
     justify-content: space-between;
 }
 
+.leftBox {
+    display: flex;
+    align-items: center;
+}
+
+.drawerBtn {
+    margin-right: 1rem;
+    color: #0495FF;
+}
+
 /* md */
 @media (min-width: 768px) {
     .box {
