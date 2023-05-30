@@ -1,6 +1,6 @@
 // StallItem會先在此包裝上modal再加入list，此頁管理 modal 和管理 modal 的 page
 import styles from './boothCardLayout.module.css';
-import { Button, Modal, ConfigProvider } from 'antd';
+import { Button, Modal, ConfigProvider, Skeleton } from 'antd';
 import { IoClose, IoChevronBackOutline } from "react-icons/io5";
 import { useRef, useState } from 'react';
 
@@ -65,61 +65,67 @@ function BoothCardLayout({ booth }) {
 
     return (
         <div className={styles.box}>
-            <Button type="link" onClick={showModal} className={styles.cardBox}>
-                {/* <div style={{ width: '100px', height: '100px', background: 'red' }} /> */}
-                {/* ^ 測試用 style 和 div，事實是這裡應該要放 StallItem */}
-                <StallItem stall={booth} />
-            </Button>
-            <Modal
-                open={open}
-                onCancel={handleCancel}
-                closable={false}
-                destroyOnClose={true}
-                footer={null}
-                width={700}
-                bodyStyle={{ margin: "-20px -24px" }}
-            >
-                <ConfigProvider theme={{
-                    token: {
-                        colorPrimary: '#FFA1B8',
-                        colorText: '#FFA1B8',
-                        colorBorder: '#FFA1B8',
-                        colorPrimaryHover: '#ffffff',
-                        lineWidth: 2
-                    }
-                }}>
-                    {nextPageMode ?
-                        <div className={styles.navBox}>
-                            <Button
-                                type="default"
-                                shape='circle'
-                                size='large'
-                                icon={<IoChevronBackOutline size={34} />}
-                                onClick={goBack}
-                                className={`btn ${styles.navBtn}`}
-                            />
-                        </div> :
-                        <div className={styles.navBox} style={{ justifyContent: 'flex-end', }}>
-                            <Button
-                                type="default"
-                                shape='circle'
-                                size='large'
-                                icon={<IoClose size={34} />}
-                                onClick={handleCancel}
-                                className={`btn ${styles.navBtn}`}
-                            />
+            {booth ? (
+                <>
+                    <Button type="link" onClick={showModal} className={styles.cardBox}>
+                        {/* <div style={{ width: '100px', height: '100px', background: 'red' }} /> */}
+                        {/* ^ 測試用 style 和 div，事實是這裡應該要放 StallItem */}
+                        <StallItem stall={booth} />
+                    </Button>
+                    <Modal
+                        open={open}
+                        onCancel={handleCancel}
+                        closable={false}
+                        destroyOnClose={true}
+                        footer={null}
+                        width={700}
+                        bodyStyle={{ margin: "-20px -24px" }}
+                    >
+                        <ConfigProvider theme={{
+                            token: {
+                                colorPrimary: '#FFA1B8',
+                                colorText: '#FFA1B8',
+                                colorBorder: '#FFA1B8',
+                                colorPrimaryHover: '#ffffff',
+                                lineWidth: 2
+                            }
+                        }}>
+                            {nextPageMode ?
+                                <div className={styles.navBox}>
+                                    <Button
+                                        type="default"
+                                        shape='circle'
+                                        size='large'
+                                        icon={<IoChevronBackOutline size={34} />}
+                                        onClick={goBack}
+                                        className={`btn ${styles.navBtn}`}
+                                    />
+                                </div> :
+                                <div className={styles.navBox} style={{ justifyContent: 'flex-end', }}>
+                                    <Button
+                                        type="default"
+                                        shape='circle'
+                                        size='large'
+                                        icon={<IoClose size={34} />}
+                                        onClick={handleCancel}
+                                        className={`btn ${styles.navBtn}`}
+                                    />
+                                </div>
+                            }
+                        </ConfigProvider>
+                        {/* ^ Nav */}
+                        <div className={styles.contentBox}>
+                            {!nextPageMode ? <BoothHomePage booth={booth} /> :
+                                (ownerID !== "") ? <BoothOwnerInfoPage booth={booth} /> :
+                                    <BoothGoodsInfoPage booth={booth} />
+                            }
                         </div>
-                    }
-                </ConfigProvider>
-                {/* ^ Nav */}
-                <div className={styles.contentBox}>
-                    {!nextPageMode ? <BoothHomePage booth={booth} /> :
-                        (ownerID !== "") ? <BoothOwnerInfoPage booth={booth} /> :
-                            <BoothGoodsInfoPage booth={booth} />
-                    }
-                </div>
-                {/* ^ 攤位頁面，根據狀態切成不同的頁面元件 */}
-            </Modal>
+                        {/* ^ 攤位頁面，根據狀態切成不同的頁面元件 */}
+                    </Modal>
+                </>
+            ) : (
+                <Skeleton active />
+            )}
         </div>
     );
 }
