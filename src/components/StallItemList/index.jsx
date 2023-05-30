@@ -3,7 +3,8 @@ import styles from "./stallItemList.module.css"
 // ^ styles
 import { useParams, useSearchParams } from "react-router-dom";
 // ^ route 相關
-import { Row, Col, Empty } from "antd";
+import { Row, Col, Empty, Skeleton, Space } from "antd";
+import { useState, useEffect } from 'react';
 // ^ 外部元件們
 import BoothCardLayout from "../BoothCardLayout";
 // ^ 自家的元件們
@@ -22,32 +23,59 @@ function StallItemList() {
         return x?.eventID.toUpperCase() === eventId.toUpperCase()
             && x?.booths.some((y) => {
                 return (act === null || y.actID.toUpperCase() === act.toUpperCase())
-                && (area === null || y.areaID.toUpperCase() === area.toUpperCase())
-                && (zone === null || y.zone.toUpperCase() === zone.toUpperCase())
+                    && (area === null || y.areaID.toUpperCase() === area.toUpperCase())
+                    && (zone === null || y.zone.toUpperCase() === zone.toUpperCase())
             })
     });
     // ^ 過濾出本活動的、在個 act 這個 area 這個 zone 的
 
+    const [loading, setLoading] = useState(true);
+    useEffect(() => {
+        // 模拟图片加载
+        const timer = setTimeout(() => {
+            setLoading(false);
+        }, 2000);
+
+        return () => clearTimeout(timer);
+    }, []);
+
     return (
         <>
-            {(_stalls.length === 0) ? <Empty description={false} /> :
-                <div className={styles.box}>
-                    <Row gutter={[15, 20]} justify={{ xs: 'center', sm: 'start' }} >
-                        {_stalls.map(stall => (
-                            <Col
-                                key={stall.id}
-                                xs={{ span: 22 }}
-                                sm={{ span: 12 }}
-                                md={{ span: 8 }}
-                                lg={{ span: 6 }}
-                                xxl={{ span: 4 }}
-                            >
-                                <BoothCardLayout key={stall.id} booth={stall} />
-                            </Col>
-                        ))}
-                    </Row>
-                </div>
-            }
+            {loading ? (
+                <>
+                    {/* <Space wrap direction="vertical">
+                        <Skeleton.Image active /> */}
+                        <Skeleton
+                            active
+                            avatar
+
+                            paragraph={{
+                                rows: 4,
+                            }}
+                        />
+                    {/* </Space> */}
+                </>
+            ) : (<>
+                {(_stalls.length === 0) ? <Empty description={false} /> :
+                    <div className={styles.box}>
+                        <Row gutter={[15, 20]} justify={{ xs: 'center', sm: 'start' }} >
+                            {_stalls.map(stall => (
+                                <Col
+                                    key={stall.id}
+                                    xs={{ span: 22 }}
+                                    sm={{ span: 12 }}
+                                    md={{ span: 8 }}
+                                    lg={{ span: 6 }}
+                                    xxl={{ span: 4 }}
+                                >
+                                    <BoothCardLayout key={stall.id} booth={stall} />
+                                </Col>
+                            ))}
+                        </Row>
+                    </div>
+                }
+            </>
+            )}
         </>
     );
 }

@@ -15,10 +15,24 @@
     /* 不這樣的話完全改不了 Card 的 border-radius */
 }
 
-.date {
-    color: #667080;
+.nameBox {
+    width: 100%;
+    justify-content: flex-start;
+    margin-bottom: 10px;
 }
 
-.title {
-    color: #1F2933;
+.img {
+    border: 2px solid #FFA1B8;
+    margin-right: 0;
+    width: 100%;
+}
+
+.numTag {
+    position: absolute;
+    right: 12px;
+    top: 11px;
+    padding: 0 10px;
+    border: 2px solid #FFA1B8;
+    color: #FFA1B8;
+    background: #F7F9FC;
 }

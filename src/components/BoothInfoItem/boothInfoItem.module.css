@@ -31,7 +31,7 @@
 
 .box li {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     margin-bottom: 10px;
 }
 
@@ -63,7 +63,7 @@
 
     .box li {
         display: flex;
-        align-items: center;
+        align-items: baseline;
         margin-bottom: 15px;
     }
 }
