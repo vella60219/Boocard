@@ -177,6 +177,16 @@ body {
   padding: 50px 6vw 10px 6vw !important;
 }
 
+/* modal */
+
+.modal-open {
+  overflow: hidden;
+  position: fixed;
+  /* position: absolute;
+  overflow-x: hidden;
+  overflow-y: auto; */
+}
+
 /* other */
 
 button {

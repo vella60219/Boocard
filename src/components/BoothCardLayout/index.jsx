@@ -2,7 +2,7 @@
 import styles from './boothCardLayout.module.css';
 import { Button, Modal, ConfigProvider } from 'antd';
 import { IoClose, IoChevronBackOutline } from "react-icons/io5";
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 
 import { useSelector, useDispatch } from 'react-redux';
 import {
@@ -32,10 +32,14 @@ function BoothCardLayout({ booth }) {
         // 聽起來好像有點多此一舉？但我只寫得出這樣啦⋯⋯哈哈
     }
 
+    const scrollPositionRef = useRef(null);
+
     const [open, setOpen] = useState(false);    // 用於控制 modal 使否開啟
     const showModal = () => {      // 給按鈕用來打開 modal
         document.body.style.overflow = 'hidden'
         document.body.style.position = 'fixed'
+        // scrollPositionRef.current = window.pageYOffset;
+        document.body.classList.add('modal-open');
         // ^ 解決為了解決滾動條造成排版問題導致的打開 modal 網頁會跑到最頂部的問題
         setOpen(true);
     }
@@ -43,14 +47,19 @@ function BoothCardLayout({ booth }) {
         // document.body.style.overflowX = 'scroll'
         setOpen(false);
         goBack();
+        document.body.classList.remove('modal-open');
+        // if (scrollPositionRef.current !== null) {
+        //     window.scrollTo(0, scrollPositionRef.current);
+        //     scrollPositionRef.current = null;
+        // }
         document.body.style.position = 'absolute'
         document.body.style.overflowX = 'hidden'
         document.body.style.overflowY = 'auto'
         // ^ 解決為了解決滾動條造成排版問題導致的打開 modal 網頁會跑到最頂部的問題
     }
 
-    document.body.style.position = 'absolute'
-    document.body.style.overflow = 'visible'
+    // document.body.style.position = 'absolute'
+    // document.body.style.overflow = 'visible'
     // ^ 解決為了解決滾動條造成排版問題導致的打開 modal 網頁會跑到最頂部的問題
     // ^ 總之就是在有開跟沒開 modal 的狀態間切換成需要的狀態
 
