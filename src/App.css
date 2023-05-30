@@ -297,6 +297,10 @@ button {
 
 }
 
+.ant-drawer-body .ant-menu-item-selected:not(:first-child)::after {
+  display: none;
+}
+
 
 .ant-tabs-ink-bar {
   background: linear-gradient(90deg, #FFA1B8 0%, #0495FF 100%) !important;
