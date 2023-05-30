@@ -1,5 +1,5 @@
 .content{
-    height: 800px;
+    height: fit-content;
     margin-top: 50px;
 }
 
@@ -47,5 +47,11 @@
     }
     .leftTxv{
         justify-content: end;
+    }
+
+    .back{
+
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }

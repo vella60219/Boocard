@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet-async"
 import MemosPage from "../../components/Memos";
+import BackTop from "../../components/FloatButton";
 import user from "../../json/user.json";
 
 function Memos() {
@@ -11,6 +12,7 @@ function Memos() {
                 <title>{title}</title>
             </Helmet>
             <MemosPage user={user}/>
+            <BackTop />
         </div>
     );
 }

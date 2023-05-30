@@ -6,6 +6,7 @@
     "join": [
       {
         "act_name": "IF創集繪 綜合主題同人誌販售會",
+        "act_id": "1",
         "memos": [
           {
             "id": "1",
@@ -35,16 +36,9 @@
             "good_name_category": "套組會比較便宜"
           }
         ]
-      }
-
-    ]
-  },  {
-    "id":"2",
-    "name":"工藤勞熟",
-    "avatar":"",
-    "join": [
-      {
-        "act_name": "IF創集繪 綜合主題同人誌販售會",
+      },      {
+        "act_name": "原創匯",
+        "act_id": "2",
         "memos": [
           {
             "id": "1",

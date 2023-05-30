@@ -8,10 +8,9 @@ function MemosItem({ user }){
             <div className={`borderBox2 borderBox ${styles.borderbox}`}>
                 <Link to={'/user/memos/memosDetail'} 
                 className={` ${styles.box}`}>
-                    <p className={`h3 ${styles.txv}`}>6</p>
+                    <p className={`h2 ${styles.txv}`}>{user.join[0].act_name}</p>
                     <MdArrowForwardIos className={`h3 ${styles.arrow}`}/>
                 </Link>
-
             </div>
         </div>
     )
