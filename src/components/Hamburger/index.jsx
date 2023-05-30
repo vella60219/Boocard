@@ -36,7 +36,7 @@ function Hamburger() {
             type: 'divider',
         },
         {
-            label: (<a href='' onClick={toggleLogin}>註冊 / 登入</a>),
+            label: (<a href='' onClick={toggleLogin} className='h2'>註冊 / 登入</a>),
             key: 'login',
         },
     ]
