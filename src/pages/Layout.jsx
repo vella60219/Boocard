@@ -14,7 +14,7 @@ function PageLayout() {
         <Layout className='mainLayout'>
             <ConfigProvider theme={{
                 token: {
-                    colorText: '#ffffff',
+                    colorText: '#1F2933',
                 },
                 components: {
                     Button: {

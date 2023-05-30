@@ -5,7 +5,7 @@ import { NavLink, Link } from 'react-router-dom';
 import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { selectLoginMode, setLoginMode } from '../../redux/loginSlice';
-
+import RightTopButton from '../RightTopButton';
 
 function Hamburger() {
     const LoginMode = useSelector(selectLoginMode);
@@ -17,71 +17,71 @@ function Hamburger() {
 
     const guestItems = [
         {
-            label: (<NavLink to="/event">活動總覽</NavLink>),
+            label: (<NavLink className='h2' to="/event">活動總覽</NavLink>),
             key: 'event',
         },
         {
-            label: (<NavLink to="/static/how">使用教學</NavLink>),
+            label: (<NavLink className='h2' to="/static/how">使用教學</NavLink>),
             key: 'how',
         },
         {
-            label: (<NavLink to="/static/fee">收費方案</NavLink>),
+            label: (<NavLink className='h2' to="/static/fee">收費方案</NavLink>),
             key: 'fee',
         },
         {
-            label: (<NavLink to="/static/help">說明</NavLink>),
+            label: (<NavLink className='h2' to="/static/help">說明</NavLink>),
             key: 'help',
         },
         {
             type: 'divider',
         },
         {
-            label: (<a href='' onClick={toggleLogin}>註冊 / 登入</a>),
+            label: (<a href='' onClick={toggleLogin} className='h2'>註冊 / 登入</a>),
             key: 'login',
         },
     ]
 
     const userItems = [
         {
-            label: (<NavLink to="/event">活動總覽</NavLink>),
+            label: (<NavLink to="/event" className='h2'>活動總覽</NavLink>),
             key: 'event',
         },
         {
-            label: (<NavLink to="/static/how">使用教學</NavLink>),
+            label: (<NavLink to="/static/how" className='h2'>使用教學</NavLink>),
             key: 'how',
         },
         {
-            label: (<NavLink to="/static/fee">收費方案</NavLink>),
+            label: (<NavLink to="/static/fee" className='h2'>收費方案</NavLink>),
             key: 'fee',
         },
         {
-            label: (<NavLink to="/static/help">說明</NavLink>),
+            label: (<NavLink to="/static/help" className='h2'>說明</NavLink>),
             key: 'help',
         },
         {
             type: 'divider',
         },
         {
-            label: (<Link to={'.'}>帳號資訊</Link>),
+            label: (<Link to={'.'} className='h2'>帳號資訊</Link>),
             key: '1',
         },
         {
-            label: (<Link to={'.'}>我的吃土單</Link>),
+            label: (<Link to={'.'} className='h2'>我的吃土單</Link>),
             key: '2',
         },
         {
-            label: (<Link to={'.'}>我的攤位</Link>),
+            label: (<Link to={'.'} className='h2'>我的攤位</Link>),
             key: '3',
         },
         {
-            label: (<Link to={'.'}>新建場次</Link>),
+            label: (<Link to={'.'} className='h2'>新建場次</Link>),
             key: '4',
         },
         {
             type: 'divider',
         },
         {
-            label: (<a href='' onClick={toggleLogin}>登出</a>),
+            label: (<a href='' onClick={toggleLogin} className='h2'>登出</a>),
             key: 'logout',
             danger: true,
         },
@@ -91,32 +91,42 @@ function Hamburger() {
 
     return (
         <div className={styles.box}>
-            <NavLink to="/" className={styles.logoLink}>
-                <img
-                    src="/images/logo.png"
-                    alt="布卡 Boocard"
-                    className={styles.logo}
-                />
-            </NavLink>
-            <Button
-                type="text"
-                shape="circle"
-                icon={<MenuOutlined />}
-                onClick={showDrawer}
-                className='btn' />
+            <div className={styles.leftBox}>
+                <Button
+                    type="text"
+                    shape="circle"
+                    icon={<MenuOutlined />}
+                    onClick={showDrawer}
+                    className={`btn ${styles.drawerBtn}`} />
+                <NavLink to="/" className={styles.logoLink}>
+                    <img
+                        src="/images/logo.svg"
+                        alt="布卡 Boocard"
+                        className={styles.logo}
+                    />
+                </NavLink>
+            </div>
+            <RightTopButton />
             <ConfigProvider theme={{
                 token: {
                     colorText: '#000000'
                 }
             }}>
-                <Drawer placement="right" onClose={onClose} open={open}>
-                    <Menu
-                        mode="inline"
-                        items={items}
-                        // selectedKeys={href}
-                        onClick={onClose}
-                        className={styles.menu}
-                    />
+                <Drawer placement="top" onClose={onClose} open={open}>
+                    <ConfigProvider theme={{
+                        token: {
+                            colorText: '#0495FF',
+                            colorPrimary: '#0495FF',
+                        }
+                    }}>
+                        <Menu
+                            mode="inline"
+                            items={items}
+                            // selectedKeys={href}
+                            onClick={onClose}
+                            className={styles.menu}
+                        />
+                    </ConfigProvider>
                 </Drawer>
             </ConfigProvider>
         </div>

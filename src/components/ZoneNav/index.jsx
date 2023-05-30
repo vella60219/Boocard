@@ -11,7 +11,7 @@ function ZoneNav({ areas }) {
     return (
         <div className={styles.box}>
             <Row gutter={[5, 5]} justify="center">
-                <ZoneNavBackButton />
+                {/* <ZoneNavBackButton /> */}
                 {areas.map(area => (
                     area.zone.map(zone => (
                         <Col
@@ -19,7 +19,7 @@ function ZoneNav({ areas }) {
                             key={`${area.id}-${zone}`}
                         // lg={{ span: 0.1 }}
                         >
-                            <ZoneNavButton key={`${area.id}-${zone}`} areaID={area.id} zone={zone} />
+                            <ZoneNavButton key={`${area.id}-${zone}`} areaID={area.id} zoneID={zone} />
                         </Col>
                     ))
                 ))}

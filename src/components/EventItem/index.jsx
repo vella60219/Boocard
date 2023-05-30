@@ -1,12 +1,11 @@
 import styles from "./eventItem.module.css"
 import { Link } from 'react-router-dom';
-import { Card, Typography } from "antd";
-const { Paragraph } = Typography;
+import { Card } from "antd";
 const { Meta } = Card;
 
 function EventItemS({ event }) {
     return (
-        <div className="borderBox borderBox3">
+        <div className="borderBox borderBox2">
             <Link to={`${event.id}`} >
                 <Card
                     className={styles.cardBox}
@@ -17,15 +16,18 @@ function EventItemS({ event }) {
                         src={event.image}
                         className={styles.image}
                     />}
+                    Style={{ width: 'auto' }}
                 >
                     <p className={`h3 ${styles.date}`}>
-                        {event.time}<br />
+                        {event.time}
+                    </p>
+                    <p className={`h3 ${styles.location}`}>
                         {event.location}
                     </p>
                     <Meta title={event.name} className={`h2 ${styles.title}`} />
                     {/* <p>　</p> */}
                     {/* <p style={{width:'inherit', flexWrap: 'true'}}>tags</p> */}
-                    {/* ^ tag list */}
+                    {/* ^ tag list 放這邊！！！！！！！！！！ */}
                 </Card>
             </Link>
         </div>
@@ -33,34 +35,12 @@ function EventItemS({ event }) {
 }
 
 function EventItemL({ event }) {
+    // ^ swiper 用的
     return (
         <div className="borderBox borderBox3">
+            {/* ^ 上漸層框線 */}
             <Link to={`/event/${event.id}`} className={styles.box} >
-                <Card
-                    className={styles.cardBoxL}
-                    size='small'
-                    bordered={false}
-                    cover={<img
-                        alt={event.name}
-                        src={event.image}
-                        className={styles.imageL}
-                    />}
-                    bodyStyle={{ width: '40vw' }}
-                // ^ 控制卡片文字區塊的寬度
-                >
-                    <p className={`h3 ${styles.date}`}>
-                        {event.time}<br />
-                        {event.location}
-                    </p>
-                    <Meta title={event.name} className={`h2 ${styles.title}`} />
-                    <div className={styles.pBoxL}>
-                        <Paragraph ellipsis={{ rows: 3, expandable: false }}>
-                            {event.info}
-                        </Paragraph>
-                    </div>
-                    {/* <p>tags</p> */}
-                    {/* ^ tag list */}
-                </Card>
+                {/* ^ 連結到活動那頁 */}
                 <Card
                     className={`${styles.cardBox} ${styles.cardBoxLS}`}
                     size='small'
@@ -72,17 +52,14 @@ function EventItemL({ event }) {
                     />}
                 >
                     <p className={`h3 ${styles.date}`}>
-                        {event.time}<br />
+                        {event.time}
+                    </p>
+                    <p className={`h3 ${styles.location}`}>
                         {event.location}
                     </p>
                     <Meta title={event.name} className={`h2 ${styles.title}`} />
-                    <div className={styles.pBoxS}>
-                        <Paragraph ellipsis={{ rows: 7, expandable: false }}>
-                            {event.info}
-                        </Paragraph>
-                    </div>
                     {/* <p>tags</p> */}
-                    {/* ^ tag list */}
+                    {/* ^ tag list 放這邊！！！！！！！！！！ */}
                 </Card>
             </Link>
         </div>

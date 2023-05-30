@@ -4,41 +4,31 @@
 
 .cardBox {
     padding: 0;
-    /* width: 280px; */
+    width: 255px;
     height: auto;
     border-radius: 25px;
     cursor: pointer;
 }
 
-.cardBoxL {
-    display: none;
-    max-width: 987px;
-    max-height: 530px;
-    width: 70vw !important;
-    height: 44vh !important;
-    border-radius: 25px;
-}
-
 .cardBoxLS {
-    width: 280px;
+    min-width: 236px;
+    width: 70vw;
+    max-width: 350px;
 }
 
-@media (min-width: 768px) {
-    .cardBoxL {
-        display: flex;
-    }
+@media (min-width: 1440px) {
 
     .cardBoxLS {
-        display: none;
+        /* width: 400px; */
     }
 }
 
 
 .image {
     height: 172px;
-    width: auto;
+    width: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: top;
     border-radius: 25px 25px 0 0 !important;
     /* 不這樣的話完全改不了 Card 的 border-radius */
 }
@@ -54,6 +44,11 @@
 }
 
 .date {
+    color: #1F2933;
+    margin-bottom: 10px;
+}
+
+.location {
     color: #667080;
     margin-bottom: 10px;
 }
@@ -61,18 +56,4 @@
 .title {
     color: #1F2933;
     margin: 10px 0;
-}
-
-.pBoxL,
-.pBoxS {
-    width: 100%;
-    height: auto;
-}
-
-.pBoxL {
-    margin-top: 30px;
-}
-
-.pBoxS {
-    margin-top: 10px;
 }

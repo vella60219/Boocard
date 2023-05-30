@@ -11,6 +11,16 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
+                "areaID": "floor-1",
+                "area": "一樓",
+                "zone": "A",
+                "number": "01"
+            },
+            {
+                "actID": "day-2",
+                "act": "DAY 2",
+                "day": "4/1",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -21,7 +31,8 @@
             {
                 "id": "1",
                 "owner_name": "抽不到推的非洲同人女",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_1.png",
+                "intro": "這次大概會是今年最後一次參，之後要準備第二季連載了，所以大家快來花博找我玩OwO。這次出的女僕新本之後會開通販ㄛ",
                 "sns": [
                     {
                         "type": "instagram",
@@ -39,38 +50,75 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
+                ]
+            },
+            {
+                "id": "2",
+                "owner_name": "支離破碎的同人女",
+                "owner_img": "/images/img_avatar_3.png",
+                "intro": "我是被上面那個人抓來的\n這次沒有新刊～～～\n\n我可以單身，但是我cp一定要結婚",
+                "sns": [
                     {
-                        "id": "1",
-                        "goods_name": "好看的小垃圾",
-                        "price": 80,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
+                        "type": "facebook",
+                        "href": "https://www.facebook.com/"
                     },
                     {
-                        "id": "2",
-                        "goods_name": "熊熊和鯊沙的小薄本",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
+                        "type": "youtube",
+                        "href": "https://youtube.com/"
                     },
                     {
-                        "id": "3",
-                        "goods_name": "好看的小垃圾套組",
-                        "price": 300,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
+                        "type": "web",
+                        "href": "https://www.google.com/"
                     }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": true,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
+                ]
+            },
+            {
+                "id": "4",
+                "goods_name": "原創插畫集",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 250,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
                 ]
             }
         ]
@@ -87,6 +135,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -97,7 +146,8 @@
             {
                 "id": "1",
                 "owner_name": "老闆今天歐氣溢出，開心",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -115,64 +165,49 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好可愛的貼紙",
-                        "price": 30,
-                        "intro": "consectetur adipiscing elit. Donec dignissim bibendum rutrum",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "鯊鯊狗的抱枕",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "小垃圾不垃圾",
-                        "price": 87,
-                        "intro": "物以類聚",
-                        "styles": [
-                            "垃圾",
-                            "還是垃圾",
-                            "廚餘",
-                            "資源回收"
-                        ]
-                    }, {
-                        "id": "4",
-                        "goods_name": "說好會買的本本",
-                        "price": 130,
-                        "intro": "一本就夠了",
-                        "styles": [
-                            "一本"
-                        ]
-                    }, {
-                        "id": "5",
-                        "goods_name": "便宜的壓克力，昂貴的售價",
-                        "price": 300,
-                        "intro": "套組不會比較便宜",
-                        "styles": [
-                            "我全都要",
-                            "我全都要",
-                            "我全都要",
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
-    }, {
+    },
+    {
         "id": "3",
         "eventID": "1",
         "booth_name": "euismod",
@@ -184,6 +219,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -194,6 +230,7 @@
             {
                 "id": "1",
                 "owner_name": "一直翹課一直爽",
+                "owner_img": "/images/img_avatar_3.png",
                 "intro": "期末，你再過來，我就要叫警察了",
                 "sns": [
                     {
@@ -212,39 +249,45 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "期末葵花寶典",
-                        "price": 180,
-                        "intro": "欲練此功必先",
-                        "styles": [
-                            "自功",
-                            "自宮",
-                            "自空"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "攤主加持",
-                        "price": 666,
-                        "intro": "有總比沒有好，對吧",
-                        "styles": [
-                            "歐趴",
-                            "一科就夠了",
-                            "不會真的有人相信吧!!"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "攤主加持---過的文具",
-                        "price": 100,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "期末葵花寶典",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 180,
+                "intro": "欲練此功必先",
+                "styles": [
+                    "自功",
+                    "自宮",
+                    "自空"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "攤主加持",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 666,
+                "intro": "有總比沒有好，對吧",
+                "styles": [
+                    "歐趴",
+                    "一科就夠了",
+                    "不會真的有人相信吧!!"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "攤主加持---過的文具",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 100,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
@@ -261,6 +304,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -271,7 +315,8 @@
             {
                 "id": "1",
                 "owner_name": "新鮮現採的肝，甘甜可口",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需獻上你們肝。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需獻上你們肝。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -289,36 +334,41 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "新鮮的肝",
-                        "price": 180,
-                        "intro": "新鮮現採，買到賺到",
-                        "styles": [
-                            "當日現做",
-                            "昨天的",
-                            "上周的",
-                            "應該還沒壞的"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "肝硬化",
-                        "price": 50,
-                        "intro": "cirrhosis",
-                        "styles": [
-                            "一期",
-                            "二期",
-                            "三期",
-                            "末期"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "新鮮的肝",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 180,
+                "intro": "新鮮現採，買到賺到",
+                "styles": [
+                    "當日現做",
+                    "昨天的",
+                    "上周的",
+                    "應該還沒壞的"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "肝硬化",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 50,
+                "intro": "cirrhosis",
+                "styles": [
+                    "一期",
+                    "二期",
+                    "三期",
+                    "末期"
                 ]
             }
         ]
-    },   {
+    },
+    {
         "id": "5",
         "eventID": "1",
         "booth_name": "ccyc",
@@ -330,6 +380,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -340,7 +391,8 @@
             {
                 "id": "1",
                 "owner_name": "抽不到推的非洲同人女",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_1.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -358,38 +410,44 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好看的小垃圾",
-                        "price": 80,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "熊熊和鯊沙的小薄本",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "好看的小垃圾套組",
-                        "price": 300,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
@@ -406,6 +464,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -416,7 +475,8 @@
             {
                 "id": "1",
                 "owner_name": "老闆今天歐氣溢出，開心",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -434,64 +494,49 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好可愛的貼紙",
-                        "price": 30,
-                        "intro": "consectetur adipiscing elit. Donec dignissim bibendum rutrum",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "鯊鯊狗的抱枕",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "小垃圾不垃圾",
-                        "price": 87,
-                        "intro": "物以類聚",
-                        "styles": [
-                            "垃圾",
-                            "還是垃圾",
-                            "廚餘",
-                            "資源回收"
-                        ]
-                    }, {
-                        "id": "4",
-                        "goods_name": "說好會買的本本",
-                        "price": 130,
-                        "intro": "一本就夠了",
-                        "styles": [
-                            "一本"
-                        ]
-                    }, {
-                        "id": "5",
-                        "goods_name": "便宜的壓克力，昂貴的售價",
-                        "price": 300,
-                        "intro": "套組不會比較便宜",
-                        "styles": [
-                            "我全都要",
-                            "我全都要",
-                            "我全都要",
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
-    }, {
+    },
+    {
         "id": "7",
         "eventID": "1",
         "booth_name": "euismod",
@@ -503,6 +548,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -513,6 +559,7 @@
             {
                 "id": "1",
                 "owner_name": "一直翹課一直爽",
+                "owner_img": "/images/img_avatar_3.png",
                 "intro": "期末，你再過來，我就要叫警察了",
                 "sns": [
                     {
@@ -531,39 +578,45 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "期末葵花寶典",
-                        "price": 180,
-                        "intro": "欲練此功必先",
-                        "styles": [
-                            "自功",
-                            "自宮",
-                            "自空"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "攤主加持",
-                        "price": 666,
-                        "intro": "有總比沒有好，對吧",
-                        "styles": [
-                            "歐趴",
-                            "一科就夠了",
-                            "不會真的有人相信吧!!"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "攤主加持---過的文具",
-                        "price": 100,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "期末葵花寶典",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 180,
+                "intro": "欲練此功必先",
+                "styles": [
+                    "自功",
+                    "自宮",
+                    "自空"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "攤主加持",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 666,
+                "intro": "有總比沒有好，對吧",
+                "styles": [
+                    "歐趴",
+                    "一科就夠了",
+                    "不會真的有人相信吧!!"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "攤主加持---過的文具",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 100,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
@@ -580,6 +633,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -590,7 +644,8 @@
             {
                 "id": "1",
                 "owner_name": "新鮮現採的肝，甘甜可口",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需獻上你們肝。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需獻上你們肝。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -608,36 +663,41 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "新鮮的肝",
-                        "price": 180,
-                        "intro": "新鮮現採，買到賺到",
-                        "styles": [
-                            "當日現做",
-                            "昨天的",
-                            "上周的",
-                            "應該還沒壞的"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "肝硬化",
-                        "price": 50,
-                        "intro": "cirrhosis",
-                        "styles": [
-                            "一期",
-                            "二期",
-                            "三期",
-                            "末期"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "新鮮的肝",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 180,
+                "intro": "新鮮現採，買到賺到",
+                "styles": [
+                    "當日現做",
+                    "昨天的",
+                    "上周的",
+                    "應該還沒壞的"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "肝硬化",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 50,
+                "intro": "cirrhosis",
+                "styles": [
+                    "一期",
+                    "二期",
+                    "三期",
+                    "末期"
                 ]
             }
         ]
-    },    {
+    },
+    {
         "id": "9",
         "eventID": "1",
         "booth_name": "ccyc",
@@ -649,6 +709,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -659,7 +720,8 @@
             {
                 "id": "1",
                 "owner_name": "抽不到推的非洲同人女",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_1.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -677,38 +739,44 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好看的小垃圾",
-                        "price": 80,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "熊熊和鯊沙的小薄本",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "好看的小垃圾套組",
-                        "price": 300,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
@@ -725,6 +793,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -735,7 +804,8 @@
             {
                 "id": "1",
                 "owner_name": "老闆今天歐氣溢出，開心",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -753,64 +823,49 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好可愛的貼紙",
-                        "price": 30,
-                        "intro": "consectetur adipiscing elit. Donec dignissim bibendum rutrum",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "鯊鯊狗的抱枕",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "小垃圾不垃圾",
-                        "price": 87,
-                        "intro": "物以類聚",
-                        "styles": [
-                            "垃圾",
-                            "還是垃圾",
-                            "廚餘",
-                            "資源回收"
-                        ]
-                    }, {
-                        "id": "4",
-                        "goods_name": "說好會買的本本",
-                        "price": 130,
-                        "intro": "一本就夠了",
-                        "styles": [
-                            "一本"
-                        ]
-                    }, {
-                        "id": "5",
-                        "goods_name": "便宜的壓克力，昂貴的售價",
-                        "price": 300,
-                        "intro": "套組不會比較便宜",
-                        "styles": [
-                            "我全都要",
-                            "我全都要",
-                            "我全都要",
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
-    }, {
+    },
+    {
         "id": "11",
         "eventID": "1",
         "booth_name": "euismod",
@@ -822,6 +877,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -832,6 +888,7 @@
             {
                 "id": "1",
                 "owner_name": "一直翹課一直爽",
+                "owner_img": "/images/img_avatar_3.png",
                 "intro": "期末，你再過來，我就要叫警察了",
                 "sns": [
                     {
@@ -850,39 +907,45 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "期末葵花寶典",
-                        "price": 180,
-                        "intro": "欲練此功必先",
-                        "styles": [
-                            "自功",
-                            "自宮",
-                            "自空"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "攤主加持",
-                        "price": 666,
-                        "intro": "有總比沒有好，對吧",
-                        "styles": [
-                            "歐趴",
-                            "一科就夠了",
-                            "不會真的有人相信吧!!"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "攤主加持---過的文具",
-                        "price": 100,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "期末葵花寶典",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 180,
+                "intro": "欲練此功必先",
+                "styles": [
+                    "自功",
+                    "自宮",
+                    "自空"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "攤主加持",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 666,
+                "intro": "有總比沒有好，對吧",
+                "styles": [
+                    "歐趴",
+                    "一科就夠了",
+                    "不會真的有人相信吧!!"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "攤主加持---過的文具",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 100,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
@@ -899,6 +962,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -909,7 +973,8 @@
             {
                 "id": "1",
                 "owner_name": "新鮮現採的肝，甘甜可口",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需獻上你們肝。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需獻上你們肝。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -927,36 +992,41 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "新鮮的肝",
-                        "price": 180,
-                        "intro": "新鮮現採，買到賺到",
-                        "styles": [
-                            "當日現做",
-                            "昨天的",
-                            "上周的",
-                            "應該還沒壞的"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "肝硬化",
-                        "price": 50,
-                        "intro": "cirrhosis",
-                        "styles": [
-                            "一期",
-                            "二期",
-                            "三期",
-                            "末期"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "新鮮的肝",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 180,
+                "intro": "新鮮現採，買到賺到",
+                "styles": [
+                    "當日現做",
+                    "昨天的",
+                    "上周的",
+                    "應該還沒壞的"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "肝硬化",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 50,
+                "intro": "cirrhosis",
+                "styles": [
+                    "一期",
+                    "二期",
+                    "三期",
+                    "末期"
                 ]
             }
         ]
-    },    {
+    },
+    {
         "id": "13",
         "eventID": "1",
         "booth_name": "ccyc",
@@ -968,6 +1038,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -978,7 +1049,8 @@
             {
                 "id": "1",
                 "owner_name": "抽不到推的非洲同人女",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_1.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -996,38 +1068,44 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好看的小垃圾",
-                        "price": 80,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "熊熊和鯊沙的小薄本",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "好看的小垃圾套組",
-                        "price": 300,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
@@ -1044,6 +1122,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -1054,7 +1133,8 @@
             {
                 "id": "1",
                 "owner_name": "老闆今天歐氣溢出，開心",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -1072,64 +1152,49 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好可愛的貼紙",
-                        "price": 30,
-                        "intro": "consectetur adipiscing elit. Donec dignissim bibendum rutrum",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "鯊鯊狗的抱枕",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "小垃圾不垃圾",
-                        "price": 87,
-                        "intro": "物以類聚",
-                        "styles": [
-                            "垃圾",
-                            "還是垃圾",
-                            "廚餘",
-                            "資源回收"
-                        ]
-                    }, {
-                        "id": "4",
-                        "goods_name": "說好會買的本本",
-                        "price": 130,
-                        "intro": "一本就夠了",
-                        "styles": [
-                            "一本"
-                        ]
-                    }, {
-                        "id": "5",
-                        "goods_name": "便宜的壓克力，昂貴的售價",
-                        "price": 300,
-                        "intro": "套組不會比較便宜",
-                        "styles": [
-                            "我全都要",
-                            "我全都要",
-                            "我全都要",
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
-    }, {
+    },
+    {
         "id": "15",
         "eventID": "1",
         "booth_name": "euismod",
@@ -1141,6 +1206,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -1151,6 +1217,7 @@
             {
                 "id": "1",
                 "owner_name": "一直翹課一直爽",
+                "owner_img": "/images/img_avatar_3.png",
                 "intro": "期末，你再過來，我就要叫警察了",
                 "sns": [
                     {
@@ -1169,39 +1236,45 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "期末葵花寶典",
-                        "price": 180,
-                        "intro": "欲練此功必先",
-                        "styles": [
-                            "自功",
-                            "自宮",
-                            "自空"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "攤主加持",
-                        "price": 666,
-                        "intro": "有總比沒有好，對吧",
-                        "styles": [
-                            "歐趴",
-                            "一科就夠了",
-                            "不會真的有人相信吧!!"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "攤主加持---過的文具",
-                        "price": 100,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "期末葵花寶典",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 180,
+                "intro": "欲練此功必先",
+                "styles": [
+                    "自功",
+                    "自宮",
+                    "自空"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "攤主加持",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 666,
+                "intro": "有總比沒有好，對吧",
+                "styles": [
+                    "歐趴",
+                    "一科就夠了",
+                    "不會真的有人相信吧!!"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "攤主加持---過的文具",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 100,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
@@ -1218,6 +1291,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -1228,7 +1302,8 @@
             {
                 "id": "1",
                 "owner_name": "新鮮現採的肝，甘甜可口",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需獻上你們肝。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需獻上你們肝。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -1246,37 +1321,42 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "新鮮的肝",
-                        "price": 180,
-                        "intro": "新鮮現採，買到賺到",
-                        "styles": [
-                            "當日現做",
-                            "昨天的",
-                            "上周的",
-                            "應該還沒壞的"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "肝硬化",
-                        "price": 50,
-                        "intro": "cirrhosis",
-                        "styles": [
-                            "一期",
-                            "二期",
-                            "三期",
-                            "末期"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "新鮮的肝",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 180,
+                "intro": "新鮮現採，買到賺到",
+                "styles": [
+                    "當日現做",
+                    "昨天的",
+                    "上周的",
+                    "應該還沒壞的"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "肝硬化",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 50,
+                "intro": "cirrhosis",
+                "styles": [
+                    "一期",
+                    "二期",
+                    "三期",
+                    "末期"
                 ]
             }
         ]
-    },    {
-        "id": "1",
+    },
+    {
+        "id": "17",
         "eventID": "1",
         "booth_name": "ccyc",
         "cover_img": "/images/img_booth_1.png",
@@ -1287,6 +1367,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -1297,7 +1378,8 @@
             {
                 "id": "1",
                 "owner_name": "抽不到推的非洲同人女",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_1.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -1315,44 +1397,50 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好看的小垃圾",
-                        "price": 80,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "熊熊和鯊沙的小薄本",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "好看的小垃圾套組",
-                        "price": 300,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
     },
     {
-        "id": "2",
+        "id": "18",
         "eventID": "1",
         "booth_name": "amet",
         "cover_img": "/images/img_booth_2.png",
@@ -1363,6 +1451,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -1373,7 +1462,8 @@
             {
                 "id": "1",
                 "owner_name": "老闆今天歐氣溢出，開心",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -1391,65 +1481,50 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好可愛的貼紙",
-                        "price": 30,
-                        "intro": "consectetur adipiscing elit. Donec dignissim bibendum rutrum",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "鯊鯊狗的抱枕",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "小垃圾不垃圾",
-                        "price": 87,
-                        "intro": "物以類聚",
-                        "styles": [
-                            "垃圾",
-                            "還是垃圾",
-                            "廚餘",
-                            "資源回收"
-                        ]
-                    }, {
-                        "id": "4",
-                        "goods_name": "說好會買的本本",
-                        "price": 130,
-                        "intro": "一本就夠了",
-                        "styles": [
-                            "一本"
-                        ]
-                    }, {
-                        "id": "5",
-                        "goods_name": "便宜的壓克力，昂貴的售價",
-                        "price": 300,
-                        "intro": "套組不會比較便宜",
-                        "styles": [
-                            "我全都要",
-                            "我全都要",
-                            "我全都要",
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
-    }, {
-        "id": "3",
+    },
+    {
+        "id": "19",
         "eventID": "1",
         "booth_name": "euismod",
         "cover_img": "/images/img_booth_3.png",
@@ -1460,6 +1535,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -1470,6 +1546,7 @@
             {
                 "id": "1",
                 "owner_name": "一直翹課一直爽",
+                "owner_img": "/images/img_avatar_3.png",
                 "intro": "期末，你再過來，我就要叫警察了",
                 "sns": [
                     {
@@ -1488,45 +1565,51 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "期末葵花寶典",
-                        "price": 180,
-                        "intro": "欲練此功必先",
-                        "styles": [
-                            "自功",
-                            "自宮",
-                            "自空"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "攤主加持",
-                        "price": 666,
-                        "intro": "有總比沒有好，對吧",
-                        "styles": [
-                            "歐趴",
-                            "一科就夠了",
-                            "不會真的有人相信吧!!"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "攤主加持---過的文具",
-                        "price": 100,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "期末葵花寶典",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 180,
+                "intro": "欲練此功必先",
+                "styles": [
+                    "自功",
+                    "自宮",
+                    "自空"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "攤主加持",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 666,
+                "intro": "有總比沒有好，對吧",
+                "styles": [
+                    "歐趴",
+                    "一科就夠了",
+                    "不會真的有人相信吧!!"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "攤主加持---過的文具",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 100,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
     },
     {
-        "id": "4",
+        "id": "20",
         "eventID": "1",
         "booth_name": "pulvinar",
         "cover_img": "/images/img_booth_4.png",
@@ -1537,6 +1620,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -1547,7 +1631,8 @@
             {
                 "id": "1",
                 "owner_name": "新鮮現採的肝，甘甜可口",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需獻上你們肝。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需獻上你們肝。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -1565,37 +1650,42 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "新鮮的肝",
-                        "price": 180,
-                        "intro": "新鮮現採，買到賺到",
-                        "styles": [
-                            "當日現做",
-                            "昨天的",
-                            "上周的",
-                            "應該還沒壞的"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "肝硬化",
-                        "price": 50,
-                        "intro": "cirrhosis",
-                        "styles": [
-                            "一期",
-                            "二期",
-                            "三期",
-                            "末期"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "新鮮的肝",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 180,
+                "intro": "新鮮現採，買到賺到",
+                "styles": [
+                    "當日現做",
+                    "昨天的",
+                    "上周的",
+                    "應該還沒壞的"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "肝硬化",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 50,
+                "intro": "cirrhosis",
+                "styles": [
+                    "一期",
+                    "二期",
+                    "三期",
+                    "末期"
                 ]
             }
         ]
-    },   {
-        "id": "5",
+    },
+    {
+        "id": "21",
         "eventID": "1",
         "booth_name": "ccyc",
         "cover_img": "/images/img_booth_5.png",
@@ -1606,6 +1696,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -1616,7 +1707,8 @@
             {
                 "id": "1",
                 "owner_name": "抽不到推的非洲同人女",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_1.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -1634,44 +1726,50 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好看的小垃圾",
-                        "price": 80,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "熊熊和鯊沙的小薄本",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "好看的小垃圾套組",
-                        "price": 300,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
     },
     {
-        "id": "6",
+        "id": "22",
         "eventID": "1",
         "booth_name": "amet",
         "cover_img": "/images/img_booth_6.png",
@@ -1682,6 +1780,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -1692,7 +1791,8 @@
             {
                 "id": "1",
                 "owner_name": "老闆今天歐氣溢出，開心",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -1710,65 +1810,50 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好可愛的貼紙",
-                        "price": 30,
-                        "intro": "consectetur adipiscing elit. Donec dignissim bibendum rutrum",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "鯊鯊狗的抱枕",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "小垃圾不垃圾",
-                        "price": 87,
-                        "intro": "物以類聚",
-                        "styles": [
-                            "垃圾",
-                            "還是垃圾",
-                            "廚餘",
-                            "資源回收"
-                        ]
-                    }, {
-                        "id": "4",
-                        "goods_name": "說好會買的本本",
-                        "price": 130,
-                        "intro": "一本就夠了",
-                        "styles": [
-                            "一本"
-                        ]
-                    }, {
-                        "id": "5",
-                        "goods_name": "便宜的壓克力，昂貴的售價",
-                        "price": 300,
-                        "intro": "套組不會比較便宜",
-                        "styles": [
-                            "我全都要",
-                            "我全都要",
-                            "我全都要",
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
-    },    {
-        "id": "1",
+    },
+    {
+        "id": "23",
         "eventID": "2",
         "booth_name": "ccyc",
         "cover_img": "/images/img_booth_1.png",
@@ -1779,6 +1864,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -1789,7 +1875,8 @@
             {
                 "id": "1",
                 "owner_name": "抽不到推的非洲同人女",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_1.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -1807,44 +1894,50 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好看的小垃圾",
-                        "price": 80,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "熊熊和鯊沙的小薄本",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "好看的小垃圾套組",
-                        "price": 300,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
     },
     {
-        "id": "2",
+        "id": "24",
         "eventID": "2",
         "booth_name": "amet",
         "cover_img": "/images/img_booth_2.png",
@@ -1855,6 +1948,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -1865,7 +1959,8 @@
             {
                 "id": "1",
                 "owner_name": "老闆今天歐氣溢出，開心",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -1883,65 +1978,50 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好可愛的貼紙",
-                        "price": 30,
-                        "intro": "consectetur adipiscing elit. Donec dignissim bibendum rutrum",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "鯊鯊狗的抱枕",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "小垃圾不垃圾",
-                        "price": 87,
-                        "intro": "物以類聚",
-                        "styles": [
-                            "垃圾",
-                            "還是垃圾",
-                            "廚餘",
-                            "資源回收"
-                        ]
-                    }, {
-                        "id": "4",
-                        "goods_name": "說好會買的本本",
-                        "price": 130,
-                        "intro": "一本就夠了",
-                        "styles": [
-                            "一本"
-                        ]
-                    }, {
-                        "id": "5",
-                        "goods_name": "便宜的壓克力，昂貴的售價",
-                        "price": 300,
-                        "intro": "套組不會比較便宜",
-                        "styles": [
-                            "我全都要",
-                            "我全都要",
-                            "我全都要",
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
-    }, {
-        "id": "3",
+    },
+    {
+        "id": "25",
         "eventID": "2",
         "booth_name": "euismod",
         "cover_img": "/images/img_booth_3.png",
@@ -1952,6 +2032,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -1962,6 +2043,7 @@
             {
                 "id": "1",
                 "owner_name": "一直翹課一直爽",
+                "owner_img": "/images/img_avatar_3.png",
                 "intro": "期末，你再過來，我就要叫警察了",
                 "sns": [
                     {
@@ -1980,45 +2062,51 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "期末葵花寶典",
-                        "price": 180,
-                        "intro": "欲練此功必先",
-                        "styles": [
-                            "自功",
-                            "自宮",
-                            "自空"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "攤主加持",
-                        "price": 666,
-                        "intro": "有總比沒有好，對吧",
-                        "styles": [
-                            "歐趴",
-                            "一科就夠了",
-                            "不會真的有人相信吧!!"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "攤主加持---過的文具",
-                        "price": 100,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "期末葵花寶典",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 180,
+                "intro": "欲練此功必先",
+                "styles": [
+                    "自功",
+                    "自宮",
+                    "自空"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "攤主加持",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 666,
+                "intro": "有總比沒有好，對吧",
+                "styles": [
+                    "歐趴",
+                    "一科就夠了",
+                    "不會真的有人相信吧!!"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "攤主加持---過的文具",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 100,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
     },
     {
-        "id": "4",
+        "id": "26",
         "eventID": "2",
         "booth_name": "pulvinar",
         "cover_img": "/images/img_booth_4.png",
@@ -2029,6 +2117,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2039,7 +2128,8 @@
             {
                 "id": "1",
                 "owner_name": "新鮮現採的肝，甘甜可口",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需獻上你們肝。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需獻上你們肝。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -2057,37 +2147,42 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "新鮮的肝",
-                        "price": 180,
-                        "intro": "新鮮現採，買到賺到",
-                        "styles": [
-                            "當日現做",
-                            "昨天的",
-                            "上周的",
-                            "應該還沒壞的"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "肝硬化",
-                        "price": 50,
-                        "intro": "cirrhosis",
-                        "styles": [
-                            "一期",
-                            "二期",
-                            "三期",
-                            "末期"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "新鮮的肝",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 180,
+                "intro": "新鮮現採，買到賺到",
+                "styles": [
+                    "當日現做",
+                    "昨天的",
+                    "上周的",
+                    "應該還沒壞的"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "肝硬化",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 50,
+                "intro": "cirrhosis",
+                "styles": [
+                    "一期",
+                    "二期",
+                    "三期",
+                    "末期"
                 ]
             }
         ]
-    },   {
-        "id": "5",
+    },
+    {
+        "id": "27",
         "eventID": "2",
         "booth_name": "ccyc",
         "cover_img": "/images/img_booth_5.png",
@@ -2098,6 +2193,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2108,7 +2204,8 @@
             {
                 "id": "1",
                 "owner_name": "抽不到推的非洲同人女",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_1.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -2126,44 +2223,50 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好看的小垃圾",
-                        "price": 80,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "熊熊和鯊沙的小薄本",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "好看的小垃圾套組",
-                        "price": 300,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
     },
     {
-        "id": "6",
+        "id": "28",
         "eventID": "2",
         "booth_name": "amet",
         "cover_img": "/images/img_booth_6.png",
@@ -2174,6 +2277,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2184,7 +2288,8 @@
             {
                 "id": "1",
                 "owner_name": "老闆今天歐氣溢出，開心",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -2202,65 +2307,50 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好可愛的貼紙",
-                        "price": 30,
-                        "intro": "consectetur adipiscing elit. Donec dignissim bibendum rutrum",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "鯊鯊狗的抱枕",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "小垃圾不垃圾",
-                        "price": 87,
-                        "intro": "物以類聚",
-                        "styles": [
-                            "垃圾",
-                            "還是垃圾",
-                            "廚餘",
-                            "資源回收"
-                        ]
-                    }, {
-                        "id": "4",
-                        "goods_name": "說好會買的本本",
-                        "price": 130,
-                        "intro": "一本就夠了",
-                        "styles": [
-                            "一本"
-                        ]
-                    }, {
-                        "id": "5",
-                        "goods_name": "便宜的壓克力，昂貴的售價",
-                        "price": 300,
-                        "intro": "套組不會比較便宜",
-                        "styles": [
-                            "我全都要",
-                            "我全都要",
-                            "我全都要",
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
-    }, {
-        "id": "7",
+    },
+    {
+        "id": "29",
         "eventID": "2",
         "booth_name": "euismod",
         "cover_img": "/images/img_booth_7.png",
@@ -2271,6 +2361,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2281,6 +2372,7 @@
             {
                 "id": "1",
                 "owner_name": "一直翹課一直爽",
+                "owner_img": "/images/img_avatar_3.png",
                 "intro": "期末，你再過來，我就要叫警察了",
                 "sns": [
                     {
@@ -2299,45 +2391,51 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "期末葵花寶典",
-                        "price": 180,
-                        "intro": "欲練此功必先",
-                        "styles": [
-                            "自功",
-                            "自宮",
-                            "自空"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "攤主加持",
-                        "price": 666,
-                        "intro": "有總比沒有好，對吧",
-                        "styles": [
-                            "歐趴",
-                            "一科就夠了",
-                            "不會真的有人相信吧!!"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "攤主加持---過的文具",
-                        "price": 100,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "期末葵花寶典",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 180,
+                "intro": "欲練此功必先",
+                "styles": [
+                    "自功",
+                    "自宮",
+                    "自空"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "攤主加持",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 666,
+                "intro": "有總比沒有好，對吧",
+                "styles": [
+                    "歐趴",
+                    "一科就夠了",
+                    "不會真的有人相信吧!!"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "攤主加持---過的文具",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 100,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
     },
     {
-        "id": "8",
+        "id": "30",
         "eventID": "2",
         "booth_name": "pulvinar",
         "cover_img": "/images/img_booth_2.png",
@@ -2348,6 +2446,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2358,7 +2457,8 @@
             {
                 "id": "1",
                 "owner_name": "新鮮現採的肝，甘甜可口",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需獻上你們肝。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需獻上你們肝。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -2376,37 +2476,42 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "新鮮的肝",
-                        "price": 180,
-                        "intro": "新鮮現採，買到賺到",
-                        "styles": [
-                            "當日現做",
-                            "昨天的",
-                            "上周的",
-                            "應該還沒壞的"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "肝硬化",
-                        "price": 50,
-                        "intro": "cirrhosis",
-                        "styles": [
-                            "一期",
-                            "二期",
-                            "三期",
-                            "末期"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "新鮮的肝",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 180,
+                "intro": "新鮮現採，買到賺到",
+                "styles": [
+                    "當日現做",
+                    "昨天的",
+                    "上周的",
+                    "應該還沒壞的"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "肝硬化",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 50,
+                "intro": "cirrhosis",
+                "styles": [
+                    "一期",
+                    "二期",
+                    "三期",
+                    "末期"
                 ]
             }
         ]
-    },    {
-        "id": "9",
+    },
+    {
+        "id": "31",
         "eventID": "2",
         "booth_name": "ccyc",
         "cover_img": "/images/img_booth_4.png",
@@ -2417,6 +2522,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2427,7 +2533,8 @@
             {
                 "id": "1",
                 "owner_name": "抽不到推的非洲同人女",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_1.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -2445,44 +2552,50 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好看的小垃圾",
-                        "price": 80,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "熊熊和鯊沙的小薄本",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "好看的小垃圾套組",
-                        "price": 300,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
     },
     {
-        "id": "10",
+        "id": "32",
         "eventID": "2",
         "booth_name": "amet",
         "cover_img": "/images/img_booth_3.png",
@@ -2493,6 +2606,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2503,7 +2617,8 @@
             {
                 "id": "1",
                 "owner_name": "老闆今天歐氣溢出，開心",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -2521,65 +2636,50 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好可愛的貼紙",
-                        "price": 30,
-                        "intro": "consectetur adipiscing elit. Donec dignissim bibendum rutrum",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "鯊鯊狗的抱枕",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "小垃圾不垃圾",
-                        "price": 87,
-                        "intro": "物以類聚",
-                        "styles": [
-                            "垃圾",
-                            "還是垃圾",
-                            "廚餘",
-                            "資源回收"
-                        ]
-                    }, {
-                        "id": "4",
-                        "goods_name": "說好會買的本本",
-                        "price": 130,
-                        "intro": "一本就夠了",
-                        "styles": [
-                            "一本"
-                        ]
-                    }, {
-                        "id": "5",
-                        "goods_name": "便宜的壓克力，昂貴的售價",
-                        "price": 300,
-                        "intro": "套組不會比較便宜",
-                        "styles": [
-                            "我全都要",
-                            "我全都要",
-                            "我全都要",
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
-    }, {
-        "id": "11",
+    },
+    {
+        "id": "33",
         "eventID": "2",
         "booth_name": "euismod",
         "cover_img": "/images/img_booth_1.png",
@@ -2590,6 +2690,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2600,6 +2701,7 @@
             {
                 "id": "1",
                 "owner_name": "一直翹課一直爽",
+                "owner_img": "/images/img_avatar_3.png",
                 "intro": "期末，你再過來，我就要叫警察了",
                 "sns": [
                     {
@@ -2618,45 +2720,51 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "期末葵花寶典",
-                        "price": 180,
-                        "intro": "欲練此功必先",
-                        "styles": [
-                            "自功",
-                            "自宮",
-                            "自空"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "攤主加持",
-                        "price": 666,
-                        "intro": "有總比沒有好，對吧",
-                        "styles": [
-                            "歐趴",
-                            "一科就夠了",
-                            "不會真的有人相信吧!!"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "攤主加持---過的文具",
-                        "price": 100,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "期末葵花寶典",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 180,
+                "intro": "欲練此功必先",
+                "styles": [
+                    "自功",
+                    "自宮",
+                    "自空"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "攤主加持",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 666,
+                "intro": "有總比沒有好，對吧",
+                "styles": [
+                    "歐趴",
+                    "一科就夠了",
+                    "不會真的有人相信吧!!"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "攤主加持---過的文具",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 100,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
     },
     {
-        "id": "12",
+        "id": "34",
         "eventID": "2",
         "booth_name": "pulvinar",
         "cover_img": "/images/img_booth_6.png",
@@ -2667,6 +2775,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2677,7 +2786,8 @@
             {
                 "id": "1",
                 "owner_name": "新鮮現採的肝，甘甜可口",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需獻上你們肝。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需獻上你們肝。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -2695,37 +2805,42 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "新鮮的肝",
-                        "price": 180,
-                        "intro": "新鮮現採，買到賺到",
-                        "styles": [
-                            "當日現做",
-                            "昨天的",
-                            "上周的",
-                            "應該還沒壞的"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "肝硬化",
-                        "price": 50,
-                        "intro": "cirrhosis",
-                        "styles": [
-                            "一期",
-                            "二期",
-                            "三期",
-                            "末期"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "新鮮的肝",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 180,
+                "intro": "新鮮現採，買到賺到",
+                "styles": [
+                    "當日現做",
+                    "昨天的",
+                    "上周的",
+                    "應該還沒壞的"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "肝硬化",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 50,
+                "intro": "cirrhosis",
+                "styles": [
+                    "一期",
+                    "二期",
+                    "三期",
+                    "末期"
                 ]
             }
         ]
-    },    {
-        "id": "13",
+    },
+    {
+        "id": "35",
         "eventID": "2",
         "booth_name": "ccyc",
         "cover_img": "/images/img_booth_2.png",
@@ -2736,6 +2851,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2746,7 +2862,8 @@
             {
                 "id": "1",
                 "owner_name": "抽不到推的非洲同人女",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_1.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -2764,44 +2881,50 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好看的小垃圾",
-                        "price": 80,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "熊熊和鯊沙的小薄本",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "好看的小垃圾套組",
-                        "price": 300,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
     },
     {
-        "id": "14",
+        "id": "36",
         "eventID": "2",
         "booth_name": "amet",
         "cover_img": "/images/img_booth_1.png",
@@ -2812,6 +2935,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2822,7 +2946,8 @@
             {
                 "id": "1",
                 "owner_name": "老闆今天歐氣溢出，開心",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -2840,65 +2965,50 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好可愛的貼紙",
-                        "price": 30,
-                        "intro": "consectetur adipiscing elit. Donec dignissim bibendum rutrum",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "鯊鯊狗的抱枕",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "小垃圾不垃圾",
-                        "price": 87,
-                        "intro": "物以類聚",
-                        "styles": [
-                            "垃圾",
-                            "還是垃圾",
-                            "廚餘",
-                            "資源回收"
-                        ]
-                    }, {
-                        "id": "4",
-                        "goods_name": "說好會買的本本",
-                        "price": 130,
-                        "intro": "一本就夠了",
-                        "styles": [
-                            "一本"
-                        ]
-                    }, {
-                        "id": "5",
-                        "goods_name": "便宜的壓克力，昂貴的售價",
-                        "price": 300,
-                        "intro": "套組不會比較便宜",
-                        "styles": [
-                            "我全都要",
-                            "我全都要",
-                            "我全都要",
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
-    }, {
-        "id": "15",
+    },
+    {
+        "id": "37",
         "eventID": "2",
         "booth_name": "euismod",
         "cover_img": "/images/img_booth_5.png",
@@ -2909,6 +3019,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2919,6 +3030,7 @@
             {
                 "id": "1",
                 "owner_name": "一直翹課一直爽",
+                "owner_img": "/images/img_avatar_3.png",
                 "intro": "期末，你再過來，我就要叫警察了",
                 "sns": [
                     {
@@ -2937,45 +3049,51 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "期末葵花寶典",
-                        "price": 180,
-                        "intro": "欲練此功必先",
-                        "styles": [
-                            "自功",
-                            "自宮",
-                            "自空"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "攤主加持",
-                        "price": 666,
-                        "intro": "有總比沒有好，對吧",
-                        "styles": [
-                            "歐趴",
-                            "一科就夠了",
-                            "不會真的有人相信吧!!"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "攤主加持---過的文具",
-                        "price": 100,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "期末葵花寶典",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 180,
+                "intro": "欲練此功必先",
+                "styles": [
+                    "自功",
+                    "自宮",
+                    "自空"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "攤主加持",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 666,
+                "intro": "有總比沒有好，對吧",
+                "styles": [
+                    "歐趴",
+                    "一科就夠了",
+                    "不會真的有人相信吧!!"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "攤主加持---過的文具",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 100,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
     },
     {
-        "id": "16",
+        "id": "38",
         "eventID": "2",
         "booth_name": "pulvinar",
         "cover_img": "/images/img_booth_6.png",
@@ -2986,6 +3104,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "A",
@@ -2996,7 +3115,8 @@
             {
                 "id": "1",
                 "owner_name": "新鮮現採的肝，甘甜可口",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需獻上你們肝。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需獻上你們肝。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -3014,37 +3134,42 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "新鮮的肝",
-                        "price": 180,
-                        "intro": "新鮮現採，買到賺到",
-                        "styles": [
-                            "當日現做",
-                            "昨天的",
-                            "上周的",
-                            "應該還沒壞的"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "肝硬化",
-                        "price": 50,
-                        "intro": "cirrhosis",
-                        "styles": [
-                            "一期",
-                            "二期",
-                            "三期",
-                            "末期"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "新鮮的肝",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 180,
+                "intro": "新鮮現採，買到賺到",
+                "styles": [
+                    "當日現做",
+                    "昨天的",
+                    "上周的",
+                    "應該還沒壞的"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "肝硬化",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 50,
+                "intro": "cirrhosis",
+                "styles": [
+                    "一期",
+                    "二期",
+                    "三期",
+                    "末期"
                 ]
             }
         ]
-    },    {
-        "id": "1",
+    },
+    {
+        "id": "39",
         "eventID": "2",
         "booth_name": "ccyc",
         "cover_img": "/images/img_booth_1.png",
@@ -3055,6 +3180,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -3065,7 +3191,8 @@
             {
                 "id": "1",
                 "owner_name": "抽不到推的非洲同人女",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_1.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -3083,44 +3210,50 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好看的小垃圾",
-                        "price": 80,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "熊熊和鯊沙的小薄本",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "好看的小垃圾套組",
-                        "price": 300,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
     },
     {
-        "id": "2",
+        "id": "40",
         "eventID": "2",
         "booth_name": "amet",
         "cover_img": "/images/img_booth_2.png",
@@ -3131,6 +3264,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -3141,7 +3275,8 @@
             {
                 "id": "1",
                 "owner_name": "老闆今天歐氣溢出，開心",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -3159,65 +3294,50 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好可愛的貼紙",
-                        "price": 30,
-                        "intro": "consectetur adipiscing elit. Donec dignissim bibendum rutrum",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "鯊鯊狗的抱枕",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "小垃圾不垃圾",
-                        "price": 87,
-                        "intro": "物以類聚",
-                        "styles": [
-                            "垃圾",
-                            "還是垃圾",
-                            "廚餘",
-                            "資源回收"
-                        ]
-                    }, {
-                        "id": "4",
-                        "goods_name": "說好會買的本本",
-                        "price": 130,
-                        "intro": "一本就夠了",
-                        "styles": [
-                            "一本"
-                        ]
-                    }, {
-                        "id": "5",
-                        "goods_name": "便宜的壓克力，昂貴的售價",
-                        "price": 300,
-                        "intro": "套組不會比較便宜",
-                        "styles": [
-                            "我全都要",
-                            "我全都要",
-                            "我全都要",
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
-    }, {
-        "id": "3",
+    },
+    {
+        "id": "41",
         "eventID": "2",
         "booth_name": "euismod",
         "cover_img": "/images/img_booth_3.png",
@@ -3228,6 +3348,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -3238,6 +3359,7 @@
             {
                 "id": "1",
                 "owner_name": "一直翹課一直爽",
+                "owner_img": "/images/img_avatar_3.png",
                 "intro": "期末，你再過來，我就要叫警察了",
                 "sns": [
                     {
@@ -3256,45 +3378,51 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "期末葵花寶典",
-                        "price": 180,
-                        "intro": "欲練此功必先",
-                        "styles": [
-                            "自功",
-                            "自宮",
-                            "自空"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "攤主加持",
-                        "price": 666,
-                        "intro": "有總比沒有好，對吧",
-                        "styles": [
-                            "歐趴",
-                            "一科就夠了",
-                            "不會真的有人相信吧!!"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "攤主加持---過的文具",
-                        "price": 100,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "期末葵花寶典",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 180,
+                "intro": "欲練此功必先",
+                "styles": [
+                    "自功",
+                    "自宮",
+                    "自空"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "攤主加持",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 666,
+                "intro": "有總比沒有好，對吧",
+                "styles": [
+                    "歐趴",
+                    "一科就夠了",
+                    "不會真的有人相信吧!!"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "攤主加持---過的文具",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 100,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
     },
     {
-        "id": "4",
+        "id": "42",
         "eventID": "2",
         "booth_name": "pulvinar",
         "cover_img": "/images/img_booth_4.png",
@@ -3305,6 +3433,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -3315,7 +3444,8 @@
             {
                 "id": "1",
                 "owner_name": "新鮮現採的肝，甘甜可口",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需獻上你們肝。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需獻上你們肝。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -3333,37 +3463,42 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "新鮮的肝",
-                        "price": 180,
-                        "intro": "新鮮現採，買到賺到",
-                        "styles": [
-                            "當日現做",
-                            "昨天的",
-                            "上周的",
-                            "應該還沒壞的"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "肝硬化",
-                        "price": 50,
-                        "intro": "cirrhosis",
-                        "styles": [
-                            "一期",
-                            "二期",
-                            "三期",
-                            "末期"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "新鮮的肝",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 180,
+                "intro": "新鮮現採，買到賺到",
+                "styles": [
+                    "當日現做",
+                    "昨天的",
+                    "上周的",
+                    "應該還沒壞的"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "肝硬化",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 50,
+                "intro": "cirrhosis",
+                "styles": [
+                    "一期",
+                    "二期",
+                    "三期",
+                    "末期"
                 ]
             }
         ]
-    },   {
-        "id": "5",
+    },
+    {
+        "id": "43",
         "eventID": "2",
         "booth_name": "ccyc",
         "cover_img": "/images/img_booth_5.png",
@@ -3374,6 +3509,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -3384,7 +3520,8 @@
             {
                 "id": "1",
                 "owner_name": "抽不到推的非洲同人女",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_1.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -3402,44 +3539,50 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好看的小垃圾",
-                        "price": 80,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "熊熊和鯊沙的小薄本",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "好看的小垃圾套組",
-                        "price": 300,
-                        "intro": "套組會比較便宜",
-                        "styles": [
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]
     },
     {
-        "id": "6",
+        "id": "44",
         "eventID": "2",
         "booth_name": "amet",
         "cover_img": "/images/img_booth_6.png",
@@ -3450,6 +3593,7 @@
             {
                 "actID": "day-1",
                 "act": "DAY 1",
+                "day": "3/31",
                 "areaID": "floor-1",
                 "area": "一樓",
                 "zone": "B",
@@ -3460,7 +3604,8 @@
             {
                 "id": "1",
                 "owner_name": "老闆今天歐氣溢出，開心",
-                "intro": "4 月 6 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
+                "owner_img": "/images/img_avatar_2.png",
+                "intro": "5 月 30 日星座運勢：\n牡羊座、金牛座、雙子座、巨蟹座\n獅子座、處女座、天秤座、天蠍座\n射手座、摩羯座、水瓶座、雙魚座\n皆需要上班上課。",
                 "sns": [
                     {
                         "type": "instagram",
@@ -3478,60 +3623,44 @@
                         "type": "patreon",
                         "href": "https://www.patreon.com/"
                     }
-                ],
-                "goods": [
-                    {
-                        "id": "1",
-                        "goods_name": "好可愛的貼紙",
-                        "price": 30,
-                        "intro": "consectetur adipiscing elit. Donec dignissim bibendum rutrum",
-                        "styles": [
-                            "熊熊",
-                            "貓貓",
-                            "狗勾",
-                            "鯊沙"
-                        ]
-                    },
-                    {
-                        "id": "2",
-                        "goods_name": "鯊鯊狗的抱枕",
-                        "price": 150,
-                        "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
-                        "styles": [
-                            "基本"
-                        ]
-                    },
-                    {
-                        "id": "3",
-                        "goods_name": "小垃圾不垃圾",
-                        "price": 87,
-                        "intro": "物以類聚",
-                        "styles": [
-                            "垃圾",
-                            "還是垃圾",
-                            "廚餘",
-                            "資源回收"
-                        ]
-                    }, {
-                        "id": "4",
-                        "goods_name": "說好會買的本本",
-                        "price": 130,
-                        "intro": "一本就夠了",
-                        "styles": [
-                            "一本"
-                        ]
-                    }, {
-                        "id": "5",
-                        "goods_name": "便宜的壓克力，昂貴的售價",
-                        "price": 300,
-                        "intro": "套組不會比較便宜",
-                        "styles": [
-                            "我全都要",
-                            "我全都要",
-                            "我全都要",
-                            "我全都要"
-                        ]
-                    }
+                ]
+            }
+        ],
+        "goods": [
+            {
+                "id": "1",
+                "goods_name": "好看的小垃圾",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 80,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "熊熊",
+                    "貓貓",
+                    "狗勾",
+                    "鯊沙"
+                ]
+            },
+            {
+                "id": "2",
+                "goods_name": "熊熊和鯊沙的小薄本",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 150,
+                "intro": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nulla",
+                "styles": [
+                    "基本"
+                ]
+            },
+            {
+                "id": "3",
+                "goods_name": "好看的小垃圾套組",
+                "goods_banner": "/images/img_good_1.png",
+                "r18": false,
+                "price": 300,
+                "intro": "套組會比較便宜",
+                "styles": [
+                    "我全都要"
                 ]
             }
         ]

@@ -9,6 +9,7 @@ import Introduction from "../components/Introduction"
 import BackTop from "../components/FloatButton";
 import EventItemSwiper from "../components/EventItemSwiper";
 import Searching from "../components/Searching";
+import QACollapse from "../components/Collapse";
 import { HomeBanner } from "../components/Banner";
 // ^ 自家的元件們
 import events from "../json/events.json"
@@ -29,6 +30,7 @@ function Home() {
             <Searching/>
             <EventItemSwiper events={_events}/>
             <Introduction />
+            <QACollapse />
             <BackTop />
         </div>
     );

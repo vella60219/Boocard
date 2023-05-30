@@ -6,9 +6,9 @@ import { FaBeer, FaFacebookF, FaInstagram, FaTwitter, FaYoutube, } from "react-i
 function MyFooter() {
     return (
         <div className={styles.box}>
-            <Row gutter={[45, 30]} >
+            <Row gutter={[{xs:0,sm:45}, 30]} justify="center" >
                 <Col
-                    xs={{ span: 24 }}
+                    xs={{ span: 23 }}
                     sm={{ span: 22 }}
                     md={{ span: 8 }}
                     lg={{ span: 10 }}
@@ -34,7 +34,7 @@ function MyFooter() {
                     </div>
                 </Col>
                 <Col
-                    xs={{ span: 24 }}
+                    xs={{ span: 23 }}
                     sm={{ span: 22 }}
                     md={{ span: 4 }}
                     lg={{ span: 3 }}
@@ -44,7 +44,7 @@ function MyFooter() {
                     <p className={styles.Stxv}><a className={`h3 ${styles.Stxv}`}>隱私權政策</a></p>
                 </Col>
                 <Col
-                    xs={{ span: 24 }}
+                    xs={{ span: 23 }}
                     sm={{ span: 22 }}
                     md={{ span: 6 }}
                     lg={{ span: 5 }}
@@ -55,7 +55,7 @@ function MyFooter() {
                     <p className={`h3 ${styles.Stxv}`}>300 台北郵政0號信箱</p>
                 </Col>
                 <Col
-                    xs={{ span: 24 }}
+                    xs={{ span: 23 }}
                     sm={{ span: 22 }}
                     md={{ span: 6 }}
                     lg={{ span: 4 }}

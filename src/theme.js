@@ -6,6 +6,9 @@ export const lightTheme = {
   token: {
     // colorBgFooter: "#3e3f97",
     // colorTextFooter: '#ffffff',
+    colorBgContainer: "#F7F9FC",
+    colorBgElevated: "#F7F9FC",
+    colorBgLayout: "#F7F9FC",
     colorPrimary: "#FFA1B8",
     fontSize: '15px',
     fontFamily: 'Resource Han Rounded TW',
@@ -36,6 +39,11 @@ export const lightTheme = {
     },
     Drawer: {
       colorText: '#000000',
+    },
+    Modal: {
+      borderRadiusLG: 30,
+      // ^ 做不到 rwd......暫時先用小的了
+      margin: 20,
     },
   },
 };

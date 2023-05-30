@@ -48,30 +48,30 @@ body {
 }
 
 .h3 {
-  font-size: 1.4rem;
-  font-weight: 300;
-  line-height: 1.4;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
   letter-spacing: 0.08em;
 }
 
 /* md */
 @media (min-width: 768px) {
   .h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
-    line-height: 1.7;
-    letter-spacing: 0.2em;
+    line-height: 1.5;
+    letter-spacing: 0.15em;
   }
 
   .h2 {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.1em;
   }
 
   .h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 400;
     line-height: 1.4;
     letter-spacing: 0.08em;
@@ -88,6 +88,13 @@ body {
   padding: 50px 20px;
   flex-direction: column;
   align-items: center;
+}
+
+/* xs */
+@media (min-width: 375px) {
+  .container {
+    /* width: 540px; */
+  }
 }
 
 /* sm */
@@ -152,9 +159,10 @@ body {
 
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 10;
   width: 100vw;
-  background: linear-gradient(90deg, #FFA1B8 0%, #0495FF 100%);
+  background: #F7F9FC;
+  /* background: linear-gradient(90deg, #FFA1B8 0%, #0495FF 100%); */
 }
 
 .layoutContent {
@@ -167,6 +175,16 @@ body {
   background: #F7F9FC;
   width: 100vw;
   padding: 50px 6vw 10px 6vw !important;
+}
+
+/* modal */
+
+.modal-open {
+  overflow: hidden;
+  position: fixed;
+  /* position: absolute;
+  overflow-x: hidden;
+  overflow-y: auto; */
 }
 
 /* other */
@@ -202,12 +220,41 @@ button {
   transition: .175s;
 }
 
+
+/* 漸層字的按鈕，用法：
+  <div className={`borderBox borderBox3`}>（borderBox3 是框線寬度，也有 borderBox2）
+      <div className='gradientLineBtnBG'>
+          <Link
+              className={'gradientLineBtn'}
+          >
+              內容
+          </Link>
+      </div>
+  </div>
+*/
+.gradientLineBtnBG {
+  background: #ffffff;
+  border-radius: 100px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.gradientLineBtn {
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 30px;
+  background: linear-gradient(90deg, #FFA1B8 0%, #0495FF 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .borderBox {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  z-index: -1;
+  z-index: 0;
   height: fit-content;
   width: fit-content;
   /* width: 100%; */
@@ -233,9 +280,26 @@ button {
 /* Antd */
 
 .ant-menu-item-selected {
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 
+.ant-menu-item-selected:not(:first-child)::after {
+  position: absolute;
+  z-index: 11;
+  left: 0;
+  bottom: 15px !important;
+  /* ^ 移動 active 的底線 */
+  content: " ";
+  width: auto;
+  padding: 0 inherit;
+  height: 2px;
+  background: linear-gradient(90deg, #FFA1B8 0%, #0495FF 100%) !important;
+
+}
+
+.ant-drawer-body .ant-menu-item-selected:not(:first-child)::after {
+  display: none;
+}
 
 
 .ant-tabs-ink-bar {
@@ -256,3 +320,13 @@ button {
 
 /* ^ 用 ConfigProvider 改的話會有點尷尬，所以只好在這改
       但其實我覺得用粉色也可以的說 */
+/* 
+.ant-modal-content {
+  border-radius: 30px;
+}
+
+@media (min-width: 768px) {
+  .ant-modal-content {
+    border-radius: 50px;
+  }
+} */

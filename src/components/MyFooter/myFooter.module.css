@@ -46,6 +46,14 @@ a.Stxv:hover {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+    .btnSection {
+        flex-wrap: nowrap;
+    }
+    
 }
 
 .Copy {

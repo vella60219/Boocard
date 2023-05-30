@@ -58,7 +58,7 @@ function MyNav() {
                 />
             </NavLink> */}
             <ConfigProvider theme={{token:{
-                colorPrimary:'#ffffff'
+                colorPrimary:'#1F2933'
             }}}>
             <Menu
                 mode="horizontal"
