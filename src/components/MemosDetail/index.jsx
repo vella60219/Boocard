@@ -1,6 +1,7 @@
 import styles from "./memosDetail.module.css"
 import { Row, Col, Breadcrumb } from "antd";
 import { Link } from 'react-router-dom';
+import MemosDetailItem from "../MemosDetailItem";
 
 import MemosItemList from "../MemosItemList";
 import { MdArrowForwardIos, MdArrowBackIosNew } from "react-icons/md";
@@ -66,8 +67,8 @@ function MemosDetailPage({ user }){
                     </Link>
                     
                     <p className={`h1`}>IF創集繪 綜合主題同人誌販售會</p>
-                    <p className={`h3 ${styles.actTxv}`}>在 IF創集繪 綜合主題同人誌販售會 裡有 16筆 吃土項目</p>
-                    
+                    <p className={`h3 ${styles.actTxv}`}>在 IF創集繪 綜合主題同人誌販售會 裡有 3筆 吃土項目</p>
+                    <MemosDetailItem />
                 </Col>
             </Row> 
         </div>
